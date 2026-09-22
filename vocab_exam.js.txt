@@ -1,0 +1,2995 @@
+  {
+    "phrase": "« A FORTIORI » signifie « à plus forte raison ».",
+    "correct": true,
+    "explication": "Correct : « A FORTIORI » signifie bien « à plus forte raison »."
+  },
+  {
+    "phrase": "« À L'ENVI » signifie « en rivalisant les uns avec les autres ».",
+    "correct": true,
+    "explication": "Correct : « À L'ENVI » signifie bien « en rivalisant les uns avec les autres »."
+  },
+  {
+    "phrase": "« ABERRANT » signifie « insensé ».",
+    "correct": true,
+    "explication": "Correct : « ABERRANT » signifie bien « insensé »."
+  },
+  {
+    "phrase": "« ABHORRER » signifie « insuffisance ».",
+    "correct": false,
+    "explication": "Faux : « ABHORRER » signifie « avoir en horreur », pas « insuffisance » (qui est la définition de « CARENCE »)."
+  },
+  {
+    "phrase": "« ABNÉGATION » signifie « bénéficiaire ».",
+    "correct": false,
+    "explication": "Faux : « ABNÉGATION » signifie « sacrifice de soi », pas « bénéficiaire » (qui est la définition de « AYANT DROIT »)."
+  },
+  {
+    "phrase": "« ABONDER » signifie « d'une manière trompeuse ».",
+    "correct": false,
+    "explication": "Faux : « ABONDER » signifie « être tout à fait d'accord », pas « d'une manière trompeuse » (qui est la définition de « INSIDIEUSEMENT »)."
+  },
+  {
+    "phrase": "« ABROGER » signifie « supprimer ».",
+    "correct": true,
+    "explication": "Correct : « ABROGER » signifie bien « supprimer »."
+  },
+  {
+    "phrase": "« ABSCONS » signifie « désapprouver ».",
+    "correct": false,
+    "explication": "Faux : « ABSCONS » signifie « difficile à comprendre », pas « désapprouver » (qui est la définition de « DÉSAVOUER »)."
+  },
+  {
+    "phrase": "« ABSOUDRE » signifie « qui supporte avec courage ».",
+    "correct": false,
+    "explication": "Faux : « ABSOUDRE » signifie « pardonner », pas « qui supporte avec courage » (qui est la définition de « STOÏQUE »)."
+  },
+  {
+    "phrase": "« ABYSSAL » signifie « qui agit sans réfléchir suffisamment ».",
+    "correct": false,
+    "explication": "Faux : « ABYSSAL » signifie « immense », pas « qui agit sans réfléchir suffisamment » (qui est la définition de « INCONSÉQUENT »)."
+  },
+  {
+    "phrase": "« ACCEPTION » signifie « sens d'un mot ».",
+    "correct": true,
+    "explication": "Correct : « ACCEPTION » signifie bien « sens d'un mot »."
+  },
+  {
+    "phrase": "« ACCROÎTRE » signifie « dont le but est d'enseigner ».",
+    "correct": false,
+    "explication": "Faux : « ACCROÎTRE » signifie « augmenter », pas « dont le but est d'enseigner » (qui est la définition de « DIDACTIQUE »)."
+  },
+  {
+    "phrase": "« ACCULER » signifie « forcer ».",
+    "correct": true,
+    "explication": "Correct : « ACCULER » signifie bien « forcer »."
+  },
+  {
+    "phrase": "« ACHOPPER » signifie « point de repère ».",
+    "correct": false,
+    "explication": "Faux : « ACHOPPER » signifie « se heurter à une difficulté », pas « point de repère » (qui est la définition de « JALON »)."
+  },
+  {
+    "phrase": "« ACMÉ » signifie « préparer dans les grandes lignes ».",
+    "correct": false,
+    "explication": "Faux : « ACMÉ » signifie « point le plus élevé », pas « préparer dans les grandes lignes » (qui est la définition de « ÉBAUCHER »)."
+  },
+  {
+    "phrase": "« ACRIMONIE » signifie « groupe d'entreprises ».",
+    "correct": false,
+    "explication": "Faux : « ACRIMONIE » signifie « mauvaise humeur », pas « groupe d'entreprises » (qui est la définition de « CONGLOMÉRAT »)."
+  },
+  {
+    "phrase": "« AD HOC » signifie « évaluer ».",
+    "correct": false,
+    "explication": "Faux : « AD HOC » signifie « parfaitement adapté », pas « évaluer » (qui est la définition de « SUPPUTER »)."
+  },
+  {
+    "phrase": "« ADJACENT » signifie « division ».",
+    "correct": false,
+    "explication": "Faux : « ADJACENT » signifie « voisin », pas « division » (qui est la définition de « DICHOTOMIE »)."
+  },
+  {
+    "phrase": "« ADOUBER » signifie « reconnaître la valeur ».",
+    "correct": true,
+    "explication": "Correct : « ADOUBER » signifie bien « reconnaître la valeur »."
+  },
+  {
+    "phrase": "« AFFÉRENT » signifie « arrivée ».",
+    "correct": false,
+    "explication": "Faux : « AFFÉRENT » signifie « qui est lié », pas « arrivée » (qui est la définition de « AVÈNEMENT »)."
+  },
+  {
+    "phrase": "« AFFILIÉ » signifie « signature ».",
+    "correct": false,
+    "explication": "Faux : « AFFILIÉ » signifie « rattaché à un groupement », pas « signature » (qui est la définition de « ÉMARGEMENT »)."
+  },
+  {
+    "phrase": "« AFFLIGEANT » signifie « lamentable ».",
+    "correct": true,
+    "explication": "Correct : « AFFLIGEANT » signifie bien « lamentable »."
+  },
+  {
+    "phrase": "« AGENCER » signifie « personne remarquable dans un domaine ».",
+    "correct": false,
+    "explication": "Faux : « AGENCER » signifie « disposer », pas « personne remarquable dans un domaine » (qui est la définition de « SOMMITÉ »)."
+  },
+  {
+    "phrase": "« AGRÉGER » signifie « tromper ».",
+    "correct": false,
+    "explication": "Faux : « AGRÉGER » signifie « rattacher », pas « tromper » (qui est la définition de « LEURRER »)."
+  },
+  {
+    "phrase": "« AGUERRI » signifie « par hasard ».",
+    "correct": false,
+    "explication": "Faux : « AGUERRI » signifie « qui sait faire face aux difficultés », pas « par hasard » (qui est la définition de « FORTUITEMENT »)."
+  },
+  {
+    "phrase": "« AJOURNER » signifie « renvoyer à un autre moment ».",
+    "correct": true,
+    "explication": "Correct : « AJOURNER » signifie bien « renvoyer à un autre moment »."
+  },
+  {
+    "phrase": "« ALACRITÉ » signifie « convertir ».",
+    "correct": false,
+    "explication": "Faux : « ALACRITÉ » signifie « gaieté », pas « convertir » (qui est la définition de « ÉVANGÉLISER »)."
+  },
+  {
+    "phrase": "« ALCHIMIE » signifie « transformation presque miraculeuse ».",
+    "correct": true,
+    "explication": "Correct : « ALCHIMIE » signifie bien « transformation presque miraculeuse »."
+  },
+  {
+    "phrase": "« ALÉATOIRE » signifie « incertain ».",
+    "correct": true,
+    "explication": "Correct : « ALÉATOIRE » signifie bien « incertain »."
+  },
+  {
+    "phrase": "« ALINÉA » signifie « paragraphe ».",
+    "correct": true,
+    "explication": "Correct : « ALINÉA » signifie bien « paragraphe »."
+  },
+  {
+    "phrase": "« ALLÉGATION » signifie « ce que l'on affirme ».",
+    "correct": true,
+    "explication": "Correct : « ALLÉGATION » signifie bien « ce que l'on affirme »."
+  },
+  {
+    "phrase": "« ALLOCUTION » signifie « bref discours ».",
+    "correct": true,
+    "explication": "Correct : « ALLOCUTION » signifie bien « bref discours »."
+  },
+  {
+    "phrase": "« ALTÉRER » signifie « changer en mal ».",
+    "correct": true,
+    "explication": "Correct : « ALTÉRER » signifie bien « changer en mal »."
+  },
+  {
+    "phrase": "« ALTRUISME » signifie « incertain ».",
+    "correct": false,
+    "explication": "Faux : « ALTRUISME » signifie « générosité », pas « incertain » (qui est la définition de « HYPOTHÉTIQUE »)."
+  },
+  {
+    "phrase": "« AMALGAME » signifie « grand ouvert ».",
+    "correct": false,
+    "explication": "Faux : « AMALGAME » signifie « mélange d'éléments très différents », pas « grand ouvert » (qui est la définition de « BÉANT »)."
+  },
+  {
+    "phrase": "« AMBIGU » signifie « contribuer ».",
+    "correct": false,
+    "explication": "Faux : « AMBIGU » signifie « que l'on peut comprendre de diverses façons », pas « contribuer » (qui est la définition de « CONCOURIR »)."
+  },
+  {
+    "phrase": "« AMBIVALENCE » signifie « préparer bien à l'avance ».",
+    "correct": false,
+    "explication": "Faux : « AMBIVALENCE » signifie « caractère de ce qui présente un double aspect », pas « préparer bien à l'avance » (qui est la définition de « PRÉDISPOSER »)."
+  },
+  {
+    "phrase": "« AMENDER » signifie « domination ».",
+    "correct": false,
+    "explication": "Faux : « AMENDER » signifie « améliorer », pas « domination » (qui est la définition de « HÉGÉMONIE »)."
+  },
+  {
+    "phrase": "« AMÈNE » signifie « aimable ».",
+    "correct": true,
+    "explication": "Correct : « AMÈNE » signifie bien « aimable »."
+  },
+  {
+    "phrase": "« ANALOGUE » signifie « semblable ».",
+    "correct": true,
+    "explication": "Correct : « ANALOGUE » signifie bien « semblable »."
+  },
+  {
+    "phrase": "« ANNIHILER » signifie « détruire ».",
+    "correct": true,
+    "explication": "Correct : « ANNIHILER » signifie bien « détruire »."
+  },
+  {
+    "phrase": "« ANTAGONISME » signifie « opposition ».",
+    "correct": true,
+    "explication": "Correct : « ANTAGONISME » signifie bien « opposition »."
+  },
+  {
+    "phrase": "« ANTÉPÉNULTIÈME » signifie « malgré ».",
+    "correct": false,
+    "explication": "Faux : « ANTÉPÉNULTIÈME » signifie « juste avant l'avant-dernier », pas « malgré » (qui est la définition de « NONOBSTANT »)."
+  },
+  {
+    "phrase": "« ANTINOMIE » signifie « opposition ».",
+    "correct": false,
+    "explication": "Faux : « ANTINOMIE » signifie « contradiction », pas « opposition » (qui est la définition de « ANTAGONISME »)."
+  },
+  {
+    "phrase": "« ANTIPODE » signifie « opposé ».",
+    "correct": true,
+    "explication": "Correct : « ANTIPODE » signifie bien « opposé »."
+  },
+  {
+    "phrase": "« APANAGE » signifie « privilège dont on bénéficie ».",
+    "correct": true,
+    "explication": "Correct : « APANAGE » signifie bien « privilège dont on bénéficie »."
+  },
+  {
+    "phrase": "« APOLOGIE » signifie « arrivée ».",
+    "correct": false,
+    "explication": "Faux : « APOLOGIE » signifie « commentaire visant à prendre la défense », pas « arrivée » (qui est la définition de « AVÈNEMENT »)."
+  },
+  {
+    "phrase": "« APPROBATION » signifie « valorisant ».",
+    "correct": false,
+    "explication": "Faux : « APPROBATION » signifie « accord », pas « valorisant » (qui est la définition de « GRATIFIANT »)."
+  },
+  {
+    "phrase": "« ARBITRAIREMENT » signifie « absence de valeur ».",
+    "correct": false,
+    "explication": "Faux : « ARBITRAIREMENT » signifie « sans tenir compte d'autres avis », pas « absence de valeur » (qui est la définition de « VACUITÉ »)."
+  },
+  {
+    "phrase": "« ARBORER » signifie « sacrilège ».",
+    "correct": false,
+    "explication": "Faux : « ARBORER » signifie « montrer ouvertement », pas « sacrilège » (qui est la définition de « HÉRÉSIE »)."
+  },
+  {
+    "phrase": "« ARBORESCENCE » signifie « apporter une solution ».",
+    "correct": false,
+    "explication": "Faux : « ARBORESCENCE » signifie « schéma en forme d'arbre », pas « apporter une solution » (qui est la définition de « REMÉDIER »)."
+  },
+  {
+    "phrase": "« ARCANES » signifie « mystères ».",
+    "correct": true,
+    "explication": "Correct : « ARCANES » signifie bien « mystères »."
+  },
+  {
+    "phrase": "« ARCHAÏQUE » signifie « opinions communément admises ».",
+    "correct": false,
+    "explication": "Faux : « ARCHAÏQUE » signifie « qui n'est plus en usage », pas « opinions communément admises » (qui est la définition de « DOXA »)."
+  },
+  {
+    "phrase": "« ARCHÉTYPE » signifie « modèle original ».",
+    "correct": true,
+    "explication": "Correct : « ARCHÉTYPE » signifie bien « modèle original »."
+  },
+  {
+    "phrase": "« ARÉOPAGE » signifie « assemblée de personnes compétentes ».",
+    "correct": true,
+    "explication": "Correct : « ARÉOPAGE » signifie bien « assemblée de personnes compétentes »."
+  },
+  {
+    "phrase": "« ARGUER » signifie « prétexter ».",
+    "correct": true,
+    "explication": "Correct : « ARGUER » signifie bien « prétexter »."
+  },
+  {
+    "phrase": "« ARRIVISTE » signifie « approuver en très grand nombre ».",
+    "correct": false,
+    "explication": "Faux : « ARRIVISTE » signifie « personne prête à tout pour réussir », pas « approuver en très grand nombre » (qui est la définition de « PLÉBISCITER »)."
+  },
+  {
+    "phrase": "« ASSENTIMENT » signifie « accord ».",
+    "correct": true,
+    "explication": "Correct : « ASSENTIMENT » signifie bien « accord »."
+  },
+  {
+    "phrase": "« ASSIGNER » signifie « qui permet de se faire une opinion ».",
+    "correct": false,
+    "explication": "Faux : « ASSIGNER » signifie « attribuer », pas « qui permet de se faire une opinion » (qui est la définition de « ÉDIFIANT »)."
+  },
+  {
+    "phrase": "« ASSUJETTISSEMENT » signifie « libre ».",
+    "correct": false,
+    "explication": "Faux : « ASSUJETTISSEMENT » signifie « fait d'être forcé », pas « libre » (qui est la définition de « VACANT »)."
+  },
+  {
+    "phrase": "« ATERMOYER » signifie « système qui admet des éléments différents ».",
+    "correct": false,
+    "explication": "Faux : « ATERMOYER » signifie « chercher à gagner du temps », pas « système qui admet des éléments différents » (qui est la définition de « PLURALISME »)."
+  },
+  {
+    "phrase": "« ATYPIQUE » signifie « désaccord ».",
+    "correct": false,
+    "explication": "Faux : « ATYPIQUE » signifie « inhabituel », pas « désaccord » (qui est la définition de « DIVERGENCE »)."
+  },
+  {
+    "phrase": "« AUGURE » signifie « établir ».",
+    "correct": false,
+    "explication": "Faux : « AUGURE » signifie « signe qui annonce quelque chose », pas « établir » (qui est la définition de « IMPLANTER »)."
+  },
+  {
+    "phrase": "« AUSTÈRE » signifie « dépendance ».",
+    "correct": false,
+    "explication": "Faux : « AUSTÈRE » signifie « froid et triste », pas « dépendance » (qui est la définition de « SUBORDINATION »)."
+  },
+  {
+    "phrase": "« AUTARCIE » signifie « adapté à l'action concrète ».",
+    "correct": false,
+    "explication": "Faux : « AUTARCIE » signifie « absence d'échanges avec l'extérieur », pas « adapté à l'action concrète » (qui est la définition de « PRAGMATIQUE »)."
+  },
+  {
+    "phrase": "« AUTODIDACTE » signifie « accepter que quelque chose se fasse ».",
+    "correct": false,
+    "explication": "Faux : « AUTODIDACTE » signifie « personne qui s'est formée seule », pas « accepter que quelque chose se fasse » (qui est la définition de « CONSENTIR »)."
+  },
+  {
+    "phrase": "« AUTONOME » signifie « indépendant ».",
+    "correct": true,
+    "explication": "Correct : « AUTONOME » signifie bien « indépendant »."
+  },
+  {
+    "phrase": "« AVALISER » signifie « ensemble d'événements ».",
+    "correct": false,
+    "explication": "Faux : « AVALISER » signifie « accorder son appui », pas « ensemble d'événements » (qui est la définition de « VICISSITUDES »)."
+  },
+  {
+    "phrase": "« AVANIE » signifie « fait de rendre présent à l'esprit ».",
+    "correct": false,
+    "explication": "Faux : « AVANIE » signifie « humiliation », pas « fait de rendre présent à l'esprit » (qui est la définition de « ÉVOCATION »)."
+  },
+  {
+    "phrase": "« AVEC PARCIMONIE » signifie « en petite quantité ».",
+    "correct": true,
+    "explication": "Correct : « AVEC PARCIMONIE » signifie bien « en petite quantité »."
+  },
+  {
+    "phrase": "« AVENANT » signifie « donner de l'énergie ».",
+    "correct": false,
+    "explication": "Faux : « AVENANT » signifie « modification », pas « donner de l'énergie » (qui est la définition de « GALVANISER »)."
+  },
+  {
+    "phrase": "« AVÈNEMENT » signifie « arrivée ».",
+    "correct": true,
+    "explication": "Correct : « AVÈNEMENT » signifie bien « arrivée »."
+  },
+  {
+    "phrase": "« AVÉRÉ » signifie « complètement ».",
+    "correct": false,
+    "explication": "Faux : « AVÉRÉ » signifie « certain », pas « complètement » (qui est la définition de « IN EXTENSO »)."
+  },
+  {
+    "phrase": "« AVERSION » signifie « commentaire détaillé ».",
+    "correct": false,
+    "explication": "Faux : « AVERSION » signifie « haine », pas « commentaire détaillé » (qui est la définition de « EXÉGÈSE »)."
+  },
+  {
+    "phrase": "« AYANT DROIT » signifie « bénéficiaire ».",
+    "correct": true,
+    "explication": "Correct : « AYANT DROIT » signifie bien « bénéficiaire »."
+  },
+  {
+    "phrase": "« BÉANT » signifie « honte ».",
+    "correct": false,
+    "explication": "Faux : « BÉANT » signifie « grand ouvert », pas « honte » (qui est la définition de « VERGOGNE »)."
+  },
+  {
+    "phrase": "« BIENSÉANCE » signifie « mauvais, nuisible ».",
+    "correct": false,
+    "explication": "Faux : « BIENSÉANCE » signifie « politesse », pas « mauvais, nuisible » (qui est la définition de « DÉLÉTÈRE »)."
+  },
+  {
+    "phrase": "« BIENVEILLANCE » signifie « gentillesse ».",
+    "correct": true,
+    "explication": "Correct : « BIENVEILLANCE » signifie bien « gentillesse »."
+  },
+  {
+    "phrase": "« BINAIRE » signifie « qui se limite à deux éléments ».",
+    "correct": true,
+    "explication": "Correct : « BINAIRE » signifie bien « qui se limite à deux éléments »."
+  },
+  {
+    "phrase": "« BLÂMER » signifie « par hasard ».",
+    "correct": false,
+    "explication": "Faux : « BLÂMER » signifie « condamner », pas « par hasard » (qui est la définition de « FORTUITEMENT »)."
+  },
+  {
+    "phrase": "« CADUC » signifie « capacité de pardonner ».",
+    "correct": false,
+    "explication": "Faux : « CADUC » signifie « dépassé », pas « capacité de pardonner » (qui est la définition de « INDULGENCE »)."
+  },
+  {
+    "phrase": "« CANDEUR » signifie « innocence ».",
+    "correct": true,
+    "explication": "Correct : « CANDEUR » signifie bien « innocence »."
+  },
+  {
+    "phrase": "« CARENCE » signifie « insuffisance ».",
+    "correct": true,
+    "explication": "Correct : « CARENCE » signifie bien « insuffisance »."
+  },
+  {
+    "phrase": "« CARITATIF » signifie « honnêteté ».",
+    "correct": false,
+    "explication": "Faux : « CARITATIF » signifie « qui vient en aide aux plus défavorisés », pas « honnêteté » (qui est la définition de « PROBITÉ »)."
+  },
+  {
+    "phrase": "« CARTÉSIEN » signifie « croissance ».",
+    "correct": false,
+    "explication": "Faux : « CARTÉSIEN » signifie « logique », pas « croissance » (qui est la définition de « ESSOR »)."
+  },
+  {
+    "phrase": "« CASUS BELLI » signifie « acte pouvant conduire à la guerre ».",
+    "correct": true,
+    "explication": "Correct : « CASUS BELLI » signifie bien « acte pouvant conduire à la guerre »."
+  },
+  {
+    "phrase": "« CAUTIONNER » signifie « soutenir ».",
+    "correct": true,
+    "explication": "Correct : « CAUTIONNER » signifie bien « soutenir »."
+  },
+  {
+    "phrase": "« CÉLÉRITÉ » signifie « rapidité dans l'exécution d'une action ».",
+    "correct": true,
+    "explication": "Correct : « CÉLÉRITÉ » signifie bien « rapidité dans l'exécution d'une action »."
+  },
+  {
+    "phrase": "« CHARISME » signifie « qualité d'une personnalité fascinante ».",
+    "correct": true,
+    "explication": "Correct : « CHARISME » signifie bien « qualité d'une personnalité fascinante »."
+  },
+  {
+    "phrase": "« CHARTE » signifie « relatif à l'argent ».",
+    "correct": false,
+    "explication": "Faux : « CHARTE » signifie « liste de points que l'on s'engage à respecter », pas « relatif à l'argent » (qui est la définition de « PÉCUNIAIRE »)."
+  },
+  {
+    "phrase": "« CHRONIQUE » signifie « qui dure ».",
+    "correct": true,
+    "explication": "Correct : « CHRONIQUE » signifie bien « qui dure »."
+  },
+  {
+    "phrase": "« CINÉMATIQUE » signifie « enchaînement des mouvements ».",
+    "correct": true,
+    "explication": "Correct : « CINÉMATIQUE » signifie bien « enchaînement des mouvements »."
+  },
+  {
+    "phrase": "« CIRCONSCRIRE » signifie « délimiter ».",
+    "correct": true,
+    "explication": "Correct : « CIRCONSCRIRE » signifie bien « délimiter »."
+  },
+  {
+    "phrase": "« CIRCONSPECT » signifie « prudent ».",
+    "correct": true,
+    "explication": "Correct : « CIRCONSPECT » signifie bien « prudent »."
+  },
+  {
+    "phrase": "« CIRCULAIRE » signifie « lettre ».",
+    "correct": true,
+    "explication": "Correct : « CIRCULAIRE » signifie bien « lettre »."
+  },
+  {
+    "phrase": "« CLAUSE » signifie « but ».",
+    "correct": false,
+    "explication": "Faux : « CLAUSE » signifie « disposition particulière dans un contrat ou une loi », pas « but » (qui est la définition de « DESSEIN »)."
+  },
+  {
+    "phrase": "« CLIVANT » signifie « qui divise profondément un groupe ».",
+    "correct": true,
+    "explication": "Correct : « CLIVANT » signifie bien « qui divise profondément un groupe »."
+  },
+  {
+    "phrase": "« COALITION » signifie « trompeur ».",
+    "correct": false,
+    "explication": "Faux : « COALITION » signifie « alliance », pas « trompeur » (qui est la définition de « FALLACIEUX »)."
+  },
+  {
+    "phrase": "« COERCITIF » signifie « contraignant ».",
+    "correct": true,
+    "explication": "Correct : « COERCITIF » signifie bien « contraignant »."
+  },
+  {
+    "phrase": "« COHÉSION » signifie « union ».",
+    "correct": true,
+    "explication": "Correct : « COHÉSION » signifie bien « union »."
+  },
+  {
+    "phrase": "« COLLÉGIALEMENT » signifie « mystérieux ».",
+    "correct": false,
+    "explication": "Faux : « COLLÉGIALEMENT » signifie « de manière collective », pas « mystérieux » (qui est la définition de « SIBYLLIN »)."
+  },
+  {
+    "phrase": "« COLLUSION » signifie « paroles inutiles qui n'en finissent pas ».",
+    "correct": false,
+    "explication": "Faux : « COLLUSION » signifie « accord secret », pas « paroles inutiles qui n'en finissent pas » (qui est la définition de « LOGORRHÉE »)."
+  },
+  {
+    "phrase": "« COMMINATOIRE » signifie « menaçant ».",
+    "correct": true,
+    "explication": "Correct : « COMMINATOIRE » signifie bien « menaçant »."
+  },
+  {
+    "phrase": "« COMPÉTITIF » signifie « accord ».",
+    "correct": false,
+    "explication": "Faux : « COMPÉTITIF » signifie « capable de faire face à la concurrence », pas « accord » (qui est la définition de « ASSENTIMENT »)."
+  },
+  {
+    "phrase": "« COMPULSER » signifie « s'obliger ».",
+    "correct": false,
+    "explication": "Faux : « COMPULSER » signifie « consulter un écrit », pas « s'obliger » (qui est la définition de « S'ASTREINDRE »)."
+  },
+  {
+    "phrase": "« COMPULSIVEMENT » signifie « sans que l'on puisse s'en empêcher ».",
+    "correct": true,
+    "explication": "Correct : « COMPULSIVEMENT » signifie bien « sans que l'on puisse s'en empêcher »."
+  },
+  {
+    "phrase": "« CONCÉDER » signifie « obéir ».",
+    "correct": false,
+    "explication": "Faux : « CONCÉDER » signifie « admettre le point de vue de quelqu'un », pas « obéir » (qui est la définition de « OBTEMPÉRER »)."
+  },
+  {
+    "phrase": "« CONCILIER » signifie « rendre des choses compatibles ».",
+    "correct": true,
+    "explication": "Correct : « CONCILIER » signifie bien « rendre des choses compatibles »."
+  },
+  {
+    "phrase": "« CONCIS » signifie « attention affectueuse ».",
+    "correct": false,
+    "explication": "Faux : « CONCIS » signifie « qui dit beaucoup de choses en peu de mots », pas « attention affectueuse » (qui est la définition de « SOLLICITUDE »)."
+  },
+  {
+    "phrase": "« CONCOMITAMMENT » signifie « en même temps ».",
+    "correct": true,
+    "explication": "Correct : « CONCOMITAMMENT » signifie bien « en même temps »."
+  },
+  {
+    "phrase": "« CONCOURIR » signifie « dont le but est d'enseigner ».",
+    "correct": false,
+    "explication": "Faux : « CONCOURIR » signifie « contribuer », pas « dont le but est d'enseigner » (qui est la définition de « DIDACTIQUE »)."
+  },
+  {
+    "phrase": "« CONDESCENDANT » signifie « méprisant ».",
+    "correct": true,
+    "explication": "Correct : « CONDESCENDANT » signifie bien « méprisant »."
+  },
+  {
+    "phrase": "« CONGLOMÉRAT » signifie « réfléchir ».",
+    "correct": false,
+    "explication": "Faux : « CONGLOMÉRAT » signifie « groupe d'entreprises », pas « réfléchir » (qui est la définition de « DÉLIBÉRER »)."
+  },
+  {
+    "phrase": "« CONGRUENT » signifie « qui convient bien ».",
+    "correct": true,
+    "explication": "Correct : « CONGRUENT » signifie bien « qui convient bien »."
+  },
+  {
+    "phrase": "« CONJECTURE » signifie « hypothèse ».",
+    "correct": true,
+    "explication": "Correct : « CONJECTURE » signifie bien « hypothèse »."
+  },
+  {
+    "phrase": "« CONJONCTURE » signifie « qui constitue une violation de la loi ».",
+    "correct": false,
+    "explication": "Faux : « CONJONCTURE » signifie « situation », pas « qui constitue une violation de la loi » (qui est la définition de « DÉLICTUEUX »)."
+  },
+  {
+    "phrase": "« CONSENSUEL » signifie « accepté par le plus grand nombre ».",
+    "correct": true,
+    "explication": "Correct : « CONSENSUEL » signifie bien « accepté par le plus grand nombre »."
+  },
+  {
+    "phrase": "« CONSENTIR » signifie « malheur qu'on souhaite à quelqu'un ».",
+    "correct": false,
+    "explication": "Faux : « CONSENTIR » signifie « accepter que quelque chose se fasse », pas « malheur qu'on souhaite à quelqu'un » (qui est la définition de « IMPRÉCATION »)."
+  },
+  {
+    "phrase": "« CONSORTIUM » signifie « groupement d'entreprises ».",
+    "correct": true,
+    "explication": "Correct : « CONSORTIUM » signifie bien « groupement d'entreprises »."
+  },
+  {
+    "phrase": "« CONSPUER » signifie « absurde et inquiétant ».",
+    "correct": false,
+    "explication": "Faux : « CONSPUER » signifie « manifester bruyamment son désaccord », pas « absurde et inquiétant » (qui est la définition de « KAFKAÏEN »)."
+  },
+  {
+    "phrase": "« CONTENTIEUX » signifie « ensemble de conflits ».",
+    "correct": true,
+    "explication": "Correct : « CONTENTIEUX » signifie bien « ensemble de conflits »."
+  },
+  {
+    "phrase": "« CONTINGENCES » signifie « ensemble de délais à respecter ».",
+    "correct": false,
+    "explication": "Faux : « CONTINGENCES » signifie « ce qui peut changer et n'a pas une grande importance », pas « ensemble de délais à respecter » (qui est la définition de « ÉCHÉANCIER »)."
+  },
+  {
+    "phrase": "« CONTRACTUEL » signifie « annulation d'un engagement ».",
+    "correct": false,
+    "explication": "Faux : « CONTRACTUEL » signifie « établi par contrat », pas « annulation d'un engagement » (qui est la définition de « RÉTRACTATION »)."
+  },
+  {
+    "phrase": "« CONTROVERSE » signifie « vive discussion ».",
+    "correct": true,
+    "explication": "Correct : « CONTROVERSE » signifie bien « vive discussion »."
+  },
+  {
+    "phrase": "« CONVERGENCE » signifie « fait de tendre vers un même but ».",
+    "correct": true,
+    "explication": "Correct : « CONVERGENCE » signifie bien « fait de tendre vers un même but »."
+  },
+  {
+    "phrase": "« CONVOITER » signifie « désirer intensément ».",
+    "correct": true,
+    "explication": "Correct : « CONVOITER » signifie bien « désirer intensément »."
+  },
+  {
+    "phrase": "« COOPTATION » signifie « nomination par les membres qui font déjà partie d'un groupe ».",
+    "correct": true,
+    "explication": "Correct : « COOPTATION » signifie bien « nomination par les membres qui font déjà partie d'un groupe »."
+  },
+  {
+    "phrase": "« COROLLAIRE » signifie « conséquence ».",
+    "correct": true,
+    "explication": "Correct : « COROLLAIRE » signifie bien « conséquence »."
+  },
+  {
+    "phrase": "« CORROBORER » signifie « s'emparer de quelque chose avant les autres ».",
+    "correct": false,
+    "explication": "Faux : « CORROBORER » signifie « confirmer », pas « s'emparer de quelque chose avant les autres » (qui est la définition de « PRÉEMPTER »)."
+  },
+  {
+    "phrase": "« CORROMPRE » signifie « pousser à mal agir ».",
+    "correct": true,
+    "explication": "Correct : « CORROMPRE » signifie bien « pousser à mal agir »."
+  },
+  {
+    "phrase": "« CRÉANCE » signifie « qualité d'une personnalité fascinante ».",
+    "correct": false,
+    "explication": "Faux : « CRÉANCE » signifie « droit d'exiger le paiement d'une somme », pas « qualité d'une personnalité fascinante » (qui est la définition de « CHARISME »)."
+  },
+  {
+    "phrase": "« CRISTALLISER » signifie « rendre plus concret ».",
+    "correct": true,
+    "explication": "Correct : « CRISTALLISER » signifie bien « rendre plus concret »."
+  },
+  {
+    "phrase": "« DÉBONNAIRE » signifie « d'une bonté excessive ».",
+    "correct": true,
+    "explication": "Correct : « DÉBONNAIRE » signifie bien « d'une bonté excessive »."
+  },
+  {
+    "phrase": "« DÉBOUTER » signifie « disposition particulière dans un contrat ou une loi ».",
+    "correct": false,
+    "explication": "Faux : « DÉBOUTER » signifie « rejeter par jugement », pas « disposition particulière dans un contrat ou une loi » (qui est la définition de « CLAUSE »)."
+  },
+  {
+    "phrase": "« DÉCENCE » signifie « vague envie ».",
+    "correct": false,
+    "explication": "Faux : « DÉCENCE » signifie « comportement correct », pas « vague envie » (qui est la définition de « VELLÉITÉ »)."
+  },
+  {
+    "phrase": "« DÉCLINER » signifie « caractère de ce qui est démodé ».",
+    "correct": false,
+    "explication": "Faux : « DÉCLINER » signifie « refuser », pas « caractère de ce qui est démodé » (qui est la définition de « DÉSUÉTUDE »)."
+  },
+  {
+    "phrase": "« DÉFÉRENCE » signifie « s'en remettre à ce qui fait autorité ».",
+    "correct": false,
+    "explication": "Faux : « DÉFÉRENCE » signifie « respect », pas « s'en remettre à ce qui fait autorité » (qui est la définition de « SE RÉFÉRER »)."
+  },
+  {
+    "phrase": "« DÉFIANCE » signifie « méfiance ».",
+    "correct": true,
+    "explication": "Correct : « DÉFIANCE » signifie bien « méfiance »."
+  },
+  {
+    "phrase": "« DÉFLORER » signifie « gâcher ».",
+    "correct": true,
+    "explication": "Correct : « DÉFLORER » signifie bien « gâcher »."
+  },
+  {
+    "phrase": "« DÉGRESSIF » signifie « ensemble de règles à respecter ».",
+    "correct": false,
+    "explication": "Faux : « DÉGRESSIF » signifie « qui va en diminuant », pas « ensemble de règles à respecter » (qui est la définition de « PROTOCOLE »)."
+  },
+  {
+    "phrase": "« DÉLÉGUER » signifie « confier à quelqu'un le pouvoir que l'on a ».",
+    "correct": true,
+    "explication": "Correct : « DÉLÉGUER » signifie bien « confier à quelqu'un le pouvoir que l'on a »."
+  },
+  {
+    "phrase": "« DÉLÉTÈRE » signifie « mauvais, nuisible ».",
+    "correct": true,
+    "explication": "Correct : « DÉLÉTÈRE » signifie bien « mauvais, nuisible »."
+  },
+  {
+    "phrase": "« DÉLIBÉRER » signifie « réfléchir ».",
+    "correct": true,
+    "explication": "Correct : « DÉLIBÉRER » signifie bien « réfléchir »."
+  },
+  {
+    "phrase": "« DÉLICTUEUX » signifie « s'obliger ».",
+    "correct": false,
+    "explication": "Faux : « DÉLICTUEUX » signifie « qui constitue une violation de la loi », pas « s'obliger » (qui est la définition de « S'ASTREINDRE »)."
+  },
+  {
+    "phrase": "« DÉLIQUESCENCE » signifie « transformation presque miraculeuse ».",
+    "correct": false,
+    "explication": "Faux : « DÉLIQUESCENCE » signifie « décomposition », pas « transformation presque miraculeuse » (qui est la définition de « ALCHIMIE »)."
+  },
+  {
+    "phrase": "« DÉMATÉRIALISER » signifie « numériser ».",
+    "correct": true,
+    "explication": "Correct : « DÉMATÉRIALISER » signifie bien « numériser »."
+  },
+  {
+    "phrase": "« DÉMÉRITER » signifie « froid et triste ».",
+    "correct": false,
+    "explication": "Faux : « DÉMÉRITER » signifie « agir de façon telle que l'on perd l'estime d'autrui », pas « froid et triste » (qui est la définition de « AUSTÈRE »)."
+  },
+  {
+    "phrase": "« DÉMYSTIFIER » signifie « détromper ».",
+    "correct": true,
+    "explication": "Correct : « DÉMYSTIFIER » signifie bien « détromper »."
+  },
+  {
+    "phrase": "« DÉNIGRER » signifie « dire du mal ».",
+    "correct": true,
+    "explication": "Correct : « DÉNIGRER » signifie bien « dire du mal »."
+  },
+  {
+    "phrase": "« DÉNOMINATEUR » signifie « dépassé ».",
+    "correct": false,
+    "explication": "Faux : « DÉNOMINATEUR » signifie « élément partagé », pas « dépassé » (qui est la définition de « CADUC »)."
+  },
+  {
+    "phrase": "« DÉNOTER » signifie « en partant de rien ».",
+    "correct": false,
+    "explication": "Faux : « DÉNOTER » signifie « indiquer », pas « en partant de rien » (qui est la définition de « EX NIHILO »)."
+  },
+  {
+    "phrase": "« DÉONTOLOGIQUE » signifie « moral ».",
+    "correct": true,
+    "explication": "Correct : « DÉONTOLOGIQUE » signifie bien « moral »."
+  },
+  {
+    "phrase": "« DÉPOSITAIRE » signifie « enchaînement des mouvements ».",
+    "correct": false,
+    "explication": "Faux : « DÉPOSITAIRE » signifie « personne à qui l'on confie quelque chose », pas « enchaînement des mouvements » (qui est la définition de « CINÉMATIQUE »)."
+  },
+  {
+    "phrase": "« DÉPRÉCIER » signifie « immense ».",
+    "correct": false,
+    "explication": "Faux : « DÉPRÉCIER » signifie « dévaloriser », pas « immense » (qui est la définition de « ABYSSAL »)."
+  },
+  {
+    "phrase": "« DÉPRÉDATION » signifie « dégradation ».",
+    "correct": true,
+    "explication": "Correct : « DÉPRÉDATION » signifie bien « dégradation »."
+  },
+  {
+    "phrase": "« DÉROGER » signifie « ne pas respecter ».",
+    "correct": true,
+    "explication": "Correct : « DÉROGER » signifie bien « ne pas respecter »."
+  },
+  {
+    "phrase": "« DÉSAPPOINTEMENT » signifie « déception ».",
+    "correct": true,
+    "explication": "Correct : « DÉSAPPOINTEMENT » signifie bien « déception »."
+  },
+  {
+    "phrase": "« DÉSAVOUER » signifie « froid et triste ».",
+    "correct": false,
+    "explication": "Faux : « DÉSAVOUER » signifie « désapprouver », pas « froid et triste » (qui est la définition de « AUSTÈRE »)."
+  },
+  {
+    "phrase": "« DÉSINVOLTURE » signifie « laisser-aller ».",
+    "correct": true,
+    "explication": "Correct : « DÉSINVOLTURE » signifie bien « laisser-aller »."
+  },
+  {
+    "phrase": "« DÉSOBLIGEANT » signifie « désagréable ».",
+    "correct": true,
+    "explication": "Correct : « DÉSOBLIGEANT » signifie bien « désagréable »."
+  },
+  {
+    "phrase": "« DESSEIN » signifie « remise en état ».",
+    "correct": false,
+    "explication": "Faux : « DESSEIN » signifie « but », pas « remise en état » (qui est la définition de « RÉHABILITATION »)."
+  },
+  {
+    "phrase": "« DESTITUER » signifie « démentir ».",
+    "correct": false,
+    "explication": "Faux : « DESTITUER » signifie « priver quelqu'un de sa fonction », pas « démentir » (qui est la définition de « INFIRMER »)."
+  },
+  {
+    "phrase": "« DÉSUÉTUDE » signifie « caractère de ce qui est démodé ».",
+    "correct": true,
+    "explication": "Correct : « DÉSUÉTUDE » signifie bien « caractère de ce qui est démodé »."
+  },
+  {
+    "phrase": "« DÉTERMINISME » signifie « qui manque de clarté ».",
+    "correct": false,
+    "explication": "Faux : « DÉTERMINISME » signifie « rapport de cause à effet entre deux phénomènes », pas « qui manque de clarté » (qui est la définition de « NÉBULEUX »)."
+  },
+  {
+    "phrase": "« DÉVOLU » signifie « entretien ».",
+    "correct": false,
+    "explication": "Faux : « DÉVOLU » signifie « attribué », pas « entretien » (qui est la définition de « ENTREVUE »)."
+  },
+  {
+    "phrase": "« DÉVOYER » signifie « détourner du droit chemin ».",
+    "correct": true,
+    "explication": "Correct : « DÉVOYER » signifie bien « détourner du droit chemin »."
+  },
+  {
+    "phrase": "« DIALECTIQUE » signifie « argumentation ».",
+    "correct": true,
+    "explication": "Correct : « DIALECTIQUE » signifie bien « argumentation »."
+  },
+  {
+    "phrase": "« DIAMÉTRALEMENT » signifie « totalement ».",
+    "correct": true,
+    "explication": "Correct : « DIAMÉTRALEMENT » signifie bien « totalement »."
+  },
+  {
+    "phrase": "« DIATRIBE » signifie « critique violente ».",
+    "correct": true,
+    "explication": "Correct : « DIATRIBE » signifie bien « critique violente »."
+  },
+  {
+    "phrase": "« DICHOTOMIE » signifie « division ».",
+    "correct": true,
+    "explication": "Correct : « DICHOTOMIE » signifie bien « division »."
+  },
+  {
+    "phrase": "« DIDACTIQUE » signifie « dont le but est d'enseigner ».",
+    "correct": true,
+    "explication": "Correct : « DIDACTIQUE » signifie bien « dont le but est d'enseigner »."
+  },
+  {
+    "phrase": "« DIFFAMATOIRE » signifie « détruire ».",
+    "correct": false,
+    "explication": "Faux : « DIFFAMATOIRE » signifie « qui salit la réputation », pas « détruire » (qui est la définition de « ANNIHILER »)."
+  },
+  {
+    "phrase": "« DIGRESSION » signifie « fait de rendre plus efficace ».",
+    "correct": false,
+    "explication": "Faux : « DIGRESSION » signifie « fait de s'écarter du sujet », pas « fait de rendre plus efficace » (qui est la définition de « RATIONALISATION »)."
+  },
+  {
+    "phrase": "« DILATOIRE » signifie « qui cherche à gagner du temps ».",
+    "correct": true,
+    "explication": "Correct : « DILATOIRE » signifie bien « qui cherche à gagner du temps »."
+  },
+  {
+    "phrase": "« DILIGENCE » signifie « parfaitement adapté ».",
+    "correct": false,
+    "explication": "Faux : « DILIGENCE » signifie « rapidité et soin dans l'exécution d'une tâche », pas « parfaitement adapté » (qui est la définition de « AD HOC »)."
+  },
+  {
+    "phrase": "« DILIGENTER » signifie « faire avec soin et rapidement ».",
+    "correct": true,
+    "explication": "Correct : « DILIGENTER » signifie bien « faire avec soin et rapidement »."
+  },
+  {
+    "phrase": "« DIPLOMATIE » signifie « tact ».",
+    "correct": true,
+    "explication": "Correct : « DIPLOMATIE » signifie bien « tact »."
+  },
+  {
+    "phrase": "« DISCRÉDIT » signifie « perte de l'estime ».",
+    "correct": true,
+    "explication": "Correct : « DISCRÉDIT » signifie bien « perte de l'estime »."
+  },
+  {
+    "phrase": "« DISCRIMINANT » signifie « qui établit une séparation en traitant souvent mal ».",
+    "correct": true,
+    "explication": "Correct : « DISCRIMINANT » signifie bien « qui établit une séparation en traitant souvent mal »."
+  },
+  {
+    "phrase": "« DISERT » signifie « dépassé ».",
+    "correct": false,
+    "explication": "Faux : « DISERT » signifie « qui parle avec élégance et facilité », pas « dépassé » (qui est la définition de « CADUC »)."
+  },
+  {
+    "phrase": "« DISPENDIEUX » signifie « qui coûte très cher ».",
+    "correct": true,
+    "explication": "Correct : « DISPENDIEUX » signifie bien « qui coûte très cher »."
+  },
+  {
+    "phrase": "« DISRUPTIF » signifie « qui rompt avec ce qui se faisait ».",
+    "correct": true,
+    "explication": "Correct : « DISRUPTIF » signifie bien « qui rompt avec ce qui se faisait »."
+  },
+  {
+    "phrase": "« DISSÉMINER » signifie « détromper ».",
+    "correct": false,
+    "explication": "Faux : « DISSÉMINER » signifie « disperser », pas « détromper » (qui est la définition de « DÉMYSTIFIER »)."
+  },
+  {
+    "phrase": "« DISSIDENT » signifie « dépassé ».",
+    "correct": false,
+    "explication": "Faux : « DISSIDENT » signifie « révolté », pas « dépassé » (qui est la définition de « CADUC »)."
+  },
+  {
+    "phrase": "« DISSUADER » signifie « hypothèse ».",
+    "correct": false,
+    "explication": "Faux : « DISSUADER » signifie « décourager », pas « hypothèse » (qui est la définition de « PRÉSOMPTION »)."
+  },
+  {
+    "phrase": "« DITHYRAMBIQUE » signifie « élogieux ».",
+    "correct": true,
+    "explication": "Correct : « DITHYRAMBIQUE » signifie bien « élogieux »."
+  },
+  {
+    "phrase": "« DIVERGENCE » signifie « désaccord ».",
+    "correct": true,
+    "explication": "Correct : « DIVERGENCE » signifie bien « désaccord »."
+  },
+  {
+    "phrase": "« DOCTRINE » signifie « acte par lequel on est chargé d'une fonction ».",
+    "correct": false,
+    "explication": "Faux : « DOCTRINE » signifie « ensemble de principes », pas « acte par lequel on est chargé d'une fonction » (qui est la définition de « INVESTITURE »)."
+  },
+  {
+    "phrase": "« DOGMATIQUE » signifie « autoritaire ».",
+    "correct": true,
+    "explication": "Correct : « DOGMATIQUE » signifie bien « autoritaire »."
+  },
+  {
+    "phrase": "« DOLÉANCE » signifie « mauvaise union ».",
+    "correct": false,
+    "explication": "Faux : « DOLÉANCE » signifie « plainte », pas « mauvaise union » (qui est la définition de « MÉSALLIANCE »)."
+  },
+  {
+    "phrase": "« DOXA » signifie « qui est répété plusieurs fois ».",
+    "correct": false,
+    "explication": "Faux : « DOXA » signifie « opinions communément admises », pas « qui est répété plusieurs fois » (qui est la définition de « ITÉRATIF »)."
+  },
+  {
+    "phrase": "« DRACONIEN » signifie « extrêmement sévère ».",
+    "correct": true,
+    "explication": "Correct : « DRACONIEN » signifie bien « extrêmement sévère »."
+  },
+  {
+    "phrase": "« DRASTIQUE » signifie « évaluer ».",
+    "correct": false,
+    "explication": "Faux : « DRASTIQUE » signifie « radical », pas « évaluer » (qui est la définition de « SUPPUTER »)."
+  },
+  {
+    "phrase": "« DUBITATIF » signifie « personne qui n'est pas la bienvenue ».",
+    "correct": false,
+    "explication": "Faux : « DUBITATIF » signifie « qui exprime le doute », pas « personne qui n'est pas la bienvenue » (qui est la définition de « PERSONA NON GRATA »)."
+  },
+  {
+    "phrase": "« DUPE » signifie « que l'on trompe facilement ».",
+    "correct": true,
+    "explication": "Correct : « DUPE » signifie bien « que l'on trompe facilement »."
+  },
+  {
+    "phrase": "« ÉBAUCHER » signifie « préparer dans les grandes lignes ».",
+    "correct": true,
+    "explication": "Correct : « ÉBAUCHER » signifie bien « préparer dans les grandes lignes »."
+  },
+  {
+    "phrase": "« ÉCHÉANCIER » signifie « ensemble de délais à respecter ».",
+    "correct": true,
+    "explication": "Correct : « ÉCHÉANCIER » signifie bien « ensemble de délais à respecter »."
+  },
+  {
+    "phrase": "« ÉCHELONNER » signifie « étaler ».",
+    "correct": true,
+    "explication": "Correct : « ÉCHELONNER » signifie bien « étaler »."
+  },
+  {
+    "phrase": "« ÉCHEVEAU » signifie « critique violente ».",
+    "correct": false,
+    "explication": "Faux : « ÉCHEVEAU » signifie « situation complexe », pas « critique violente » (qui est la définition de « DIATRIBE »)."
+  },
+  {
+    "phrase": "« ÉCLECTIQUE » signifie « qui apprécie des choses diverses ».",
+    "correct": true,
+    "explication": "Correct : « ÉCLECTIQUE » signifie bien « qui apprécie des choses diverses »."
+  },
+  {
+    "phrase": "« ÉCOSYSTÈME » signifie « environnement ».",
+    "correct": true,
+    "explication": "Correct : « ÉCOSYSTÈME » signifie bien « environnement »."
+  },
+  {
+    "phrase": "« ÉCRÊTER » signifie « égaliser en supprimant la partie la plus haute ».",
+    "correct": true,
+    "explication": "Correct : « ÉCRÊTER » signifie bien « égaliser en supprimant la partie la plus haute »."
+  },
+  {
+    "phrase": "« ÉCUEIL » signifie « obstacle ».",
+    "correct": true,
+    "explication": "Correct : « ÉCUEIL » signifie bien « obstacle »."
+  },
+  {
+    "phrase": "« ÉDIFIANT » signifie « faire de nouveau ».",
+    "correct": false,
+    "explication": "Faux : « ÉDIFIANT » signifie « qui permet de se faire une opinion », pas « faire de nouveau » (qui est la définition de « RÉITÉRER »)."
+  },
+  {
+    "phrase": "« ÉLAGUER » signifie « insister trop longuement ».",
+    "correct": false,
+    "explication": "Faux : « ÉLAGUER » signifie « couper », pas « insister trop longuement » (qui est la définition de « S'APPESANTIR »)."
+  },
+  {
+    "phrase": "« ÉLIGIBLE » signifie « qui peut bénéficier de quelque chose ».",
+    "correct": true,
+    "explication": "Correct : « ÉLIGIBLE » signifie bien « qui peut bénéficier de quelque chose »."
+  },
+  {
+    "phrase": "« ÉLITE » signifie « petit groupe considéré comme supérieur ».",
+    "correct": true,
+    "explication": "Correct : « ÉLITE » signifie bien « petit groupe considéré comme supérieur »."
+  },
+  {
+    "phrase": "« ÉLOQUENCE » signifie « liste de points que l'on s'engage à respecter ».",
+    "correct": false,
+    "explication": "Faux : « ÉLOQUENCE » signifie « art de bien s'exprimer et de convaincre », pas « liste de points que l'on s'engage à respecter » (qui est la définition de « CHARTE »)."
+  },
+  {
+    "phrase": "« ÉLUCUBRATION » signifie « qui se produit de temps en temps ».",
+    "correct": false,
+    "explication": "Faux : « ÉLUCUBRATION » signifie « idée n'ayant pas beaucoup de sens », pas « qui se produit de temps en temps » (qui est la définition de « SPORADIQUE »)."
+  },
+  {
+    "phrase": "« ÉLUDER » signifie « varié ».",
+    "correct": false,
+    "explication": "Faux : « ÉLUDER » signifie « éviter », pas « varié » (qui est la définition de « HÉTÉROCLITE »)."
+  },
+  {
+    "phrase": "« ÉMARGEMENT » signifie « mettre en commun ».",
+    "correct": false,
+    "explication": "Faux : « ÉMARGEMENT » signifie « signature », pas « mettre en commun » (qui est la définition de « MUTUALISER »)."
+  },
+  {
+    "phrase": "« EMBLÉMATIQUE » signifie « disposition particulière dans un contrat ou une loi ».",
+    "correct": false,
+    "explication": "Faux : « EMBLÉMATIQUE » signifie « représentatif », pas « disposition particulière dans un contrat ou une loi » (qui est la définition de « CLAUSE »)."
+  },
+  {
+    "phrase": "« ÉMERGENT » signifie « dont l'économie se développe ».",
+    "correct": true,
+    "explication": "Correct : « ÉMERGENT » signifie bien « dont l'économie se développe »."
+  },
+  {
+    "phrase": "« ÉMINEMMENT » signifie « extrêmement ».",
+    "correct": true,
+    "explication": "Correct : « ÉMINEMMENT » signifie bien « extrêmement »."
+  },
+  {
+    "phrase": "« ÉMOLUMENTS » signifie « salaire ».",
+    "correct": true,
+    "explication": "Correct : « ÉMOLUMENTS » signifie bien « salaire »."
+  },
+  {
+    "phrase": "« EMPATHIE » signifie « capacité de ressentir ce que l'autre ressent ».",
+    "correct": true,
+    "explication": "Correct : « EMPATHIE » signifie bien « capacité de ressentir ce que l'autre ressent »."
+  },
+  {
+    "phrase": "« EMPHATIQUE » signifie « qui fait preuve d'une exagération un peu ridicule ».",
+    "correct": true,
+    "explication": "Correct : « EMPHATIQUE » signifie bien « qui fait preuve d'une exagération un peu ridicule »."
+  },
+  {
+    "phrase": "« EMPIRIQUEMENT » signifie « critique violente ».",
+    "correct": false,
+    "explication": "Faux : « EMPIRIQUEMENT » signifie « en ne s'appuyant que sur l'expérience », pas « critique violente » (qui est la définition de « DIATRIBE »)."
+  },
+  {
+    "phrase": "« ÉMULATION » signifie « saine compétition ».",
+    "correct": true,
+    "explication": "Correct : « ÉMULATION » signifie bien « saine compétition »."
+  },
+  {
+    "phrase": "« EN APARTÉ » signifie « de façon à ne pas être entendu par tous ».",
+    "correct": true,
+    "explication": "Correct : « EN APARTÉ » signifie bien « de façon à ne pas être entendu par tous »."
+  },
+  {
+    "phrase": "« EN DILETTANTE » signifie « certain ».",
+    "correct": false,
+    "explication": "Faux : « EN DILETTANTE » signifie « en amateur », pas « certain » (qui est la définition de « AVÉRÉ »)."
+  },
+  {
+    "phrase": "« EN LICE » signifie « dans la compétition ».",
+    "correct": true,
+    "explication": "Correct : « EN LICE » signifie bien « dans la compétition »."
+  },
+  {
+    "phrase": "« ENCENSER » signifie « faire des compliments excessifs ».",
+    "correct": true,
+    "explication": "Correct : « ENCENSER » signifie bien « faire des compliments excessifs »."
+  },
+  {
+    "phrase": "« ENDÉMIQUE » signifie « qui fait constamment des ravages dans un endroit ».",
+    "correct": true,
+    "explication": "Correct : « ENDÉMIQUE » signifie bien « qui fait constamment des ravages dans un endroit »."
+  },
+  {
+    "phrase": "« ENGOUEMENT » signifie « enthousiasme ».",
+    "correct": true,
+    "explication": "Correct : « ENGOUEMENT » signifie bien « enthousiasme »."
+  },
+  {
+    "phrase": "« ENDOGÈNE » signifie « interne ».",
+    "correct": true,
+    "explication": "Correct : « ENDOGÈNE » signifie bien « interne »."
+  },
+  {
+    "phrase": "« ENJOINDRE » signifie « ordonner ».",
+    "correct": true,
+    "explication": "Correct : « ENJOINDRE » signifie bien « ordonner »."
+  },
+  {
+    "phrase": "« ENTÉRINER » signifie « accepter définitivement ».",
+    "correct": true,
+    "explication": "Correct : « ENTÉRINER » signifie bien « accepter définitivement »."
+  },
+  {
+    "phrase": "« ENTREMISE » signifie « fait d'intervenir pour rapprocher ».",
+    "correct": true,
+    "explication": "Correct : « ENTREMISE » signifie bien « fait d'intervenir pour rapprocher »."
+  },
+  {
+    "phrase": "« ENTREVUE » signifie « modestement ».",
+    "correct": false,
+    "explication": "Faux : « ENTREVUE » signifie « entretien », pas « modestement » (qui est la définition de « HUMBLEMENT »)."
+  },
+  {
+    "phrase": "« ÉPARS » signifie « dispersé ».",
+    "correct": true,
+    "explication": "Correct : « ÉPARS » signifie bien « dispersé »."
+  },
+  {
+    "phrase": "« ÉPISTOLAIRE » signifie « en rivalisant les uns avec les autres ».",
+    "correct": false,
+    "explication": "Faux : « ÉPISTOLAIRE » signifie « par lettres », pas « en rivalisant les uns avec les autres » (qui est la définition de « À L'ENVI »)."
+  },
+  {
+    "phrase": "« ÉPONYME » signifie « qui donne son nom ».",
+    "correct": true,
+    "explication": "Correct : « ÉPONYME » signifie bien « qui donne son nom »."
+  },
+  {
+    "phrase": "« ÉQUANIMITÉ » signifie « tranquillité ».",
+    "correct": true,
+    "explication": "Correct : « ÉQUANIMITÉ » signifie bien « tranquillité »."
+  },
+  {
+    "phrase": "« ERGONOMIQUE » signifie « bien adapté ».",
+    "correct": true,
+    "explication": "Correct : « ERGONOMIQUE » signifie bien « bien adapté »."
+  },
+  {
+    "phrase": "« ERGOTER » signifie « discuter sur des détails ».",
+    "correct": true,
+    "explication": "Correct : « ERGOTER » signifie bien « discuter sur des détails »."
+  },
+  {
+    "phrase": "« ERRATIQUE » signifie « qui n'est pas régulier ».",
+    "correct": true,
+    "explication": "Correct : « ERRATIQUE » signifie bien « qui n'est pas régulier »."
+  },
+  {
+    "phrase": "« ERSATZ » signifie « ce qui remplace en moins bien ».",
+    "correct": true,
+    "explication": "Correct : « ERSATZ » signifie bien « ce qui remplace en moins bien »."
+  },
+  {
+    "phrase": "« ESCLANDRE » signifie « qui se développe et a du succès ».",
+    "correct": false,
+    "explication": "Faux : « ESCLANDRE » signifie « scandale », pas « qui se développe et a du succès » (qui est la définition de « FLORISSANT »)."
+  },
+  {
+    "phrase": "« ESSOR » signifie « croissance ».",
+    "correct": true,
+    "explication": "Correct : « ESSOR » signifie bien « croissance »."
+  },
+  {
+    "phrase": "« ESSAIMER » signifie « s'étendre ».",
+    "correct": true,
+    "explication": "Correct : « ESSAIMER » signifie bien « s'étendre »."
+  },
+  {
+    "phrase": "« EUPHÉMISME » signifie « expression adoucie ».",
+    "correct": true,
+    "explication": "Correct : « EUPHÉMISME » signifie bien « expression adoucie »."
+  },
+  {
+    "phrase": "« ÉTHIQUE » signifie « morale ».",
+    "correct": true,
+    "explication": "Correct : « ÉTHIQUE » signifie bien « morale »."
+  },
+  {
+    "phrase": "« ÉVANGÉLISER » signifie « menaçant ».",
+    "correct": false,
+    "explication": "Faux : « ÉVANGÉLISER » signifie « convertir », pas « menaçant » (qui est la définition de « COMMINATOIRE »)."
+  },
+  {
+    "phrase": "« ÉVASIF » signifie « bienfaiteur ».",
+    "correct": false,
+    "explication": "Faux : « ÉVASIF » signifie « qui reste imprécis pour éviter une difficulté », pas « bienfaiteur » (qui est la définition de « MÉCÈNE »)."
+  },
+  {
+    "phrase": "« ÉVOCATION » signifie « fait de rendre présent à l'esprit ».",
+    "correct": true,
+    "explication": "Correct : « ÉVOCATION » signifie bien « fait de rendre présent à l'esprit »."
+  },
+  {
+    "phrase": "« EX NIHILO » signifie « en partant de rien ».",
+    "correct": true,
+    "explication": "Correct : « EX NIHILO » signifie bien « en partant de rien »."
+  },
+  {
+    "phrase": "« EXÉGÈSE » signifie « fournir ».",
+    "correct": false,
+    "explication": "Faux : « EXÉGÈSE » signifie « commentaire détaillé », pas « fournir » (qui est la définition de « POURVOIR »)."
+  },
+  {
+    "phrase": "« EXÉCRER » signifie « vitesse dans le mouvement ».",
+    "correct": false,
+    "explication": "Faux : « EXÉCRER » signifie « détester », pas « vitesse dans le mouvement » (qui est la définition de « VÉLOCITÉ »)."
+  },
+  {
+    "phrase": "« EXHORTER » signifie « convertir ».",
+    "correct": false,
+    "explication": "Faux : « EXHORTER » signifie « inciter », pas « convertir » (qui est la définition de « ÉVANGÉLISER »)."
+  },
+  {
+    "phrase": "« EXHUMER » signifie « tirer de l'oubli ».",
+    "correct": true,
+    "explication": "Correct : « EXHUMER » signifie bien « tirer de l'oubli »."
+  },
+  {
+    "phrase": "« EXPECTATIVE » signifie « attente ».",
+    "correct": true,
+    "explication": "Correct : « EXPECTATIVE » signifie bien « attente »."
+  },
+  {
+    "phrase": "« EXPÉDIENT » signifie « moyen qui ne règle un problème que provisoirement ».",
+    "correct": true,
+    "explication": "Correct : « EXPÉDIENT » signifie bien « moyen qui ne règle un problème que provisoirement »."
+  },
+  {
+    "phrase": "« EXPONENTIEL » signifie « idée trop banale ».",
+    "correct": false,
+    "explication": "Faux : « EXPONENTIEL » signifie « qui augmente très vite », pas « idée trop banale » (qui est la définition de « PONCIF »)."
+  },
+  {
+    "phrase": "« EXPURGER » signifie « couper ».",
+    "correct": true,
+    "explication": "Correct : « EXPURGER » signifie bien « couper »."
+  },
+  {
+    "phrase": "« EXSANGUE » signifie « qui a perdu sa force ».",
+    "correct": true,
+    "explication": "Correct : « EXSANGUE » signifie bien « qui a perdu sa force »."
+  },
+  {
+    "phrase": "« EXTRAPOLATION » signifie « généralisation ».",
+    "correct": true,
+    "explication": "Correct : « EXTRAPOLATION » signifie bien « généralisation »."
+  },
+  {
+    "phrase": "« FACONDE » signifie « manière de parler avec facilité et abondance ».",
+    "correct": true,
+    "explication": "Correct : « FACONDE » signifie bien « manière de parler avec facilité et abondance »."
+  },
+  {
+    "phrase": "« FACTICE » signifie « obéir ».",
+    "correct": false,
+    "explication": "Faux : « FACTICE » signifie « qui n'est pas naturel », pas « obéir » (qui est la définition de « OBTEMPÉRER »)."
+  },
+  {
+    "phrase": "« FACTUEL » signifie « qui s'en tient aux faits ».",
+    "correct": true,
+    "explication": "Correct : « FACTUEL » signifie bien « qui s'en tient aux faits »."
+  },
+  {
+    "phrase": "« FAIRE FI » signifie « mépriser ».",
+    "correct": true,
+    "explication": "Correct : « FAIRE FI » signifie bien « mépriser »."
+  },
+  {
+    "phrase": "« FAIRE-VALOIR » signifie « qui s'exprime avec une gravité peu naturelle ».",
+    "correct": false,
+    "explication": "Faux : « FAIRE-VALOIR » signifie « personne qui en met une autre en valeur », pas « qui s'exprime avec une gravité peu naturelle » (qui est la définition de « SENTENCIEUX »)."
+  },
+  {
+    "phrase": "« FALLACIEUX » signifie « décider ».",
+    "correct": false,
+    "explication": "Faux : « FALLACIEUX » signifie « trompeur », pas « décider » (qui est la définition de « STATUER »)."
+  },
+  {
+    "phrase": "« FÉDÉRER » signifie « réunir ».",
+    "correct": true,
+    "explication": "Correct : « FÉDÉRER » signifie bien « réunir »."
+  },
+  {
+    "phrase": "« FEINDRE » signifie « à tort ».",
+    "correct": false,
+    "explication": "Faux : « FEINDRE » signifie « faire semblant », pas « à tort » (qui est la définition de « INDÛMENT »)."
+  },
+  {
+    "phrase": "« FLAGORNERIE » signifie « enchaînement des mouvements ».",
+    "correct": false,
+    "explication": "Faux : « FLAGORNERIE » signifie « flatterie grossière », pas « enchaînement des mouvements » (qui est la définition de « CINÉMATIQUE »)."
+  },
+  {
+    "phrase": "« FLORISSANT » signifie « association de deux mots contradictoires ».",
+    "correct": false,
+    "explication": "Faux : « FLORISSANT » signifie « qui se développe et a du succès », pas « association de deux mots contradictoires » (qui est la définition de « OXYMORE »)."
+  },
+  {
+    "phrase": "« FLOUER » signifie « qui permet de se faire une opinion ».",
+    "correct": false,
+    "explication": "Faux : « FLOUER » signifie « abuser de la confiance », pas « qui permet de se faire une opinion » (qui est la définition de « ÉDIFIANT »)."
+  },
+  {
+    "phrase": "« FLUCTUATION » signifie « variation ».",
+    "correct": true,
+    "explication": "Correct : « FLUCTUATION » signifie bien « variation »."
+  },
+  {
+    "phrase": "« FORTUITEMENT » signifie « de façon à ne pas être entendu par tous ».",
+    "correct": false,
+    "explication": "Faux : « FORTUITEMENT » signifie « par hasard », pas « de façon à ne pas être entendu par tous » (qui est la définition de « EN APARTÉ »)."
+  },
+  {
+    "phrase": "« FUSTIGER » signifie « pardonner ».",
+    "correct": false,
+    "explication": "Faux : « FUSTIGER » signifie « critiquer violemment », pas « pardonner » (qui est la définition de « ABSOUDRE »)."
+  },
+  {
+    "phrase": "« GAGEURE » signifie « caractère de ce qui est difficile à comprendre ».",
+    "correct": false,
+    "explication": "Faux : « GAGEURE » signifie « défi à relever », pas « caractère de ce qui est difficile à comprendre » (qui est la définition de « OPACITÉ »)."
+  },
+  {
+    "phrase": "« GALVANISER » signifie « varié ».",
+    "correct": false,
+    "explication": "Faux : « GALVANISER » signifie « donner de l'énergie », pas « varié » (qui est la définition de « HÉTÉROCLITE »)."
+  },
+  {
+    "phrase": "« GALVAUDER » signifie « conséquence ».",
+    "correct": false,
+    "explication": "Faux : « GALVAUDER » signifie « gâcher par un mauvais usage », pas « conséquence » (qui est la définition de « INCIDENCE »)."
+  },
+  {
+    "phrase": "« GÉNÉRIQUE » signifie « exclure ».",
+    "correct": false,
+    "explication": "Faux : « GÉNÉRIQUE » signifie « qui désigne toute une catégorie », pas « exclure » (qui est la définition de « RADIER »)."
+  },
+  {
+    "phrase": "« GENÈSE » signifie « orienté ».",
+    "correct": false,
+    "explication": "Faux : « GENÈSE » signifie « processus de création », pas « orienté » (qui est la définition de « TENDANCIEUX »)."
+  },
+  {
+    "phrase": "« GRANDILOQUENT » signifie « dont l'expression manque beaucoup de simplicité ».",
+    "correct": true,
+    "explication": "Correct : « GRANDILOQUENT » signifie bien « dont l'expression manque beaucoup de simplicité »."
+  },
+  {
+    "phrase": "« GRATIFIANT » signifie « dégradation ».",
+    "correct": false,
+    "explication": "Faux : « GRATIFIANT » signifie « valorisant », pas « dégradation » (qui est la définition de « DÉPRÉDATION »)."
+  },
+  {
+    "phrase": "« GRÉGAIRE » signifie « qui rompt avec ce qui se faisait ».",
+    "correct": false,
+    "explication": "Faux : « GRÉGAIRE » signifie « qui suit le groupe », pas « qui rompt avec ce qui se faisait » (qui est la définition de « DISRUPTIF »)."
+  },
+  {
+    "phrase": "« GRIEF » signifie « approuver en très grand nombre ».",
+    "correct": false,
+    "explication": "Faux : « GRIEF » signifie « motif de plainte », pas « approuver en très grand nombre » (qui est la définition de « PLÉBISCITER »)."
+  },
+  {
+    "phrase": "« HABILITATION » signifie « autorisation ».",
+    "correct": true,
+    "explication": "Correct : « HABILITATION » signifie bien « autorisation »."
+  },
+  {
+    "phrase": "« HARANGUER » signifie « qui agit sans réfléchir suffisamment ».",
+    "correct": false,
+    "explication": "Faux : « HARANGUER » signifie « prononcer un discours solennel », pas « qui agit sans réfléchir suffisamment » (qui est la définition de « INCONSÉQUENT »)."
+  },
+  {
+    "phrase": "« HÉGÉMONIE » signifie « domination ».",
+    "correct": true,
+    "explication": "Correct : « HÉGÉMONIE » signifie bien « domination »."
+  },
+  {
+    "phrase": "« HÉRÉSIE » signifie « montrer ouvertement ».",
+    "correct": false,
+    "explication": "Faux : « HÉRÉSIE » signifie « sacrilège », pas « montrer ouvertement » (qui est la définition de « ARBORER »)."
+  },
+  {
+    "phrase": "« HÉTÉROCLITE » signifie « varié ».",
+    "correct": true,
+    "explication": "Correct : « HÉTÉROCLITE » signifie bien « varié »."
+  },
+  {
+    "phrase": "« HIATUS » signifie « décalage posant un problème ».",
+    "correct": true,
+    "explication": "Correct : « HIATUS » signifie bien « décalage posant un problème »."
+  },
+  {
+    "phrase": "« HIÉRARCHISER » signifie « qui implique un échange égal ».",
+    "correct": false,
+    "explication": "Faux : « HIÉRARCHISER » signifie « classer en fonction de l'importance », pas « qui implique un échange égal » (qui est la définition de « RÉCIPROQUE »)."
+  },
+  {
+    "phrase": "« HOMOGÈNE » signifie « capable de faire face à la concurrence ».",
+    "correct": false,
+    "explication": "Faux : « HOMOGÈNE » signifie « qui présente une grande unité », pas « capable de faire face à la concurrence » (qui est la définition de « COMPÉTITIF »)."
+  },
+  {
+    "phrase": "« HOMOLOGUER » signifie « paralyser ».",
+    "correct": false,
+    "explication": "Faux : « HOMOLOGUER » signifie « valider officiellement », pas « paralyser » (qui est la définition de « INHIBER »)."
+  },
+  {
+    "phrase": "« HOMONYME » signifie « disposition particulière dans un contrat ou une loi ».",
+    "correct": false,
+    "explication": "Faux : « HOMONYME » signifie « mot qui se prononce comme un autre mais de sens différent », pas « disposition particulière dans un contrat ou une loi » (qui est la définition de « CLAUSE »)."
+  },
+  {
+    "phrase": "« HUMBLEMENT » signifie « modestement ».",
+    "correct": true,
+    "explication": "Correct : « HUMBLEMENT » signifie bien « modestement »."
+  },
+  {
+    "phrase": "« HYPOTHÉTIQUE » signifie « rejeter par jugement ».",
+    "correct": false,
+    "explication": "Faux : « HYPOTHÉTIQUE » signifie « incertain », pas « rejeter par jugement » (qui est la définition de « DÉBOUTER »)."
+  },
+  {
+    "phrase": "« IDOINE » signifie « bref et ferme ».",
+    "correct": false,
+    "explication": "Faux : « IDOINE » signifie « qui convient », pas « bref et ferme » (qui est la définition de « LAPIDAIRE »)."
+  },
+  {
+    "phrase": "« ILLICITE » signifie « interdit ».",
+    "correct": true,
+    "explication": "Correct : « ILLICITE » signifie bien « interdit »."
+  },
+  {
+    "phrase": "« IMPASSIBLE » signifie « imperturbable ».",
+    "correct": true,
+    "explication": "Correct : « IMPASSIBLE » signifie bien « imperturbable »."
+  },
+  {
+    "phrase": "« IMPAVIDE » signifie « qui n'éprouve pas de peur ».",
+    "correct": true,
+    "explication": "Correct : « IMPAVIDE » signifie bien « qui n'éprouve pas de peur »."
+  },
+  {
+    "phrase": "« IMPLANTER » signifie « céder ».",
+    "correct": false,
+    "explication": "Faux : « IMPLANTER » signifie « établir », pas « céder » (qui est la définition de « TRANSIGER »)."
+  },
+  {
+    "phrase": "« IMPLICITEMENT » signifie « accepté par le plus grand nombre ».",
+    "correct": false,
+    "explication": "Faux : « IMPLICITEMENT » signifie « d'une manière sous-entendue », pas « accepté par le plus grand nombre » (qui est la définition de « CONSENSUEL »)."
+  },
+  {
+    "phrase": "« IMPONDÉRABLE » signifie « élément imprévisible dont l'effet peut être important ».",
+    "correct": true,
+    "explication": "Correct : « IMPONDÉRABLE » signifie bien « élément imprévisible dont l'effet peut être important »."
+  },
+  {
+    "phrase": "« IMPRÉCATION » signifie « malheur qu'on souhaite à quelqu'un ».",
+    "correct": true,
+    "explication": "Correct : « IMPRÉCATION » signifie bien « malheur qu'on souhaite à quelqu'un »."
+  },
+  {
+    "phrase": "« IMPUTER » signifie « critiquer ».",
+    "correct": false,
+    "explication": "Faux : « IMPUTER » signifie « attribuer la responsabilité », pas « critiquer » (qui est la définition de « RÉCRIMINER »)."
+  },
+  {
+    "phrase": "« IN EXTENSO » signifie « complètement ».",
+    "correct": true,
+    "explication": "Correct : « IN EXTENSO » signifie bien « complètement »."
+  },
+  {
+    "phrase": "« INANITÉ » signifie « inutilité ».",
+    "correct": true,
+    "explication": "Correct : « INANITÉ » signifie bien « inutilité »."
+  },
+  {
+    "phrase": "« INCIDENCE » signifie « rendre semblables ».",
+    "correct": false,
+    "explication": "Faux : « INCIDENCE » signifie « conséquence », pas « rendre semblables » (qui est la définition de « STANDARDISER »)."
+  },
+  {
+    "phrase": "« INCLINATION » signifie « généralisation ».",
+    "correct": false,
+    "explication": "Faux : « INCLINATION » signifie « penchant », pas « généralisation » (qui est la définition de « EXTRAPOLATION »)."
+  },
+  {
+    "phrase": "« INCONGRU » signifie « qui est contraire à ce que l'on juge convenable ».",
+    "correct": true,
+    "explication": "Correct : « INCONGRU » signifie bien « qui est contraire à ce que l'on juge convenable »."
+  },
+  {
+    "phrase": "« INCONSÉQUENT » signifie « condition ».",
+    "correct": false,
+    "explication": "Faux : « INCONSÉQUENT » signifie « qui agit sans réfléchir suffisamment », pas « condition » (qui est la définition de « MODALITÉ »)."
+  },
+  {
+    "phrase": "« INDICIBLE » signifie « que l'on ne peut pas exprimer ».",
+    "correct": true,
+    "explication": "Correct : « INDICIBLE » signifie bien « que l'on ne peut pas exprimer »."
+  },
+  {
+    "phrase": "« INDIGENT » signifie « qui n'est plus en usage ».",
+    "correct": false,
+    "explication": "Faux : « INDIGENT » signifie « pauvre », pas « qui n'est plus en usage » (qui est la définition de « ARCHAÏQUE »)."
+  },
+  {
+    "phrase": "« INDUBITABLEMENT » signifie « sans aucun doute ».",
+    "correct": true,
+    "explication": "Correct : « INDUBITABLEMENT » signifie bien « sans aucun doute »."
+  },
+  {
+    "phrase": "« INDULGENCE » signifie « immense ».",
+    "correct": false,
+    "explication": "Faux : « INDULGENCE » signifie « capacité de pardonner », pas « immense » (qui est la définition de « ABYSSAL »)."
+  },
+  {
+    "phrase": "« INDÛMENT » signifie « à tort ».",
+    "correct": true,
+    "explication": "Correct : « INDÛMENT » signifie bien « à tort »."
+  },
+  {
+    "phrase": "« INÉLUCTABLEMENT » signifie « qui salit la réputation ».",
+    "correct": false,
+    "explication": "Faux : « INÉLUCTABLEMENT » signifie « d'une manière inévitable », pas « qui salit la réputation » (qui est la définition de « DIFFAMATOIRE »)."
+  },
+  {
+    "phrase": "« INERTIE » signifie « désapprouver ».",
+    "correct": false,
+    "explication": "Faux : « INERTIE » signifie « manque total d'activité », pas « désapprouver » (qui est la définition de « DÉSAVOUER »)."
+  },
+  {
+    "phrase": "« INEXTINGUIBLE » signifie « ce qui heurte le bon sens ».",
+    "correct": false,
+    "explication": "Faux : « INEXTINGUIBLE » signifie « que l'on ne peut pas arrêter », pas « ce qui heurte le bon sens » (qui est la définition de « PARADOXE »)."
+  },
+  {
+    "phrase": "« INFÉODÉ » signifie « commentaire visant à prendre la défense ».",
+    "correct": false,
+    "explication": "Faux : « INFÉODÉ » signifie « soumis », pas « commentaire visant à prendre la défense » (qui est la définition de « APOLOGIE »)."
+  },
+  {
+    "phrase": "« INFIRMER » signifie « démentir ».",
+    "correct": true,
+    "explication": "Correct : « INFIRMER » signifie bien « démentir »."
+  },
+  {
+    "phrase": "« INFONDÉ » signifie « qui n'est pas justifié ».",
+    "correct": true,
+    "explication": "Correct : « INFONDÉ » signifie bien « qui n'est pas justifié »."
+  },
+  {
+    "phrase": "« INFORMEL » signifie « qui se passe en toute simplicité ».",
+    "correct": true,
+    "explication": "Correct : « INFORMEL » signifie bien « qui se passe en toute simplicité »."
+  },
+  {
+    "phrase": "« INGÉRENCE » signifie « action d'intervenir sans y être autorisé ».",
+    "correct": true,
+    "explication": "Correct : « INGÉRENCE » signifie bien « action d'intervenir sans y être autorisé »."
+  },
+  {
+    "phrase": "« INHÉRENT » signifie « qui est lié nécessairement ».",
+    "correct": true,
+    "explication": "Correct : « INHÉRENT » signifie bien « qui est lié nécessairement »."
+  },
+  {
+    "phrase": "« INHIBER » signifie « paralyser ».",
+    "correct": true,
+    "explication": "Correct : « INHIBER » signifie bien « paralyser »."
+  },
+  {
+    "phrase": "« INIQUE » signifie « qui constitue une violation de la loi ».",
+    "correct": false,
+    "explication": "Faux : « INIQUE » signifie « injuste », pas « qui constitue une violation de la loi » (qui est la définition de « DÉLICTUEUX »)."
+  },
+  {
+    "phrase": "« INJONCTION » signifie « suspendre ».",
+    "correct": false,
+    "explication": "Faux : « INJONCTION » signifie « ordre », pas « suspendre » (qui est la définition de « SURSEOIR »)."
+  },
+  {
+    "phrase": "« INSIDIEUSEMENT » signifie « d'une manière trompeuse ».",
+    "correct": true,
+    "explication": "Correct : « INSIDIEUSEMENT » signifie bien « d'une manière trompeuse »."
+  },
+  {
+    "phrase": "« INSTANCE » signifie « totalement absurde ».",
+    "correct": false,
+    "explication": "Faux : « INSTANCE » signifie « organisme ayant un pouvoir de décision », pas « totalement absurde » (qui est la définition de « UBUESQUE »)."
+  },
+  {
+    "phrase": "« INTELLIGIBLE » signifie « réunion s'étendant en général sur plusieurs jours ».",
+    "correct": false,
+    "explication": "Faux : « INTELLIGIBLE » signifie « que l'on peut facilement comprendre », pas « réunion s'étendant en général sur plusieurs jours » (qui est la définition de « SÉMINAIRE »)."
+  },
+  {
+    "phrase": "« INTERCÉDER » signifie « absence de valeur ».",
+    "correct": false,
+    "explication": "Faux : « INTERCÉDER » signifie « intervenir », pas « absence de valeur » (qui est la définition de « VACUITÉ »)."
+  },
+  {
+    "phrase": "« INTIMER » signifie « demander avec autorité ».",
+    "correct": true,
+    "explication": "Correct : « INTIMER » signifie bien « demander avec autorité »."
+  },
+  {
+    "phrase": "« INTRANSIGEANT » signifie « qui se montre dur ».",
+    "correct": true,
+    "explication": "Correct : « INTRANSIGEANT » signifie bien « qui se montre dur »."
+  },
+  {
+    "phrase": "« INTRINSÈQUEMENT » signifie « par nature ».",
+    "correct": true,
+    "explication": "Correct : « INTRINSÈQUEMENT » signifie bien « par nature »."
+  },
+  {
+    "phrase": "« INTROVERTI » signifie « replié sur soi ».",
+    "correct": true,
+    "explication": "Correct : « INTROVERTI » signifie bien « replié sur soi »."
+  },
+  {
+    "phrase": "« INVECTIVER » signifie « rapidité et soin dans l'exécution d'une tâche ».",
+    "correct": false,
+    "explication": "Faux : « INVECTIVER » signifie « insulter », pas « rapidité et soin dans l'exécution d'une tâche » (qui est la définition de « DILIGENCE »)."
+  },
+  {
+    "phrase": "« INVESTITURE » signifie « acte par lequel on est chargé d'une fonction ».",
+    "correct": true,
+    "explication": "Correct : « INVESTITURE » signifie bien « acte par lequel on est chargé d'une fonction »."
+  },
+  {
+    "phrase": "« INVOQUER » signifie « personnel ».",
+    "correct": false,
+    "explication": "Faux : « INVOQUER » signifie « faire appel à », pas « personnel » (qui est la définition de « SUBJECTIF »)."
+  },
+  {
+    "phrase": "« IRRÉFUTABLEMENT » signifie « qui change facilement d'opinion ».",
+    "correct": false,
+    "explication": "Faux : « IRRÉFUTABLEMENT » signifie « incontestablement », pas « qui change facilement d'opinion » (qui est la définition de « VERSATILE »)."
+  },
+  {
+    "phrase": "« IRRÉVÉRENCIEUX » signifie « irrespectueux ».",
+    "correct": true,
+    "explication": "Correct : « IRRÉVÉRENCIEUX » signifie bien « irrespectueux »."
+  },
+  {
+    "phrase": "« IRRÉVOCABLEMENT » signifie « définitivement ».",
+    "correct": true,
+    "explication": "Correct : « IRRÉVOCABLEMENT » signifie bien « définitivement »."
+  },
+  {
+    "phrase": "« ITÉRATIF » signifie « qui est répété plusieurs fois ».",
+    "correct": true,
+    "explication": "Correct : « ITÉRATIF » signifie bien « qui est répété plusieurs fois »."
+  },
+  {
+    "phrase": "« JALON » signifie « point de repère ».",
+    "correct": true,
+    "explication": "Correct : « JALON » signifie bien « point de repère »."
+  },
+  {
+    "phrase": "« JURISPRUDENCE » signifie « décision qui sert de référence ».",
+    "correct": true,
+    "explication": "Correct : « JURISPRUDENCE » signifie bien « décision qui sert de référence »."
+  },
+  {
+    "phrase": "« KAFKAÏEN » signifie « qui parle avec élégance et facilité ».",
+    "correct": false,
+    "explication": "Faux : « KAFKAÏEN » signifie « absurde et inquiétant », pas « qui parle avec élégance et facilité » (qui est la définition de « DISERT »)."
+  },
+  {
+    "phrase": "« KYRIELLE » signifie « personne qui aide à trouver un accord entre deux parties ».",
+    "correct": false,
+    "explication": "Faux : « KYRIELLE » signifie « grande quantité », pas « personne qui aide à trouver un accord entre deux parties » (qui est la définition de « MÉDIATEUR »)."
+  },
+  {
+    "phrase": "« LACONIQUE » signifie « modification ».",
+    "correct": false,
+    "explication": "Faux : « LACONIQUE » signifie « qui s'exprime en peu de mots », pas « modification » (qui est la définition de « AVENANT »)."
+  },
+  {
+    "phrase": "« LACUNAIRE » signifie « incomplet ».",
+    "correct": true,
+    "explication": "Correct : « LACUNAIRE » signifie bien « incomplet »."
+  },
+  {
+    "phrase": "« L'ALPHA ET L'OMÉGA » signifie « qui manque de clarté ».",
+    "correct": false,
+    "explication": "Faux : « L'ALPHA ET L'OMÉGA » signifie « ce qui constitue la totalité de quelque chose », pas « qui manque de clarté » (qui est la définition de « NÉBULEUX »)."
+  },
+  {
+    "phrase": "« LAPALISSADE » signifie « interne ».",
+    "correct": false,
+    "explication": "Faux : « LAPALISSADE » signifie « évidence », pas « interne » (qui est la définition de « ENDOGÈNE »)."
+  },
+  {
+    "phrase": "« LAPIDAIRE » signifie « bref et ferme ».",
+    "correct": true,
+    "explication": "Correct : « LAPIDAIRE » signifie bien « bref et ferme »."
+  },
+  {
+    "phrase": "« LÉGISLATION » signifie « représentatif ».",
+    "correct": false,
+    "explication": "Faux : « LÉGISLATION » signifie « loi », pas « représentatif » (qui est la définition de « EMBLÉMATIQUE »)."
+  },
+  {
+    "phrase": "« LÉGITIMEMENT » signifie « d'un seul bloc ».",
+    "correct": false,
+    "explication": "Faux : « LÉGITIMEMENT » signifie « à juste titre », pas « d'un seul bloc » (qui est la définition de « MONOLITHIQUE »)."
+  },
+  {
+    "phrase": "« LÉNIFIANT » signifie « qui vise à rassurer en trompant ».",
+    "correct": true,
+    "explication": "Correct : « LÉNIFIANT » signifie bien « qui vise à rassurer en trompant »."
+  },
+  {
+    "phrase": "« LÉSINER » signifie « économiser avec excès ».",
+    "correct": true,
+    "explication": "Correct : « LÉSINER » signifie bien « économiser avec excès »."
+  },
+  {
+    "phrase": "« LEURRER » signifie « tromper ».",
+    "correct": true,
+    "explication": "Correct : « LEURRER » signifie bien « tromper »."
+  },
+  {
+    "phrase": "« LIMINAIRE » signifie « placé au début ».",
+    "correct": true,
+    "explication": "Correct : « LIMINAIRE » signifie bien « placé au début »."
+  },
+  {
+    "phrase": "« LIMOGEAGE » signifie « dévaloriser ».",
+    "correct": false,
+    "explication": "Faux : « LIMOGEAGE » signifie « fait d'ôter à quelqu'un le pouvoir qui lui avait été confié », pas « dévaloriser » (qui est la définition de « DÉPRÉCIER »)."
+  },
+  {
+    "phrase": "« LITANIE » signifie « qui paraît irréalisable dans la vraie vie ».",
+    "correct": false,
+    "explication": "Faux : « LITANIE » signifie « énumération ennuyeuse », pas « qui paraît irréalisable dans la vraie vie » (qui est la définition de « UTOPIQUE »)."
+  },
+  {
+    "phrase": "« LITIGE » signifie « conflit ».",
+    "correct": true,
+    "explication": "Correct : « LITIGE » signifie bien « conflit »."
+  },
+  {
+    "phrase": "« LITTÉRALEMENT » signifie « incertain ».",
+    "correct": false,
+    "explication": "Faux : « LITTÉRALEMENT » signifie « véritablement », pas « incertain » (qui est la définition de « HYPOTHÉTIQUE »)."
+  },
+  {
+    "phrase": "« LOGORRHÉE » signifie « ce qui constitue la totalité de quelque chose ».",
+    "correct": false,
+    "explication": "Faux : « LOGORRHÉE » signifie « paroles inutiles qui n'en finissent pas », pas « ce qui constitue la totalité de quelque chose » (qui est la définition de « L'ALPHA ET L'OMÉGA »)."
+  },
+  {
+    "phrase": "« LUCRATIF » signifie « qui sait tout ».",
+    "correct": false,
+    "explication": "Faux : « LUCRATIF » signifie « qui rapporte de l'argent », pas « qui sait tout » (qui est la définition de « OMNISCIENT »)."
+  },
+  {
+    "phrase": "« MAGNANIME » signifie « innocence ».",
+    "correct": false,
+    "explication": "Faux : « MAGNANIME » signifie « qui a de la grandeur d'âme », pas « innocence » (qui est la définition de « CANDEUR »)."
+  },
+  {
+    "phrase": "« MALENCONTREUSEMENT » signifie « d'une manière qui tombe mal ».",
+    "correct": true,
+    "explication": "Correct : « MALENCONTREUSEMENT » signifie bien « d'une manière qui tombe mal »."
+  },
+  {
+    "phrase": "« MANDATER » signifie « confier à quelqu'un le pouvoir d'agir en son nom ».",
+    "correct": true,
+    "explication": "Correct : « MANDATER » signifie bien « confier à quelqu'un le pouvoir d'agir en son nom »."
+  },
+  {
+    "phrase": "« MANICHÉEN » signifie « dépendant ».",
+    "correct": false,
+    "explication": "Faux : « MANICHÉEN » signifie « qui juge les choses selon le bien et le mal », pas « dépendant » (qui est la définition de « TRIBUTAIRE »)."
+  },
+  {
+    "phrase": "« MANIFESTE » signifie « déclaration publique ».",
+    "correct": true,
+    "explication": "Correct : « MANIFESTE » signifie bien « déclaration publique »."
+  },
+  {
+    "phrase": "« MANSUÉTUDE » signifie « approuver ».",
+    "correct": false,
+    "explication": "Faux : « MANSUÉTUDE » signifie « bonté », pas « approuver » (qui est la définition de « RATIFIER »)."
+  },
+  {
+    "phrase": "« MARGINALISER » signifie « mettre à l'écart ».",
+    "correct": true,
+    "explication": "Correct : « MARGINALISER » signifie bien « mettre à l'écart »."
+  },
+  {
+    "phrase": "« MÉANDRE » signifie « détour ».",
+    "correct": true,
+    "explication": "Correct : « MÉANDRE » signifie bien « détour »."
+  },
+  {
+    "phrase": "« MÉCÈNE » signifie « bienfaiteur ».",
+    "correct": true,
+    "explication": "Correct : « MÉCÈNE » signifie bien « bienfaiteur »."
+  },
+  {
+    "phrase": "« MÉDIATEUR » signifie « personne qui aide à trouver un accord entre deux parties ».",
+    "correct": true,
+    "explication": "Correct : « MÉDIATEUR » signifie bien « personne qui aide à trouver un accord entre deux parties »."
+  },
+  {
+    "phrase": "« MÉSALLIANCE » signifie « mauvaise union ».",
+    "correct": true,
+    "explication": "Correct : « MÉSALLIANCE » signifie bien « mauvaise union »."
+  },
+  {
+    "phrase": "« MÉTAPHORE » signifie « image qui permet de comparer une chose avec une autre ».",
+    "correct": true,
+    "explication": "Correct : « MÉTAPHORE » signifie bien « image qui permet de comparer une chose avec une autre »."
+  },
+  {
+    "phrase": "« MÉTAPHYSIQUE » signifie « caractère de ce qui est démodé ».",
+    "correct": false,
+    "explication": "Faux : « MÉTAPHYSIQUE » signifie « abstrait », pas « caractère de ce qui est démodé » (qui est la définition de « DÉSUÉTUDE »)."
+  },
+  {
+    "phrase": "« MIÈVRE » signifie « expression adoucie ».",
+    "correct": false,
+    "explication": "Faux : « MIÈVRE » signifie « fade », pas « expression adoucie » (qui est la définition de « EUPHÉMISME »)."
+  },
+  {
+    "phrase": "« MIMÉTISME » signifie « laisser-aller ».",
+    "correct": false,
+    "explication": "Faux : « MIMÉTISME » signifie « imitation », pas « laisser-aller » (qui est la définition de « DÉSINVOLTURE »)."
+  },
+  {
+    "phrase": "« MINUTIE » signifie « soin extrême ».",
+    "correct": true,
+    "explication": "Correct : « MINUTIE » signifie bien « soin extrême »."
+  },
+  {
+    "phrase": "« MISOGYNIE » signifie « mépris envers les femmes ».",
+    "correct": true,
+    "explication": "Correct : « MISOGYNIE » signifie bien « mépris envers les femmes »."
+  },
+  {
+    "phrase": "« MODALITÉ » signifie « condition ».",
+    "correct": true,
+    "explication": "Correct : « MODALITÉ » signifie bien « condition »."
+  },
+  {
+    "phrase": "« MODIQUE » signifie « abstrait ».",
+    "correct": false,
+    "explication": "Faux : « MODIQUE » signifie « peu élevé », pas « abstrait » (qui est la définition de « MÉTAPHYSIQUE »)."
+  },
+  {
+    "phrase": "« MODULER » signifie « adapter ».",
+    "correct": true,
+    "explication": "Correct : « MODULER » signifie bien « adapter »."
+  },
+  {
+    "phrase": "« MODUS VIVENDI » signifie « cacher ».",
+    "correct": false,
+    "explication": "Faux : « MODUS VIVENDI » signifie « arrangement », pas « cacher » (qui est la définition de « OCCULTER »)."
+  },
+  {
+    "phrase": "« MONOLITHIQUE » signifie « signe qui annonce quelque chose ».",
+    "correct": false,
+    "explication": "Faux : « MONOLITHIQUE » signifie « d'un seul bloc », pas « signe qui annonce quelque chose » (qui est la définition de « AUGURE »)."
+  },
+  {
+    "phrase": "« MORATOIRE » signifie « qui n'en finit pas ».",
+    "correct": false,
+    "explication": "Faux : « MORATOIRE » signifie « suspension volontaire d'une action », pas « qui n'en finit pas » (qui est la définition de « SEMPITERNEL »)."
+  },
+  {
+    "phrase": "« MUTATION » signifie « qui tend au bien ».",
+    "correct": false,
+    "explication": "Faux : « MUTATION » signifie « transformation », pas « qui tend au bien » (qui est la définition de « VERTUEUX »)."
+  },
+  {
+    "phrase": "« MUTISME » signifie « attitude de celui qui se tait ».",
+    "correct": true,
+    "explication": "Correct : « MUTISME » signifie bien « attitude de celui qui se tait »."
+  },
+  {
+    "phrase": "« MUTUALISER » signifie « mettre en commun ».",
+    "correct": true,
+    "explication": "Correct : « MUTUALISER » signifie bien « mettre en commun »."
+  },
+  {
+    "phrase": "« MYTHIFIER » signifie « idéaliser ».",
+    "correct": true,
+    "explication": "Correct : « MYTHIFIER » signifie bien « idéaliser »."
+  },
+  {
+    "phrase": "« NÉBULEUX » signifie « qui manque de clarté ».",
+    "correct": true,
+    "explication": "Correct : « NÉBULEUX » signifie bien « qui manque de clarté »."
+  },
+  {
+    "phrase": "« NÉOLOGISME » signifie « faire des compliments excessifs ».",
+    "correct": false,
+    "explication": "Faux : « NÉOLOGISME » signifie « mot nouveau », pas « faire des compliments excessifs » (qui est la définition de « ENCENSER »)."
+  },
+  {
+    "phrase": "« NONOBSTANT » signifie « grande quantité ».",
+    "correct": false,
+    "explication": "Faux : « NONOBSTANT » signifie « malgré », pas « grande quantité » (qui est la définition de « KYRIELLE »)."
+  },
+  {
+    "phrase": "« NORMATIF » signifie « qui donne des règles ».",
+    "correct": true,
+    "explication": "Correct : « NORMATIF » signifie bien « qui donne des règles »."
+  },
+  {
+    "phrase": "« NOTA BENE » signifie « remarque ».",
+    "correct": true,
+    "explication": "Correct : « NOTA BENE » signifie bien « remarque »."
+  },
+  {
+    "phrase": "« NUMERUS CLAUSUS » signifie « être plein à l'excès ».",
+    "correct": false,
+    "explication": "Faux : « NUMERUS CLAUSUS » signifie « nombre limité de personnes admises », pas « être plein à l'excès » (qui est la définition de « REGORGER »)."
+  },
+  {
+    "phrase": "« OBÉRER » signifie « constituer un danger ».",
+    "correct": true,
+    "explication": "Correct : « OBÉRER » signifie bien « constituer un danger »."
+  },
+  {
+    "phrase": "« OBJECTER » signifie « répondre en s'opposant à ce qui a été dit ».",
+    "correct": true,
+    "explication": "Correct : « OBJECTER » signifie bien « répondre en s'opposant à ce qui a été dit »."
+  },
+  {
+    "phrase": "« OBSÉQUIEUX » signifie « poli à l'excès ».",
+    "correct": true,
+    "explication": "Correct : « OBSÉQUIEUX » signifie bien « poli à l'excès »."
+  },
+  {
+    "phrase": "« OBSOLÈTE » signifie « dépassé ».",
+    "correct": true,
+    "explication": "Correct : « OBSOLÈTE » signifie bien « dépassé »."
+  },
+  {
+    "phrase": "« OBTEMPÉRER » signifie « pardonner ».",
+    "correct": false,
+    "explication": "Faux : « OBTEMPÉRER » signifie « obéir », pas « pardonner » (qui est la définition de « ABSOUDRE »)."
+  },
+  {
+    "phrase": "« OCCULTER » signifie « qui revient souvent ».",
+    "correct": false,
+    "explication": "Faux : « OCCULTER » signifie « cacher », pas « qui revient souvent » (qui est la définition de « RÉCURRENT »)."
+  },
+  {
+    "phrase": "« OCCURRENCE » signifie « apparition d'un mot dans un discours ».",
+    "correct": true,
+    "explication": "Correct : « OCCURRENCE » signifie bien « apparition d'un mot dans un discours »."
+  },
+  {
+    "phrase": "« OCTROYER » signifie « ce que l'on affirme ».",
+    "correct": false,
+    "explication": "Faux : « OCTROYER » signifie « accorder », pas « ce que l'on affirme » (qui est la définition de « ALLÉGATION »)."
+  },
+  {
+    "phrase": "« OFFICIEUSEMENT » signifie « solution qu'on adopte faute de mieux ».",
+    "correct": false,
+    "explication": "Faux : « OFFICIEUSEMENT » signifie « confidentiellement », pas « solution qu'on adopte faute de mieux » (qui est la définition de « PIS-ALLER »)."
+  },
+  {
+    "phrase": "« OMETTRE » signifie « oublier de dire ou de faire ».",
+    "correct": true,
+    "explication": "Correct : « OMETTRE » signifie bien « oublier de dire ou de faire »."
+  },
+  {
+    "phrase": "« OMNIPOTENT » signifie « capacité de pardonner ».",
+    "correct": false,
+    "explication": "Faux : « OMNIPOTENT » signifie « tout-puissant », pas « capacité de pardonner » (qui est la définition de « INDULGENCE »)."
+  },
+  {
+    "phrase": "« OMNIPRÉSENT » signifie « qui est partout ».",
+    "correct": true,
+    "explication": "Correct : « OMNIPRÉSENT » signifie bien « qui est partout »."
+  },
+  {
+    "phrase": "« OMNISCIENT » signifie « qui sait tout ».",
+    "correct": true,
+    "explication": "Correct : « OMNISCIENT » signifie bien « qui sait tout »."
+  },
+  {
+    "phrase": "« ONIRIQUE » signifie « faire de nouveau ».",
+    "correct": false,
+    "explication": "Faux : « ONIRIQUE » signifie « qui semble sorti d'un rêve », pas « faire de nouveau » (qui est la définition de « RÉITÉRER »)."
+  },
+  {
+    "phrase": "« OPACITÉ » signifie « caractère de ce qui est difficile à comprendre ».",
+    "correct": true,
+    "explication": "Correct : « OPACITÉ » signifie bien « caractère de ce qui est difficile à comprendre »."
+  },
+  {
+    "phrase": "« OPINIÂTRE » signifie « acharné ».",
+    "correct": true,
+    "explication": "Correct : « OPINIÂTRE » signifie bien « acharné »."
+  },
+  {
+    "phrase": "« OPPORTUN » signifie « qui convient ».",
+    "correct": true,
+    "explication": "Correct : « OPPORTUN » signifie bien « qui convient »."
+  },
+  {
+    "phrase": "« OPPROBRE » signifie « délimiter ».",
+    "correct": false,
+    "explication": "Faux : « OPPROBRE » signifie « honte », pas « délimiter » (qui est la définition de « CIRCONSCRIRE »)."
+  },
+  {
+    "phrase": "« OSMOSE » signifie « harmonie fondée sur l'échange ».",
+    "correct": true,
+    "explication": "Correct : « OSMOSE » signifie bien « harmonie fondée sur l'échange »."
+  },
+  {
+    "phrase": "« OSTENSIBLEMENT » signifie « de façon que cela se remarque ».",
+    "correct": true,
+    "explication": "Correct : « OSTENSIBLEMENT » signifie bien « de façon que cela se remarque »."
+  },
+  {
+    "phrase": "« OUTRECUIDANCE » signifie « prétention ».",
+    "correct": true,
+    "explication": "Correct : « OUTRECUIDANCE » signifie bien « prétention »."
+  },
+  {
+    "phrase": "« OXYMORE » signifie « association de deux mots contradictoires ».",
+    "correct": true,
+    "explication": "Correct : « OXYMORE » signifie bien « association de deux mots contradictoires »."
+  },
+  {
+    "phrase": "« PALABRES » signifie « qui est contraire à ce que l'on juge convenable ».",
+    "correct": false,
+    "explication": "Faux : « PALABRES » signifie « discussion longue et inutile », pas « qui est contraire à ce que l'on juge convenable » (qui est la définition de « INCONGRU »)."
+  },
+  {
+    "phrase": "« PALLIATIF » signifie « disposition particulière dans un contrat ou une loi ».",
+    "correct": false,
+    "explication": "Faux : « PALLIATIF » signifie « moyen provisoire », pas « disposition particulière dans un contrat ou une loi » (qui est la définition de « CLAUSE »)."
+  },
+  {
+    "phrase": "« PARADIGME » signifie « prononcer un discours solennel ».",
+    "correct": false,
+    "explication": "Faux : « PARADIGME » signifie « modèle de pensée », pas « prononcer un discours solennel » (qui est la définition de « HARANGUER »)."
+  },
+  {
+    "phrase": "« PARADOXE » signifie « ce qui heurte le bon sens ».",
+    "correct": true,
+    "explication": "Correct : « PARADOXE » signifie bien « ce qui heurte le bon sens »."
+  },
+  {
+    "phrase": "« PARAPHRASER » signifie « situation complexe ».",
+    "correct": false,
+    "explication": "Faux : « PARAPHRASER » signifie « commenter en disant à peu près la même chose », pas « situation complexe » (qui est la définition de « ÉCHEVEAU »)."
+  },
+  {
+    "phrase": "« PARITÉ » signifie « en ne s'appuyant que sur l'expérience ».",
+    "correct": false,
+    "explication": "Faux : « PARITÉ » signifie « égalité », pas « en ne s'appuyant que sur l'expérience » (qui est la définition de « EMPIRIQUEMENT »)."
+  },
+  {
+    "phrase": "« PAROXYSME » signifie « à juste titre ».",
+    "correct": false,
+    "explication": "Faux : « PAROXYSME » signifie « plus haut degré », pas « à juste titre » (qui est la définition de « LÉGITIMEMENT »)."
+  },
+  {
+    "phrase": "« PARTIAL » signifie « qui prend parti ».",
+    "correct": true,
+    "explication": "Correct : « PARTIAL » signifie bien « qui prend parti »."
+  },
+  {
+    "phrase": "« PÂTIR » signifie « souffrir ».",
+    "correct": true,
+    "explication": "Correct : « PÂTIR » signifie bien « souffrir »."
+  },
+  {
+    "phrase": "« PÉCUNIAIRE » signifie « relatif à l'argent ».",
+    "correct": true,
+    "explication": "Correct : « PÉCUNIAIRE » signifie bien « relatif à l'argent »."
+  },
+  {
+    "phrase": "« PÉJORATIF » signifie « qui comporte une idée négative ».",
+    "correct": true,
+    "explication": "Correct : « PÉJORATIF » signifie bien « qui comporte une idée négative »."
+  },
+  {
+    "phrase": "« PENSUM » signifie « corvée ».",
+    "correct": true,
+    "explication": "Correct : « PENSUM » signifie bien « corvée »."
+  },
+  {
+    "phrase": "« PÉRÉGRINATIONS » signifie « capacité à faire par hasard une découverte ».",
+    "correct": false,
+    "explication": "Faux : « PÉRÉGRINATIONS » signifie « déplacements incessants », pas « capacité à faire par hasard une découverte » (qui est la définition de « SÉRENDIPITÉ »)."
+  },
+  {
+    "phrase": "« PÉREMPTOIRE » signifie « catégorique ».",
+    "correct": true,
+    "explication": "Correct : « PÉREMPTOIRE » signifie bien « catégorique »."
+  },
+  {
+    "phrase": "« PÉRENNE » signifie « qui dure longtemps ».",
+    "correct": true,
+    "explication": "Correct : « PÉRENNE » signifie bien « qui dure longtemps »."
+  },
+  {
+    "phrase": "« PÉRICLITER » signifie « modestement ».",
+    "correct": false,
+    "explication": "Faux : « PÉRICLITER » signifie « aller mal », pas « modestement » (qui est la définition de « HUMBLEMENT »)."
+  },
+  {
+    "phrase": "« PERMISSIF » signifie « mystères ».",
+    "correct": false,
+    "explication": "Faux : « PERMISSIF » signifie « qui fait preuve d'une tolérance excessive », pas « mystères » (qui est la définition de « ARCANES »)."
+  },
+  {
+    "phrase": "« PERNICIEUX » signifie « rendre semblables ».",
+    "correct": false,
+    "explication": "Faux : « PERNICIEUX » signifie « mauvais », pas « rendre semblables » (qui est la définition de « STANDARDISER »)."
+  },
+  {
+    "phrase": "« PÉRORER » signifie « détromper ».",
+    "correct": false,
+    "explication": "Faux : « PÉRORER » signifie « parler d'une façon prétentieuse », pas « détromper » (qui est la définition de « DÉMYSTIFIER »)."
+  },
+  {
+    "phrase": "« PERSONA NON GRATA » signifie « personne qui n'est pas la bienvenue ».",
+    "correct": true,
+    "explication": "Correct : « PERSONA NON GRATA » signifie bien « personne qui n'est pas la bienvenue »."
+  },
+  {
+    "phrase": "« PERSUASIF » signifie « qui se produit de temps en temps ».",
+    "correct": false,
+    "explication": "Faux : « PERSUASIF » signifie « convaincant », pas « qui se produit de temps en temps » (qui est la définition de « SPORADIQUE »)."
+  },
+  {
+    "phrase": "« PHILANTHROPE » signifie « personne généreuse qui ne cherche pas à s'enrichir ».",
+    "correct": true,
+    "explication": "Correct : « PHILANTHROPE » signifie bien « personne généreuse qui ne cherche pas à s'enrichir »."
+  },
+  {
+    "phrase": "« PIS-ALLER » signifie « solution qu'on adopte faute de mieux ».",
+    "correct": true,
+    "explication": "Correct : « PIS-ALLER » signifie bien « solution qu'on adopte faute de mieux »."
+  },
+  {
+    "phrase": "« PLAGIAT » signifie « copie illégale d'une œuvre ».",
+    "correct": true,
+    "explication": "Correct : « PLAGIAT » signifie bien « copie illégale d'une œuvre »."
+  },
+  {
+    "phrase": "« PLAIDER » signifie « défendre ».",
+    "correct": true,
+    "explication": "Correct : « PLAIDER » signifie bien « défendre »."
+  },
+  {
+    "phrase": "« PLÉBISCITER » signifie « approuver en très grand nombre ».",
+    "correct": true,
+    "explication": "Correct : « PLÉBISCITER » signifie bien « approuver en très grand nombre »."
+  },
+  {
+    "phrase": "« PLÉONASME » signifie « discussion longue et inutile ».",
+    "correct": false,
+    "explication": "Faux : « PLÉONASME » signifie « répétition fautive », pas « discussion longue et inutile » (qui est la définition de « PALABRES »)."
+  },
+  {
+    "phrase": "« PLÉTHORIQUE » signifie « présent en trop grand nombre ».",
+    "correct": true,
+    "explication": "Correct : « PLÉTHORIQUE » signifie bien « présent en trop grand nombre »."
+  },
+  {
+    "phrase": "« PLURALISME » signifie « qui comporte une idée négative ».",
+    "correct": false,
+    "explication": "Faux : « PLURALISME » signifie « système qui admet des éléments différents », pas « qui comporte une idée négative » (qui est la définition de « PÉJORATIF »)."
+  },
+  {
+    "phrase": "« POLÉMIQUER » signifie « débattre d'une manière vive ».",
+    "correct": true,
+    "explication": "Correct : « POLÉMIQUER » signifie bien « débattre d'une manière vive »."
+  },
+  {
+    "phrase": "« PONCIF » signifie « condition ».",
+    "correct": false,
+    "explication": "Faux : « PONCIF » signifie « idée trop banale », pas « condition » (qui est la définition de « MODALITÉ »)."
+  },
+  {
+    "phrase": "« PONTIFIER » signifie « condamner ».",
+    "correct": false,
+    "explication": "Faux : « PONTIFIER » signifie « parler en prenant un air trop important », pas « condamner » (qui est la définition de « BLÂMER »)."
+  },
+  {
+    "phrase": "« POSTULAT » signifie « principe de base ».",
+    "correct": true,
+    "explication": "Correct : « POSTULAT » signifie bien « principe de base »."
+  },
+  {
+    "phrase": "« POURVOIR » signifie « élément imprévisible dont l'effet peut être important ».",
+    "correct": false,
+    "explication": "Faux : « POURVOIR » signifie « fournir », pas « élément imprévisible dont l'effet peut être important » (qui est la définition de « IMPONDÉRABLE »)."
+  },
+  {
+    "phrase": "« PRAGMATIQUE » signifie « adapté à l'action concrète ».",
+    "correct": true,
+    "explication": "Correct : « PRAGMATIQUE » signifie bien « adapté à l'action concrète »."
+  },
+  {
+    "phrase": "« PRÉ CARRÉ » signifie « domaine réservé ».",
+    "correct": true,
+    "explication": "Correct : « PRÉ CARRÉ » signifie bien « domaine réservé »."
+  },
+  {
+    "phrase": "« PRÉAMBULE » signifie « ce qui précède quelque chose ».",
+    "correct": true,
+    "explication": "Correct : « PRÉAMBULE » signifie bien « ce qui précède quelque chose »."
+  },
+  {
+    "phrase": "« PRÉCAIRE » signifie « fragile ».",
+    "correct": true,
+    "explication": "Correct : « PRÉCAIRE » signifie bien « fragile »."
+  },
+  {
+    "phrase": "« PRÉDICTIF » signifie « présent en trop grand nombre ».",
+    "correct": false,
+    "explication": "Faux : « PRÉDICTIF » signifie « qui permet de prévoir », pas « présent en trop grand nombre » (qui est la définition de « PLÉTHORIQUE »)."
+  },
+  {
+    "phrase": "« PRÉDISPOSER » signifie « décourager ».",
+    "correct": false,
+    "explication": "Faux : « PRÉDISPOSER » signifie « préparer bien à l'avance », pas « décourager » (qui est la définition de « DISSUADER »)."
+  },
+  {
+    "phrase": "« PRÉÉMINENCE » signifie « supériorité ».",
+    "correct": true,
+    "explication": "Correct : « PRÉÉMINENCE » signifie bien « supériorité »."
+  },
+  {
+    "phrase": "« PRÉEMPTER » signifie « s'emparer de quelque chose avant les autres ».",
+    "correct": true,
+    "explication": "Correct : « PRÉEMPTER » signifie bien « s'emparer de quelque chose avant les autres »."
+  },
+  {
+    "phrase": "« PRÉJUDICE » signifie « acte qui cause du tort à quelqu'un ».",
+    "correct": true,
+    "explication": "Correct : « PRÉJUDICE » signifie bien « acte qui cause du tort à quelqu'un »."
+  },
+  {
+    "phrase": "« PRÉMICES » signifie « début ».",
+    "correct": true,
+    "explication": "Correct : « PRÉMICES » signifie bien « début »."
+  },
+  {
+    "phrase": "« PRÉPOSER » signifie « confier une responsabilité ».",
+    "correct": true,
+    "explication": "Correct : « PRÉPOSER » signifie bien « confier une responsabilité »."
+  },
+  {
+    "phrase": "« PRÉREQUIS » signifie « condition exigée ».",
+    "correct": true,
+    "explication": "Correct : « PRÉREQUIS » signifie bien « condition exigée »."
+  },
+  {
+    "phrase": "« PRÉROGATIVE » signifie « pouvoir attaché à une fonction ».",
+    "correct": true,
+    "explication": "Correct : « PRÉROGATIVE » signifie bien « pouvoir attaché à une fonction »."
+  },
+  {
+    "phrase": "« PRÉSOMPTION » signifie « hypothèse ».",
+    "correct": true,
+    "explication": "Correct : « PRÉSOMPTION » signifie bien « hypothèse »."
+  },
+  {
+    "phrase": "« PRÉSOMPTUEUX » signifie « qui a trop confiance en soi ».",
+    "correct": true,
+    "explication": "Correct : « PRÉSOMPTUEUX » signifie bien « qui a trop confiance en soi »."
+  },
+  {
+    "phrase": "« PRISME » signifie « élément qui déforme la réalité ».",
+    "correct": true,
+    "explication": "Correct : « PRISME » signifie bien « élément qui déforme la réalité »."
+  },
+  {
+    "phrase": "« PROACTIF » signifie « qui supporte avec courage ».",
+    "correct": false,
+    "explication": "Faux : « PROACTIF » signifie « qui anticipe », pas « qui supporte avec courage » (qui est la définition de « STOÏQUE »)."
+  },
+  {
+    "phrase": "« PROBITÉ » signifie « honnêteté ».",
+    "correct": true,
+    "explication": "Correct : « PROBITÉ » signifie bien « honnêteté »."
+  },
+  {
+    "phrase": "« PROBATOIRE » signifie « qui permet de vérifier les capacités ».",
+    "correct": true,
+    "explication": "Correct : « PROBATOIRE » signifie bien « qui permet de vérifier les capacités »."
+  },
+  {
+    "phrase": "« PROCRASTINATION » signifie « qui s'exprime en peu de mots ».",
+    "correct": false,
+    "explication": "Faux : « PROCRASTINATION » signifie « tendance à remettre à plus tard », pas « qui s'exprime en peu de mots » (qui est la définition de « LACONIQUE »)."
+  },
+  {
+    "phrase": "« PRODIGUER » signifie « donner généreusement ».",
+    "correct": true,
+    "explication": "Correct : « PRODIGUER » signifie bien « donner généreusement »."
+  },
+  {
+    "phrase": "« PROFANE » signifie « représentatif ».",
+    "correct": false,
+    "explication": "Faux : « PROFANE » signifie « qui ne s'y connaît pas », pas « représentatif » (qui est la définition de « EMBLÉMATIQUE »)."
+  },
+  {
+    "phrase": "« PROFÉRER » signifie « pauvre ».",
+    "correct": false,
+    "explication": "Faux : « PROFÉRER » signifie « dire à voix haute », pas « pauvre » (qui est la définition de « INDIGENT »)."
+  },
+  {
+    "phrase": "« PROLIFÉRER » signifie « se multiplier ».",
+    "correct": true,
+    "explication": "Correct : « PROLIFÉRER » signifie bien « se multiplier »."
+  },
+  {
+    "phrase": "« PROLIXE » signifie « trop bavard ».",
+    "correct": true,
+    "explication": "Correct : « PROLIXE » signifie bien « trop bavard »."
+  },
+  {
+    "phrase": "« PROMPT » signifie « qui agit rapidement ».",
+    "correct": true,
+    "explication": "Correct : « PROMPT » signifie bien « qui agit rapidement »."
+  },
+  {
+    "phrase": "« PROMULGUER » signifie « publier officiellement ».",
+    "correct": true,
+    "explication": "Correct : « PROMULGUER » signifie bien « publier officiellement »."
+  },
+  {
+    "phrase": "« PROROGER » signifie « prolonger ».",
+    "correct": true,
+    "explication": "Correct : « PROROGER » signifie bien « prolonger »."
+  },
+  {
+    "phrase": "« PROSAÏQUE » signifie « terre à terre ».",
+    "correct": true,
+    "explication": "Correct : « PROSAÏQUE » signifie bien « terre à terre »."
+  },
+  {
+    "phrase": "« PROSÉLYTISME » signifie « zèle pour recruter des adeptes ».",
+    "correct": true,
+    "explication": "Correct : « PROSÉLYTISME » signifie bien « zèle pour recruter des adeptes »."
+  },
+  {
+    "phrase": "« PROSPECTIVE » signifie « personne à qui l'on confie quelque chose ».",
+    "correct": false,
+    "explication": "Faux : « PROSPECTIVE » signifie « réflexion sur l'avenir », pas « personne à qui l'on confie quelque chose » (qui est la définition de « DÉPOSITAIRE »)."
+  },
+  {
+    "phrase": "« PROTÉIFORME » signifie « qui peut prendre diverses formes ».",
+    "correct": true,
+    "explication": "Correct : « PROTÉIFORME » signifie bien « qui peut prendre diverses formes »."
+  },
+  {
+    "phrase": "« PROTAGONISTE » signifie « personnage essentiel ».",
+    "correct": true,
+    "explication": "Correct : « PROTAGONISTE » signifie bien « personnage essentiel »."
+  },
+  {
+    "phrase": "« PROTOCOLE » signifie « en rivalisant les uns avec les autres ».",
+    "correct": false,
+    "explication": "Faux : « PROTOCOLE » signifie « ensemble de règles à respecter », pas « en rivalisant les uns avec les autres » (qui est la définition de « À L'ENVI »)."
+  },
+  {
+    "phrase": "« PROTOTYPE » signifie « qui s'exprime en peu de mots ».",
+    "correct": false,
+    "explication": "Faux : « PROTOTYPE » signifie « premier exemplaire d'un modèle », pas « qui s'exprime en peu de mots » (qui est la définition de « LACONIQUE »)."
+  },
+  {
+    "phrase": "« PUGNACE » signifie « humiliation ».",
+    "correct": false,
+    "explication": "Faux : « PUGNACE » signifie « combatif », pas « humiliation » (qui est la définition de « AVANIE »)."
+  },
+  {
+    "phrase": "« PUTATIF » signifie « hygiène ».",
+    "correct": false,
+    "explication": "Faux : « PUTATIF » signifie « supposé », pas « hygiène » (qui est la définition de « SALUBRITÉ »)."
+  },
+  {
+    "phrase": "« QUIDAM » signifie « individu ».",
+    "correct": true,
+    "explication": "Correct : « QUIDAM » signifie bien « individu »."
+  },
+  {
+    "phrase": "« QUINTESSENCE » signifie « ce qu'il y a d'essentiel ».",
+    "correct": true,
+    "explication": "Correct : « QUINTESSENCE » signifie bien « ce qu'il y a d'essentiel »."
+  },
+  {
+    "phrase": "« RADIER » signifie « exclure ».",
+    "correct": true,
+    "explication": "Correct : « RADIER » signifie bien « exclure »."
+  },
+  {
+    "phrase": "« RATIFIER » signifie « approuver ».",
+    "correct": true,
+    "explication": "Correct : « RATIFIER » signifie bien « approuver »."
+  },
+  {
+    "phrase": "« RATIO » signifie « sans tenir compte d'autres avis ».",
+    "correct": false,
+    "explication": "Faux : « RATIO » signifie « rapport entre deux chiffres », pas « sans tenir compte d'autres avis » (qui est la définition de « ARBITRAIREMENT »)."
+  },
+  {
+    "phrase": "« RATIONALISATION » signifie « fait de rendre plus efficace ».",
+    "correct": true,
+    "explication": "Correct : « RATIONALISATION » signifie bien « fait de rendre plus efficace »."
+  },
+  {
+    "phrase": "« RÉCIPIENDAIRE » signifie « moral ».",
+    "correct": false,
+    "explication": "Faux : « RÉCIPIENDAIRE » signifie « personne que l'on récompense », pas « moral » (qui est la définition de « DÉONTOLOGIQUE »)."
+  },
+  {
+    "phrase": "« RÉCIPROQUE » signifie « désagréable ».",
+    "correct": false,
+    "explication": "Faux : « RÉCIPROQUE » signifie « qui implique un échange égal », pas « désagréable » (qui est la définition de « DÉSOBLIGEANT »)."
+  },
+  {
+    "phrase": "« RECOUVREMENT » signifie « action de recevoir le paiement de ce qui est dû ».",
+    "correct": true,
+    "explication": "Correct : « RECOUVREMENT » signifie bien « action de recevoir le paiement de ce qui est dû »."
+  },
+  {
+    "phrase": "« RÉCRIMINER » signifie « critiquer ».",
+    "correct": true,
+    "explication": "Correct : « RÉCRIMINER » signifie bien « critiquer »."
+  },
+  {
+    "phrase": "« RECRUDESCENCE » signifie « tout-puissant ».",
+    "correct": false,
+    "explication": "Faux : « RECRUDESCENCE » signifie « augmentation », pas « tout-puissant » (qui est la définition de « OMNIPOTENT »)."
+  },
+  {
+    "phrase": "« RÉCURRENT » signifie « qui revient souvent ».",
+    "correct": true,
+    "explication": "Correct : « RÉCURRENT » signifie bien « qui revient souvent »."
+  },
+  {
+    "phrase": "« REDONDANT » signifie « personne qui n'est pas la bienvenue ».",
+    "correct": false,
+    "explication": "Faux : « REDONDANT » signifie « qui a déjà été dit et est de trop », pas « personne qui n'est pas la bienvenue » (qui est la définition de « PERSONA NON GRATA »)."
+  },
+  {
+    "phrase": "« RÉGALIEN » signifie « qui dépend directement de l'État ».",
+    "correct": true,
+    "explication": "Correct : « RÉGALIEN » signifie bien « qui dépend directement de l'État »."
+  },
+  {
+    "phrase": "« REGORGER » signifie « contradiction ».",
+    "correct": false,
+    "explication": "Faux : « REGORGER » signifie « être plein à l'excès », pas « contradiction » (qui est la définition de « ANTINOMIE »)."
+  },
+  {
+    "phrase": "« RÉHABILITATION » signifie « remise en état ».",
+    "correct": true,
+    "explication": "Correct : « RÉHABILITATION » signifie bien « remise en état »."
+  },
+  {
+    "phrase": "« RÉITÉRER » signifie « totalement absurde ».",
+    "correct": false,
+    "explication": "Faux : « RÉITÉRER » signifie « faire de nouveau », pas « totalement absurde » (qui est la définition de « UBUESQUE »)."
+  },
+  {
+    "phrase": "« REMÉDIER » signifie « apporter une solution ».",
+    "correct": true,
+    "explication": "Correct : « REMÉDIER » signifie bien « apporter une solution »."
+  },
+  {
+    "phrase": "« REQUÉRIR » signifie « nécessiter ».",
+    "correct": true,
+    "explication": "Correct : « REQUÉRIR » signifie bien « nécessiter »."
+  },
+  {
+    "phrase": "« RÉSILIER » signifie « annuler ».",
+    "correct": true,
+    "explication": "Correct : « RÉSILIER » signifie bien « annuler »."
+  },
+  {
+    "phrase": "« RESTAURER » signifie « récupérer ».",
+    "correct": true,
+    "explication": "Correct : « RESTAURER » signifie bien « récupérer »."
+  },
+  {
+    "phrase": "« RÉTIF » signifie « difficile à persuader ».",
+    "correct": true,
+    "explication": "Correct : « RÉTIF » signifie bien « difficile à persuader »."
+  },
+  {
+    "phrase": "« RETOQUER » signifie « rejeter un projet ».",
+    "correct": true,
+    "explication": "Correct : « RETOQUER » signifie bien « rejeter un projet »."
+  },
+  {
+    "phrase": "« RÉTRACTATION » signifie « opposé ».",
+    "correct": false,
+    "explication": "Faux : « RÉTRACTATION » signifie « annulation d'un engagement », pas « opposé » (qui est la définition de « ANTIPODE »)."
+  },
+  {
+    "phrase": "« RÉTROACTIVEMENT » signifie « varié ».",
+    "correct": false,
+    "explication": "Faux : « RÉTROACTIVEMENT » signifie « en tenant compte de la période antérieure », pas « varié » (qui est la définition de « HÉTÉROCLITE »)."
+  },
+  {
+    "phrase": "« SACERDOCE » signifie « fonction qui exige que l'on donne beaucoup de soi ».",
+    "correct": true,
+    "explication": "Correct : « SACERDOCE » signifie bien « fonction qui exige que l'on donne beaucoup de soi »."
+  },
+  {
+    "phrase": "« S'ACQUITTER » signifie « faire ce que l'on doit ».",
+    "correct": true,
+    "explication": "Correct : « S'ACQUITTER » signifie bien « faire ce que l'on doit »."
+  },
+  {
+    "phrase": "« S'AFFRANCHIR » signifie « se libérer ».",
+    "correct": true,
+    "explication": "Correct : « S'AFFRANCHIR » signifie bien « se libérer »."
+  },
+  {
+    "phrase": "« SAGACITÉ » signifie « finesse d'esprit ».",
+    "correct": true,
+    "explication": "Correct : « SAGACITÉ » signifie bien « finesse d'esprit »."
+  },
+  {
+    "phrase": "« S'ALIÉNER » signifie « détourner de soi ».",
+    "correct": true,
+    "explication": "Correct : « S'ALIÉNER » signifie bien « détourner de soi »."
+  },
+  {
+    "phrase": "« SALUBRITÉ » signifie « fait de s'écarter du sujet ».",
+    "correct": false,
+    "explication": "Faux : « SALUBRITÉ » signifie « hygiène », pas « fait de s'écarter du sujet » (qui est la définition de « DIGRESSION »)."
+  },
+  {
+    "phrase": "« SANCTUARISER » signifie « qui convient ».",
+    "correct": false,
+    "explication": "Faux : « SANCTUARISER » signifie « protéger », pas « qui convient » (qui est la définition de « OPPORTUN »)."
+  },
+  {
+    "phrase": "« S'APPESANTIR » signifie « insister trop longuement ».",
+    "correct": true,
+    "explication": "Correct : « S'APPESANTIR » signifie bien « insister trop longuement »."
+  },
+  {
+    "phrase": "« S'ARROGER » signifie « contraignant ».",
+    "correct": false,
+    "explication": "Faux : « S'ARROGER » signifie « s'attribuer d'une manière injuste », pas « contraignant » (qui est la définition de « COERCITIF »)."
+  },
+  {
+    "phrase": "« S'ASTREINDRE » signifie « qui n'est pas perçu consciemment ».",
+    "correct": false,
+    "explication": "Faux : « S'ASTREINDRE » signifie « s'obliger », pas « qui n'est pas perçu consciemment » (qui est la définition de « SUBLIMINAL »)."
+  },
+  {
+    "phrase": "« SCHISME » signifie « division dans un groupe ».",
+    "correct": true,
+    "explication": "Correct : « SCHISME » signifie bien « division dans un groupe »."
+  },
+  {
+    "phrase": "« SE DÉLITER » signifie « personnel ».",
+    "correct": false,
+    "explication": "Faux : « SE DÉLITER » signifie « se décomposer », pas « personnel » (qui est la définition de « SUBJECTIF »)."
+  },
+  {
+    "phrase": "« SE DÉPARTIR » signifie « incertain ».",
+    "correct": false,
+    "explication": "Faux : « SE DÉPARTIR » signifie « abandonner une attitude », pas « incertain » (qui est la définition de « HYPOTHÉTIQUE »)."
+  },
+  {
+    "phrase": "« SE FOCALISER » signifie « se concentrer ».",
+    "correct": true,
+    "explication": "Correct : « SE FOCALISER » signifie bien « se concentrer »."
+  },
+  {
+    "phrase": "« SE FORMALISER » signifie « accepter que quelque chose se fasse ».",
+    "correct": false,
+    "explication": "Faux : « SE FORMALISER » signifie « se vexer », pas « accepter que quelque chose se fasse » (qui est la définition de « CONSENTIR »)."
+  },
+  {
+    "phrase": "« SE PRÉMUNIR » signifie « disposer ».",
+    "correct": false,
+    "explication": "Faux : « SE PRÉMUNIR » signifie « se protéger », pas « disposer » (qui est la définition de « AGENCER »)."
+  },
+  {
+    "phrase": "« SE PRÉVALOIR » signifie « se vanter ».",
+    "correct": true,
+    "explication": "Correct : « SE PRÉVALOIR » signifie bien « se vanter »."
+  },
+  {
+    "phrase": "« SE RÉFÉRER » signifie « harmonie fondée sur l'échange ».",
+    "correct": false,
+    "explication": "Faux : « SE RÉFÉRER » signifie « s'en remettre à ce qui fait autorité », pas « harmonie fondée sur l'échange » (qui est la définition de « OSMOSE »)."
+  },
+  {
+    "phrase": "« SÉDENTAIRE » signifie « qui reste dans un même lieu ».",
+    "correct": true,
+    "explication": "Correct : « SÉDENTAIRE » signifie bien « qui reste dans un même lieu »."
+  },
+  {
+    "phrase": "« SÉMANTIQUE » signifie « socle ».",
+    "correct": false,
+    "explication": "Faux : « SÉMANTIQUE » signifie « qui concerne la signification des mots », pas « socle » (qui est la définition de « SUBSTRAT »)."
+  },
+  {
+    "phrase": "« SÉMINAIRE » signifie « réunion s'étendant en général sur plusieurs jours ».",
+    "correct": true,
+    "explication": "Correct : « SÉMINAIRE » signifie bien « réunion s'étendant en général sur plusieurs jours »."
+  },
+  {
+    "phrase": "« SEMPITERNEL » signifie « gâcher par un mauvais usage ».",
+    "correct": false,
+    "explication": "Faux : « SEMPITERNEL » signifie « qui n'en finit pas », pas « gâcher par un mauvais usage » (qui est la définition de « GALVAUDER »)."
+  },
+  {
+    "phrase": "« SENTENCIEUX » signifie « qui s'exprime avec une gravité peu naturelle ».",
+    "correct": true,
+    "explication": "Correct : « SENTENCIEUX » signifie bien « qui s'exprime avec une gravité peu naturelle »."
+  },
+  {
+    "phrase": "« S'ENQUÉRIR » signifie « contradiction ».",
+    "correct": false,
+    "explication": "Faux : « S'ENQUÉRIR » signifie « se renseigner », pas « contradiction » (qui est la définition de « ANTINOMIE »)."
+  },
+  {
+    "phrase": "« SÉRENDIPITÉ » signifie « capacité à faire par hasard une découverte ».",
+    "correct": true,
+    "explication": "Correct : « SÉRENDIPITÉ » signifie bien « capacité à faire par hasard une découverte »."
+  },
+  {
+    "phrase": "« SERVILE » signifie « expression adoucie ».",
+    "correct": false,
+    "explication": "Faux : « SERVILE » signifie « trop soumis », pas « expression adoucie » (qui est la définition de « EUPHÉMISME »)."
+  },
+  {
+    "phrase": "« SIBYLLIN » signifie « mystérieux ».",
+    "correct": true,
+    "explication": "Correct : « SIBYLLIN » signifie bien « mystérieux »."
+  },
+  {
+    "phrase": "« SOLLICITER » signifie « lamentable ».",
+    "correct": false,
+    "explication": "Faux : « SOLLICITER » signifie « faire appel à quelqu'un », pas « lamentable » (qui est la définition de « AFFLIGEANT »)."
+  },
+  {
+    "phrase": "« SINE QUA NON » signifie « indispensable ».",
+    "correct": true,
+    "explication": "Correct : « SINE QUA NON » signifie bien « indispensable »."
+  },
+  {
+    "phrase": "« SOLLICITUDE » signifie « autorisation ».",
+    "correct": false,
+    "explication": "Faux : « SOLLICITUDE » signifie « attention affectueuse », pas « autorisation » (qui est la définition de « HABILITATION »)."
+  },
+  {
+    "phrase": "« SOLVABLE » signifie « socle ».",
+    "correct": false,
+    "explication": "Faux : « SOLVABLE » signifie « qui a de quoi payer », pas « socle » (qui est la définition de « SUBSTRAT »)."
+  },
+  {
+    "phrase": "« SOMMITÉ » signifie « personne remarquable dans un domaine ».",
+    "correct": true,
+    "explication": "Correct : « SOMMITÉ » signifie bien « personne remarquable dans un domaine »."
+  },
+  {
+    "phrase": "« SOUS-JACENT » signifie « qui ne se manifeste pas ouvertement ».",
+    "correct": true,
+    "explication": "Correct : « SOUS-JACENT » signifie bien « qui ne se manifeste pas ouvertement »."
+  },
+  {
+    "phrase": "« SPECTRE » signifie « bien adapté ».",
+    "correct": false,
+    "explication": "Faux : « SPECTRE » signifie « ensemble de faits de même nature », pas « bien adapté » (qui est la définition de « ERGONOMIQUE »)."
+  },
+  {
+    "phrase": "« SPÉCULER » signifie « rapidité et soin dans l'exécution d'une tâche ».",
+    "correct": false,
+    "explication": "Faux : « SPÉCULER » signifie « compter sur quelque chose pour réussir », pas « rapidité et soin dans l'exécution d'une tâche » (qui est la définition de « DILIGENCE »)."
+  },
+  {
+    "phrase": "« SPORADIQUE » signifie « remarque ».",
+    "correct": false,
+    "explication": "Faux : « SPORADIQUE » signifie « qui se produit de temps en temps », pas « remarque » (qui est la définition de « NOTA BENE »)."
+  },
+  {
+    "phrase": "« STANDARDISER » signifie « expression adoucie ».",
+    "correct": false,
+    "explication": "Faux : « STANDARDISER » signifie « rendre semblables », pas « expression adoucie » (qui est la définition de « EUPHÉMISME »)."
+  },
+  {
+    "phrase": "« STATU QUO » signifie « parler d'une façon prétentieuse ».",
+    "correct": false,
+    "explication": "Faux : « STATU QUO » signifie « état actuel des choses », pas « parler d'une façon prétentieuse » (qui est la définition de « PÉRORER »)."
+  },
+  {
+    "phrase": "« STATUER » signifie « décider ».",
+    "correct": true,
+    "explication": "Correct : « STATUER » signifie bien « décider »."
+  },
+  {
+    "phrase": "« STOÏQUE » signifie « réflexion sur l'avenir ».",
+    "correct": false,
+    "explication": "Faux : « STOÏQUE » signifie « qui supporte avec courage », pas « réflexion sur l'avenir » (qui est la définition de « PROSPECTIVE »)."
+  },
+  {
+    "phrase": "« STRICTO SENSU » signifie « approuver en très grand nombre ».",
+    "correct": false,
+    "explication": "Faux : « STRICTO SENSU » signifie « très précisément », pas « approuver en très grand nombre » (qui est la définition de « PLÉBISCITER »)."
+  },
+  {
+    "phrase": "« STRUCTURER » signifie « organiser ».",
+    "correct": true,
+    "explication": "Correct : « STRUCTURER » signifie bien « organiser »."
+  },
+  {
+    "phrase": "« SUBJECTIF » signifie « personnel ».",
+    "correct": true,
+    "explication": "Correct : « SUBJECTIF » signifie bien « personnel »."
+  },
+  {
+    "phrase": "« SUBLIMINAL » signifie « s'obliger ».",
+    "correct": false,
+    "explication": "Faux : « SUBLIMINAL » signifie « qui n'est pas perçu consciemment », pas « s'obliger » (qui est la définition de « S'ASTREINDRE »)."
+  },
+  {
+    "phrase": "« SUBODORER » signifie « gaieté ».",
+    "correct": false,
+    "explication": "Faux : « SUBODORER » signifie « deviner », pas « gaieté » (qui est la définition de « ALACRITÉ »)."
+  },
+  {
+    "phrase": "« SUBORDINATION » signifie « dépendance ».",
+    "correct": true,
+    "explication": "Correct : « SUBORDINATION » signifie bien « dépendance »."
+  },
+  {
+    "phrase": "« SUBREPTICEMENT » signifie « d'une façon rapide et discrète ».",
+    "correct": true,
+    "explication": "Correct : « SUBREPTICEMENT » signifie bien « d'une façon rapide et discrète »."
+  },
+  {
+    "phrase": "« SUBSÉQUEMMENT » signifie « argumentation ».",
+    "correct": false,
+    "explication": "Faux : « SUBSÉQUEMMENT » signifie « ensuite », pas « argumentation » (qui est la définition de « DIALECTIQUE »)."
+  },
+  {
+    "phrase": "« SUBSIDE » signifie « se concentrer ».",
+    "correct": false,
+    "explication": "Faux : « SUBSIDE » signifie « aide financière », pas « se concentrer » (qui est la définition de « SE FOCALISER »)."
+  },
+  {
+    "phrase": "« SUBSTANTIEL » signifie « important ».",
+    "correct": true,
+    "explication": "Correct : « SUBSTANTIEL » signifie bien « important »."
+  },
+  {
+    "phrase": "« SUBSTRAT » signifie « socle ».",
+    "correct": true,
+    "explication": "Correct : « SUBSTRAT » signifie bien « socle »."
+  },
+  {
+    "phrase": "« SUPERFÉTATOIRE » signifie « commentaire visant à prendre la défense ».",
+    "correct": false,
+    "explication": "Faux : « SUPERFÉTATOIRE » signifie « qui s'ajoute inutilement », pas « commentaire visant à prendre la défense » (qui est la définition de « APOLOGIE »)."
+  },
+  {
+    "phrase": "« SUPERLATIF » signifie « parfaitement adapté ».",
+    "correct": false,
+    "explication": "Faux : « SUPERLATIF » signifie « terme exagéré », pas « parfaitement adapté » (qui est la définition de « AD HOC »)."
+  },
+  {
+    "phrase": "« SUPPUTER » signifie « condition exigée ».",
+    "correct": false,
+    "explication": "Faux : « SUPPUTER » signifie « évaluer », pas « condition exigée » (qui est la définition de « PRÉREQUIS »)."
+  },
+  {
+    "phrase": "« SURSEOIR » signifie « suspendre ».",
+    "correct": true,
+    "explication": "Correct : « SURSEOIR » signifie bien « suspendre »."
+  },
+  {
+    "phrase": "« SYMPTOMATIQUE » signifie « révélateur ».",
+    "correct": true,
+    "explication": "Correct : « SYMPTOMATIQUE » signifie bien « révélateur »."
+  },
+  {
+    "phrase": "« SYNERGIE » signifie « coopération ».",
+    "correct": true,
+    "explication": "Correct : « SYNERGIE » signifie bien « coopération »."
+  },
+  {
+    "phrase": "« SYNTHÉTIQUE » signifie « détester ».",
+    "correct": false,
+    "explication": "Faux : « SYNTHÉTIQUE » signifie « qui rassemble les éléments essentiels », pas « détester » (qui est la définition de « EXÉCRER »)."
+  },
+  {
+    "phrase": "« SYSTÉMIQUE » signifie « qui touche aux fondations du système concerné ».",
+    "correct": true,
+    "explication": "Correct : « SYSTÉMIQUE » signifie bien « qui touche aux fondations du système concerné »."
+  },
+  {
+    "phrase": "« TACITE » signifie « sous-entendu ».",
+    "correct": true,
+    "explication": "Correct : « TACITE » signifie bien « sous-entendu »."
+  },
+  {
+    "phrase": "« TAUTOLOGIE » signifie « répétition inutile ».",
+    "correct": true,
+    "explication": "Correct : « TAUTOLOGIE » signifie bien « répétition inutile »."
+  },
+  {
+    "phrase": "« TEMPORISER » signifie « détourner du droit chemin ».",
+    "correct": false,
+    "explication": "Faux : « TEMPORISER » signifie « reporter en attendant un moment plus favorable », pas « détourner du droit chemin » (qui est la définition de « DÉVOYER »)."
+  },
+  {
+    "phrase": "« TENDANCIEUX » signifie « orienté ».",
+    "correct": true,
+    "explication": "Correct : « TENDANCIEUX » signifie bien « orienté »."
+  },
+  {
+    "phrase": "« TERGIVERSER » signifie « tarder à agir ».",
+    "correct": true,
+    "explication": "Correct : « TERGIVERSER » signifie bien « tarder à agir »."
+  },
+  {
+    "phrase": "« TRANSCENDER » signifie « fournir ».",
+    "correct": false,
+    "explication": "Faux : « TRANSCENDER » signifie « dépasser », pas « fournir » (qui est la définition de « POURVOIR »)."
+  },
+  {
+    "phrase": "« TRANSIGER » signifie « céder ».",
+    "correct": true,
+    "explication": "Correct : « TRANSIGER » signifie bien « céder »."
+  },
+  {
+    "phrase": "« TRANSVERSAL » signifie « qui recouvre plusieurs domaines ».",
+    "correct": true,
+    "explication": "Correct : « TRANSVERSAL » signifie bien « qui recouvre plusieurs domaines »."
+  },
+  {
+    "phrase": "« TRIBUTAIRE » signifie « dépendant ».",
+    "correct": true,
+    "explication": "Correct : « TRIBUTAIRE » signifie bien « dépendant »."
+  },
+  {
+    "phrase": "« TRUISME » signifie « qui permet de prévoir ».",
+    "correct": false,
+    "explication": "Faux : « TRUISME » signifie « vérité trop évidente », pas « qui permet de prévoir » (qui est la définition de « PRÉDICTIF »)."
+  },
+  {
+    "phrase": "« UBUESQUE » signifie « dégradation ».",
+    "correct": false,
+    "explication": "Faux : « UBUESQUE » signifie « totalement absurde », pas « dégradation » (qui est la définition de « DÉPRÉDATION »)."
+  },
+  {
+    "phrase": "« USURPER » signifie « indiquer ».",
+    "correct": false,
+    "explication": "Faux : « USURPER » signifie « s'approprier sans droit », pas « indiquer » (qui est la définition de « DÉNOTER »)."
+  },
+  {
+    "phrase": "« UTOPIQUE » signifie « qui paraît irréalisable dans la vraie vie ».",
+    "correct": true,
+    "explication": "Correct : « UTOPIQUE » signifie bien « qui paraît irréalisable dans la vraie vie »."
+  },
+  {
+    "phrase": "« VACANT » signifie « libre ».",
+    "correct": true,
+    "explication": "Correct : « VACANT » signifie bien « libre »."
+  },
+  {
+    "phrase": "« VACUITÉ » signifie « absence de valeur ».",
+    "correct": true,
+    "explication": "Correct : « VACUITÉ » signifie bien « absence de valeur »."
+  },
+  {
+    "phrase": "« VECTEUR » signifie « ce qui transmet ».",
+    "correct": true,
+    "explication": "Correct : « VECTEUR » signifie bien « ce qui transmet »."
+  },
+  {
+    "phrase": "« VELLÉITÉ » signifie « vague envie ».",
+    "correct": true,
+    "explication": "Correct : « VELLÉITÉ » signifie bien « vague envie »."
+  },
+  {
+    "phrase": "« VÉLOCITÉ » signifie « de façon que cela se remarque ».",
+    "correct": false,
+    "explication": "Faux : « VÉLOCITÉ » signifie « vitesse dans le mouvement », pas « de façon que cela se remarque » (qui est la définition de « OSTENSIBLEMENT »)."
+  },
+  {
+    "phrase": "« VENTILER » signifie « répartir ».",
+    "correct": true,
+    "explication": "Correct : « VENTILER » signifie bien « répartir »."
+  },
+  {
+    "phrase": "« VERGOGNE » signifie « ce qui peut changer et n'a pas une grande importance ».",
+    "correct": false,
+    "explication": "Faux : « VERGOGNE » signifie « honte », pas « ce qui peut changer et n'a pas une grande importance » (qui est la définition de « CONTINGENCES »)."
+  },
+  {
+    "phrase": "« VERSATILE » signifie « capacité de pardonner ».",
+    "correct": false,
+    "explication": "Faux : « VERSATILE » signifie « qui change facilement d'opinion », pas « capacité de pardonner » (qui est la définition de « INDULGENCE »)."
+  },
+  {
+    "phrase": "« VERTUEUX » signifie « qui tend au bien ».",
+    "correct": true,
+    "explication": "Correct : « VERTUEUX » signifie bien « qui tend au bien »."
+  },
+  {
+    "phrase": "« VETO » signifie « refus ».",
+    "correct": true,
+    "explication": "Correct : « VETO » signifie bien « refus »."
+  },
+  {
+    "phrase": "« VICIÉ » signifie « bref et ferme ».",
+    "correct": false,
+    "explication": "Faux : « VICIÉ » signifie « pollué », pas « bref et ferme » (qui est la définition de « LAPIDAIRE »)."
+  },
+  {
+    "phrase": "« VICISSITUDES » signifie « rapidité dans l'exécution d'une action ».",
+    "correct": false,
+    "explication": "Faux : « VICISSITUDES » signifie « ensemble d'événements », pas « rapidité dans l'exécution d'une action » (qui est la définition de « CÉLÉRITÉ »)."
+  },
+  {
+    "phrase": "« VINDICATIF » signifie « prononcer un discours solennel ».",
+    "correct": false,
+    "explication": "Faux : « VINDICATIF » signifie « rancunier », pas « prononcer un discours solennel » (qui est la définition de « HARANGUER »)."
+  },
+  {
+    "phrase": "« VINDICTE » signifie « punition ».",
+    "correct": true,
+    "explication": "Correct : « VINDICTE » signifie bien « punition »."
+  },
+  {
+    "phrase": "« VOLATIL » signifie « instable ».",
+    "correct": true,
+    "explication": "Correct : « VOLATIL » signifie bien « instable »."
+  },
+  {
+    "phrase": "« VOLUBILE » signifie « qui parle beaucoup, avec rapidité et facilité ».",
+    "correct": true,
+    "explication": "Correct : « VOLUBILE » signifie bien « qui parle beaucoup, avec rapidité et facilité »."
+  }
