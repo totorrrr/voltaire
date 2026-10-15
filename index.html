@@ -40,7 +40,7 @@ header.topbar{
   color:var(--ink); box-shadow:0 2px 14px rgba(58,47,34,.08); border-bottom:1px solid var(--line);
 }
 body.dark header.topbar{background:linear-gradient(135deg,var(--card),#241c11);}
-.topbar-inner{max-width:1180px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; padding:14px 24px; gap:12px;}
+.topbar-inner{max-width:1180px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; padding:14px 24px; gap:12px; flex-wrap:wrap;}
 .brand{display:flex; align-items:center; gap:10px; font-weight:700; font-size:19px; letter-spacing:.2px; color:var(--ink);}
 .brand .mark{width:34px;height:34px;border-radius:9px;background:linear-gradient(135deg,var(--gold),var(--gold-light));
   display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:16px;flex-shrink:0;}
@@ -262,6 +262,35 @@ body.dark .score-pill{background:rgba(255,255,255,.04);}
 .correction-exp{font-size:13.5px; color:var(--ink-soft); margin-top:8px; border-top:1px solid var(--line); padding-top:8px;}
 
 footer{max-width:1180px; margin:40px auto 0; padding:20px 24px; color:var(--ink-soft); font-size:12px; text-align:center; border-top:1px solid var(--line);}
+
+/* ============================================================
+   MOBILE / PETITS ÉCRANS
+   ============================================================ */
+@media(max-width:640px){
+  .topbar-inner{padding:10px 14px; justify-content:center; text-align:center;}
+  .brand{font-size:16px; flex:1 1 100%; justify-content:center;}
+  nav.main-nav{flex:1 1 100%; justify-content:center; gap:2px;}
+  nav.main-nav button{padding:7px 9px; font-size:12.5px;}
+  .streak-badge{font-size:11.5px; padding:5px 9px;}
+  .streak-badge .objectif-label{display:none;}
+  main{padding:18px 14px 60px;}
+  .hero{padding:24px 18px;}
+  .hero h1{font-size:23px;}
+  .hero p{font-size:14px;}
+  .hero-stats{gap:14px;}
+  .hero-stat{min-width:100px; padding:10px 12px;}
+  .trainer-box{padding:16px;}
+  .exam-panel{padding:16px;}
+  .big-card{padding:18px;}
+  .phrase-box{font-size:16px; padding:14px;}
+  .page-head h2{font-size:19px;}
+  .rule-card summary{padding:13px 14px; font-size:14px;}
+  .rule-body{padding:0 14px 14px;}
+  .section-title{font-size:18px;}
+  .vprogress{display:none;}
+  .mnav-grid .qnav{width:36px;height:36px;font-size:12.5px;}
+  footer{padding:16px 14px; font-size:11px;}
+}
 </style>
 </head>
 <body>
@@ -276,7 +305,7 @@ footer{max-width:1180px; margin:40px auto 0; padding:20px 24px; color:var(--ink-
       <button data-screen="officiel">L'officiel du Voltaire</button>
       <button data-screen="exam">Examen blanc</button>
     </nav>
-    <div class="streak-badge">Objectif <b>500&nbsp;/&nbsp;1000</b></div>
+    <div class="streak-badge"><span class="objectif-label">Objectif </span><b>500&nbsp;/&nbsp;1000</b></div>
     <button class="theme-toggle" id="themeToggle" title="Basculer le thème clair/sombre" aria-label="Basculer le thème clair/sombre">☀️</button>
   </div>
 </header>
@@ -392,6 +421,7 @@ footer{max-width:1180px; margin:40px auto 0; padding:20px 24px; color:var(--ink-
     <p class="section-sub">Les 131 mots du test de vocabulaire, au format réel de l'examen. Cliquez sur un mot pour révéler sa définition.</p>
     <div class="vocab-toolbar">
       <input class="search-input" id="vocabSearch" placeholder="Rechercher un mot…">
+      <button class="btn-secondary" id="vocabShuffle" title="Afficher 20 autres mots au hasard">🎲 20 au hasard</button>
       <button class="btn-secondary" id="vocabToggleAll">👁 Tout afficher</button>
     </div>
     <div class="vocab-grid" id="vocabGrid"></div>
@@ -486,8 +516,35 @@ footer{max-width:1180px; margin:40px auto 0; padding:20px 24px; color:var(--ink-
     <h2>L'officiel du Voltaire</h2>
   </div>
   <p class="section-sub">140 règles tirées de la playlist YouTube officielle « Les règles d'orthographe du Projet Voltaire ». Certaines recoupent les fiches ci-dessus ; la plupart sont inédites sur ce site. Chaque carte renvoie vers la vidéo originale.</p>
-  <input type="text" id="officielSearch" class="rule-search" placeholder="Rechercher une règle officielle (ex : accent, participe, pluriel...)" />
-  <div id="officielList"></div>
+  <div class="subnav" id="officielSubnav">
+    <button data-sub="fiches" class="active">Fiches (140)</button>
+    <button data-sub="qcu">Entraînement</button>
+  </div>
+  <div id="officiel-fiches">
+    <div class="vocab-toolbar">
+      <input type="text" id="officielSearch" class="search-input" placeholder="Rechercher une règle officielle (ex : accent, participe, pluriel...)" />
+      <button class="btn-secondary" id="officielShuffle" title="Afficher 20 autres règles au hasard">🎲 20 au hasard</button>
+    </div>
+    <div id="officielList"></div>
+  </div>
+  <div id="officiel-qcu" class="hidden">
+    <div class="trainer-box">
+      <div class="trainer-topline">
+        <div class="qcount" id="officiel-qcount">Question 1</div>
+        <div class="score-live" id="officiel-scorelive">0 / 0 correctes</div>
+      </div>
+      <div class="phrase-box" id="officiel-question" style="font-weight:700;"></div>
+      <div class="qcu-choices" id="officiel-choices"></div>
+      <div class="action-row">
+        <button class="btn-primary" id="officiel-validate" disabled>Valider</button>
+        <button class="btn-secondary hidden" id="officiel-next">Question suivante →</button>
+        <button class="btn-ghost" id="officiel-pass">Je ne sais pas / passer</button>
+        <button class="btn-hint" id="officiel-hint">💡 Indice</button>
+      </div>
+      <div class="hint-box" id="officiel-hint-box"></div>
+      <div class="feedback-box" id="officiel-feedback"></div>
+    </div>
+  </div>
   <div class="vprogress" id="officielVProgress" title="Progression sur L'officiel du Voltaire">
     <div class="vprogress-track">
       <div class="vprogress-fill" id="officielVProgressFill"></div>
@@ -1186,6 +1243,7 @@ function defaultState(){
   return {
     orthoSeen:{}, orthoCorrect:0, orthoAttempts:0,
     vocabSeen:{}, vocabCorrect:0, vocabAttempts:0,
+    officielTrainCorrect:0, officielTrainAttempts:0,
     moduleDone: { r:{}, o:{} }, // { r: { "3": [true,false,true,false,true] }, o: {...} }
     examHistory:[], examSession:null
   };
@@ -1262,6 +1320,7 @@ function setupSubnav(navId, panelIds){
 }
 setupSubnav("orthoSubnav",{fiches:"ortho-fiches", qcm:"ortho-qcm"});
 setupSubnav("vocabSubnav",{fiches:"vocab-fiches", qcu:"vocab-qcu"});
+setupSubnav("officielSubnav",{fiches:"officiel-fiches", qcu:"officiel-qcu"});
 
 /* ============================================================
    HOME DASHBOARD
@@ -1361,6 +1420,22 @@ function guessCategory(text){
   if(/trait d'union|tiret/.test(t)) return "le trait d'union";
   return "l'orthographe grammaticale";
 }
+const RULE_DEFINITIONS = {
+  "l'accord du participe passé": "Le participe passé employé avec « avoir » s'accorde avec son complément d'objet direct (COD) uniquement si celui-ci est placé avant le verbe. Employé avec « être », il s'accorde toujours avec le sujet.",
+  "l'accord de l'adjectif": "Un adjectif qualificatif s'accorde en genre et en nombre avec le nom auquel il se rapporte — sauf exceptions notables (adjectifs de couleur composés, certains noms employés comme adjectifs, etc.).",
+  "un cas d'invariabilité": "Certains mots ou expressions restent invariables dans tous les contextes, quelles que soient les règles d'accord habituelles qui s'appliqueraient par analogie.",
+  "l'accord sujet-verbe": "Le verbe s'accorde toujours en nombre et en personne avec son sujet, même lorsque celui-ci est séparé du verbe par un groupe de mots, une proposition ou un complément.",
+  "un homophone grammatical": "Certains mots se prononcent de la même façon mais s'écrivent différemment selon leur nature grammaticale ou leur sens (ex. a/à, ce/se, leur/leurs, quelque/quelle que).",
+  "la conjugaison": "La terminaison d'un verbe conjugué dépend du temps, du mode et de la personne grammaticale employés — à ne pas confondre avec une terminaison proche d'un autre temps ou d'une autre personne.",
+  "un accord en nombre": "Un nom, un adjectif ou un déterminant s'accorde en nombre (singulier ou pluriel) avec les mots auxquels il se rapporte dans la phrase.",
+  "l'emploi d'une préposition": "Certains verbes ou expressions exigent une préposition précise (ou son absence), qui ne doit pas être ajoutée ni omise par simple analogie avec d'autres constructions proches.",
+  "le trait d'union": "Certains mots composés ou certaines tournures exigent un trait d'union, à ne pas confondre avec les cas où les mêmes mots restent séparés ou s'écrivent en un seul mot.",
+  "l'orthographe grammaticale": "Cette phrase teste une règle générale d'orthographe grammaticale (accord, conjugaison ou construction) à appliquer avec attention."
+};
+function ruleDefinitionFor(expText){
+  const cat = guessCategory(expText);
+  return { cat, text: RULE_DEFINITIONS[cat] || RULE_DEFINITIONS["l'orthographe grammaticale"] };
+}
 function maskLastQuote(text){
   if(!text) return text;
   // masque uniquement le dernier segment entre guillemets (souvent la forme corrigée)
@@ -1454,9 +1529,17 @@ document.getElementById("ortho-hint").addEventListener("click",()=>{
    VOCABULAIRE — FICHES
    ============================================================ */
 let vocabAllOpen = false;
+function pickRandomIndices(total, n){
+  const idx = Array.from({length:total},(_,i)=>i);
+  for(let i=idx.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [idx[i],idx[j]]=[idx[j],idx[i]]; }
+  return idx.slice(0, Math.min(n, total));
+}
+let vocabRandomSet = pickRandomIndices(VOCAB.length, 20);
 function renderVocabGrid(filter){
   const f = (filter||"").toLowerCase();
-  const items = VOCAB.filter(v=> v[0].toLowerCase().includes(f));
+  const hasFilter = f.trim().length>0;
+  const base = hasFilter ? VOCAB : vocabRandomSet.map(i=>VOCAB[i]);
+  const items = base.filter(v=> v[0].toLowerCase().includes(f));
   document.getElementById("vocabGrid").innerHTML = items.map((v,i)=>`
     <div class="vocab-item${vocabAllOpen?' open':''}" data-i="${VOCAB.indexOf(v)}">
       <div class="word">${v[0]}</div>
@@ -1469,6 +1552,11 @@ document.getElementById("vocabGrid").addEventListener("click",e=>{
   el.classList.toggle("open");
 });
 document.getElementById("vocabSearch").addEventListener("input",e=> renderVocabGrid(e.target.value));
+document.getElementById("vocabShuffle").addEventListener("click",()=>{
+  vocabRandomSet = pickRandomIndices(VOCAB.length, 20);
+  document.getElementById("vocabSearch").value = "";
+  renderVocabGrid("");
+});
 document.getElementById("vocabToggleAll").addEventListener("click",()=>{
   vocabAllOpen = !vocabAllOpen;
   document.querySelectorAll("#vocabGrid .vocab-item").forEach(el=>el.classList.toggle("open", vocabAllOpen));
@@ -1652,6 +1740,7 @@ function renderExamQuestion(){
   if(q.type==="ortho"){
     const item = QCM[q.idx];
     const html = item.parts.map(p=> p.s ? `<span class="seg" data-seg="${p.s}"><span class="seg-letter">${p.s}</span>${p.t}</span>` : p.t).join("");
+    const def = ruleDefinitionFor(item.exp);
     area.innerHTML = `
       <div class="qcount">Question ${s.current+1} / ${s.questions.length} — Orthographe</div>
       <div class="phrase-box">${html}</div>
@@ -1661,7 +1750,9 @@ function renderExamQuestion(){
         <button class="btn-primary" id="examAnswerSave">Enregistrer la réponse</button>
         <button class="btn-secondary" id="examPrevBtn">← Précédente</button>
         <button class="btn-secondary" id="examNextBtn">Suivante →</button>
-      </div>`;
+        <button class="btn-ghost" id="examDefToggle">📖 Définition de la règle</button>
+      </div>
+      <div class="hint-box" id="examDefBox"><b>${def.cat} :</b> ${def.text}</div>`;
     let sel = new Set(saved && saved.sel ? saved.sel : []);
     let noneOn = saved && saved.none;
     if(noneOn) document.getElementById("examNoneBtn").classList.add("selected");
@@ -1680,6 +1771,9 @@ function renderExamQuestion(){
     document.getElementById("examAnswerSave").addEventListener("click",()=>{
       s.answers[s.current] = {type:"ortho", sel:[...sel], none:noneOn};
       saveState(); renderExamNavGrid(); updateTimerDisplay();
+    });
+    document.getElementById("examDefToggle").addEventListener("click",()=>{
+      document.getElementById("examDefBox").classList.toggle("shown");
     });
   } else if(q.type==="vocab") {
     const v = VOCAB[q.idx];
@@ -1879,9 +1973,11 @@ function officielMatchesSearch(o, term){
   const hay = (o.titre+" "+o.resume+" "+(ex.ko||"")+" "+(ex.ok||"")+" "+(ex.note||"")).toLowerCase();
   return term.split(/\s+/).filter(Boolean).every(part=>hay.includes(part));
 }
+let officielRandomSet = pickRandomIndices(OFFICIEL.length, 20);
 function renderOfficiel(){
   const term = officielSearchTerm.trim().toLowerCase();
-  const list = OFFICIEL.filter(o=>officielMatchesSearch(o, term));
+  const base = term ? OFFICIEL : officielRandomSet.map(i=>OFFICIEL[i]);
+  const list = base.filter(o=>officielMatchesSearch(o, term));
   if(!list.length){
     document.getElementById("officielList").innerHTML = `<p class="no-results">Aucune règle ne correspond à « ${officielSearchTerm} ».</p>`;
     return;
@@ -1917,10 +2013,113 @@ function renderOfficielProgress(){
 document.getElementById("officielSearch").addEventListener("input",e=>{
   officielSearchTerm = e.target.value; renderOfficiel();
 });
+document.getElementById("officielShuffle").addEventListener("click",()=>{
+  officielRandomSet = pickRandomIndices(OFFICIEL.length, 20);
+  officielSearchTerm = "";
+  document.getElementById("officielSearch").value = "";
+  renderOfficiel();
+});
 document.getElementById("officielList").addEventListener("click",e=>{
   const b = e.target.closest(".ibubble"); if(!b) return;
   e.preventDefault();
   openModule(b.dataset.moduleKind, parseInt(b.dataset.moduleIdx), "officiel", parseInt(b.dataset.q));
+});
+
+/* ============================================================
+   L'OFFICIEL — ENTRAÎNEMENT GLOBAL (QCU, pioché dans les 700 questions des modules)
+   ============================================================ */
+let officielPool=[], officielQueue=[], officielIdx=0, officielSelected=null, officielAnswered=false, officielHintEliminated=[];
+function buildOfficielPool(){
+  officielPool = [];
+  MODULES_OFFICIEL.forEach((mod,ridx)=>{
+    (mod.questions||[]).forEach(q=>{
+      officielPool.push({ q:q.q, choices:q.choices, correct:q.correct, exp:q.exp, titre:mod.titre, ridx });
+    });
+  });
+}
+function buildOfficielQueue(){
+  if(!officielPool.length) buildOfficielPool();
+  officielQueue = shuffle(officielPool.slice());
+  officielIdx = 0;
+}
+function showOfficielQuestion(){
+  if(!officielQueue.length || officielIdx>=officielQueue.length) buildOfficielQueue();
+  const q = officielQueue[officielIdx];
+  officielSelected=null; officielAnswered=false; officielHintEliminated=[];
+  document.getElementById("officiel-qcount").textContent = "Question "+(officielIdx+1)+" / "+officielQueue.length;
+  document.getElementById("officiel-scorelive").textContent = STATE.officielTrainAttempts+" tentées · "+STATE.officielTrainCorrect+" correctes";
+  document.getElementById("officiel-question").textContent = q.q;
+  const letters=["A","B","C","D"];
+  document.getElementById("officiel-choices").innerHTML = q.choices.map((c,i)=>`
+    <div class="qcu-opt" data-i="${i}"><div class="letter">${letters[i]}</div><div>${c}</div></div>`).join("");
+  document.getElementById("officiel-feedback").className="feedback-box";
+  document.getElementById("officiel-feedback").innerHTML="";
+  document.getElementById("officiel-next").classList.add("hidden");
+  document.getElementById("officiel-validate").disabled = true;
+  const hb = document.getElementById("officiel-hint-box");
+  hb.className = "hint-box"; hb.innerHTML = "";
+  document.getElementById("officiel-hint").disabled = false;
+}
+document.getElementById("officiel-choices").addEventListener("click",e=>{
+  if(officielAnswered) return;
+  const opt = e.target.closest(".qcu-opt"); if(!opt) return;
+  if(opt.classList.contains("disabled-opt")) return;
+  document.querySelectorAll("#officiel-choices .qcu-opt").forEach(o=>o.classList.remove("selected"));
+  opt.classList.add("selected");
+  officielSelected = parseInt(opt.dataset.i);
+  document.getElementById("officiel-validate").disabled=false;
+});
+function officielValidateInternal(passed){
+  if(officielAnswered) return;
+  officielAnswered = true;
+  const q = officielQueue[officielIdx];
+  const opts = document.querySelectorAll("#officiel-choices .qcu-opt");
+  let isCorrect=false;
+  if(!passed){
+    isCorrect = officielSelected===q.correct;
+    opts.forEach(o=>{
+      const i=parseInt(o.dataset.i);
+      if(i===q.correct) o.classList.add("correct");
+      else if(i===officielSelected) o.classList.add("wrong");
+    });
+  } else {
+    opts[q.correct].classList.add("correct");
+  }
+  STATE.officielTrainAttempts++; if(isCorrect) STATE.officielTrainCorrect++;
+  saveState();
+  const fb=document.getElementById("officiel-feedback");
+  fb.className="feedback-box "+(passed? "" : (isCorrect?"ok":"bad"));
+  if(passed){ fb.className="feedback-box ok"; fb.innerHTML=`<div class="verdict">Passé</div>${q.exp} <span style="color:var(--ink-soft)">(règle : « ${q.titre} »)</span>`; }
+  else fb.innerHTML = `<div class="verdict">${isCorrect?"✓ Correct !":"✗ Incorrect"}</div>${q.exp} <span style="color:var(--ink-soft)">(règle : « ${q.titre} »)</span>`;
+  document.getElementById("officiel-next").classList.remove("hidden");
+  document.getElementById("officiel-validate").disabled=true;
+  document.getElementById("officiel-hint").disabled=true;
+  document.getElementById("officiel-scorelive").textContent = STATE.officielTrainAttempts+" tentées · "+STATE.officielTrainCorrect+" correctes";
+}
+document.getElementById("officiel-validate").addEventListener("click",()=>officielValidateInternal(false));
+document.getElementById("officiel-pass").addEventListener("click",()=>{ if(!officielAnswered) officielValidateInternal(true); else { officielIdx++; showOfficielQuestion(); } });
+document.getElementById("officiel-next").addEventListener("click",()=>{ officielIdx++; showOfficielQuestion(); });
+document.getElementById("officiel-hint").addEventListener("click",()=>{
+  if(officielAnswered) return;
+  const q = officielQueue[officielIdx]; if(!q) return;
+  const hb = document.getElementById("officiel-hint-box");
+  hb.classList.add("shown");
+  if(officielHintEliminated.length===0){
+    hb.innerHTML = `<b>Catégorie :</b> relis la question et élimine d'abord les propositions qui n'ont manifestement aucun rapport avec l'énoncé.`;
+    const wrongIdx = [0,1,2,3].filter(i=>i!==q.correct);
+    const toKill = wrongIdx[Math.floor(Math.random()*wrongIdx.length)];
+    officielHintEliminated.push(toKill);
+    const opt = document.querySelector(`#officiel-choices .qcu-opt[data-i="${toKill}"]`);
+    if(opt) opt.classList.add("disabled-opt");
+  } else if(officielHintEliminated.length===1){
+    hb.innerHTML = `<b>Piste :</b> il reste deux réponses plausibles — reviens au sens exact de la règle pour trancher.`;
+    const wrongIdx = [0,1,2,3].filter(i=>i!==q.correct && !officielHintEliminated.includes(i));
+    const toKill = wrongIdx[Math.floor(Math.random()*wrongIdx.length)];
+    officielHintEliminated.push(toKill);
+    const opt = document.querySelector(`#officiel-choices .qcu-opt[data-i="${toKill}"]`);
+    if(opt) opt.classList.add("disabled-opt");
+    document.getElementById("officiel-hint").disabled = true;
+  }
 });
 
 /* ============================================================
@@ -2088,6 +2287,7 @@ renderVocabGrid("");
 buildVocabQueue(); showVocabQuestion();
 checkExamResume(); renderExamHistory();
 renderOfficiel();
+buildOfficielQueue(); showOfficielQuestion();
 </script>
 </body>
 </html>
