@@ -99,6 +99,7 @@ body.dark .score-pill{background:rgba(255,255,255,.04);}
 .big-card.c-vocab .icon{background:#fff3e0; color:#b1691a;}
 .big-card.c-exam .icon{background:#fdeaea; color:#b3311c;}
 .big-card.c-officiel .icon{background:#eafaf0; color:#1e7d4c;}
+body.dark .big-card .icon{background:var(--letter-bg) !important;}
 .big-card h3{margin:0; font-size:18.5px;}
 .big-card p{margin:0; color:var(--ink-soft); font-size:14px;}
 .big-card .cta{margin-top:auto; font-weight:700; font-size:13.5px; color:var(--navy); display:flex; align-items:center; gap:6px;}
@@ -167,9 +168,11 @@ body.dark .score-pill{background:rgba(255,255,255,.04);}
 .action-row{display:flex; gap:10px; align-items:center; flex-wrap:wrap;}
 .btn-primary{background:var(--gold); color:#fff; border:none; padding:12px 22px; border-radius:10px; font-weight:700; font-size:14.5px;}
 .btn-primary:hover{background:var(--navy2);}
+body.dark .btn-primary:hover{background:var(--gold-light); color:#221a12;}
 .btn-primary:disabled{opacity:.4; cursor:not-allowed;}
 .btn-secondary{background:var(--card); color:var(--ink); border:2px solid var(--line); padding:11px 20px; border-radius:10px; font-weight:700; font-size:14.5px;}
 .btn-secondary:hover{border-color:var(--gold); color:var(--gold);}
+.btn-secondary:disabled{opacity:.4; cursor:not-allowed;}
 .btn-ghost{background:none; border:none; color:var(--ink-soft); font-weight:600; font-size:13.5px; text-decoration:underline;}
 .btn-hint{background:var(--tint); color:var(--gold); border:2px dashed var(--gold-light); padding:11px 18px; border-radius:10px; font-weight:700; font-size:13.5px;}
 .btn-hint:hover{background:var(--gold-light); color:#fff; border-style:solid;}
@@ -193,7 +196,32 @@ body.dark .score-pill{background:rgba(255,255,255,.04);}
 .feedback-box{margin-top:20px; padding:16px 20px; border-radius:12px; font-size:14.5px; display:none;}
 .feedback-box.ok{background:var(--ok-bg); color:#175a37; display:block;}
 .feedback-box.bad{background:var(--bad-bg); color:#8a2515; display:block;}
+.feedback-box.pass{background:var(--tint); color:var(--ink); border-left:3px solid var(--gold); display:block;}
+body.dark .feedback-box.ok{color:#cfe8d2;}
+body.dark .feedback-box.bad{color:#f3cfc4;}
 .feedback-box .verdict{font-weight:800; margin-bottom:4px; font-size:15px;}
+.feedback-box .answer-line{margin:4px 0 6px; font-weight:700;}
+.feedback-box .rule-ref{display:block; margin-top:6px; font-size:12.5px; opacity:.8;}
+
+/* ---- SÉRIES DE 20 ---- */
+.topline-right{display:flex; align-items:center; gap:8px;}
+.btn-dice{width:38px; height:38px; border-radius:10px; border:2px solid var(--line); background:var(--card); font-size:18px; line-height:1; display:flex; align-items:center; justify-content:center; transition:.15s;}
+.btn-dice:hover{border-color:var(--gold); transform:rotate(-12deg);}
+.series-bar{height:6px; background:var(--line); border-radius:6px; overflow:hidden; margin:-6px 0 14px;}
+.series-bar > div{height:100%; width:0%; background:linear-gradient(90deg,var(--gold),var(--gold-light)); transition:width .3s ease;}
+.series-end{text-align:center; padding:10px 0;}
+.series-end .series-score{font-family:var(--font-head); font-size:46px; font-weight:800; color:var(--navy); margin:4px 0;}
+.series-end .series-msg{color:var(--ink-soft); font-size:14.5px; margin-bottom:18px;}
+.series-end .series-actions{display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin:16px 0 8px;}
+.series-end .mistakes{text-align:left; margin-top:20px;}
+.series-end .mistakes h4{font-family:var(--font-head); font-size:17px; margin:0 0 10px;}
+.officiel-rule-tag{font-size:12px; font-weight:700; color:var(--gold); background:var(--tint); display:inline-block; padding:4px 10px; border-radius:20px; margin-bottom:4px;}
+.kbd-hint{margin-top:16px; font-size:12px; color:var(--ink-soft); opacity:.8;}
+@media (hover:none), (max-width:640px){ .kbd-hint{display:none;} }
+.to-top{position:fixed; right:18px; bottom:18px; width:44px; height:44px; border-radius:50%; border:none; background:var(--gold); color:#fff; font-size:20px; font-weight:800; box-shadow:var(--shadow); z-index:60; opacity:0; pointer-events:none; transition:opacity .2s;}
+.to-top.visible{opacity:1; pointer-events:auto;}
+.qcu-opt{cursor:pointer;}
+.qcu-opt.locked{cursor:default;}
 
 /* ---- VOCAB ---- */
 .vocab-toolbar{display:flex; gap:10px; margin-bottom:18px; flex-wrap:wrap;}
@@ -226,8 +254,8 @@ body.dark .score-pill{background:rgba(255,255,255,.04);}
 .exam-resume .t{font-weight:700; font-size:14.5px;}
 .exam-resume .d{font-size:12.5px; color:var(--ink-soft);}
 .exam-header{display:flex; justify-content:space-between; align-items:center; margin-bottom:20px; flex-wrap:wrap; gap:10px;}
-.timer{font-weight:800; font-size:16px; background:var(--navy); color:#fff; padding:8px 16px; border-radius:10px;}
-.timer.low{background:var(--bad);}
+.timer{font-weight:800; font-size:16px; background:var(--navy); color:var(--bg); padding:8px 16px; border-radius:10px;}
+.timer.low{background:var(--bad); color:#fff;}
 .exam-progress{flex:1; margin:0 20px;}
 .exam-progress-track{height:8px; background:var(--line); border-radius:8px; overflow:hidden;}
 .exam-progress-track > div{height:100%; background:var(--gold);}
@@ -353,6 +381,7 @@ footer{max-width:1180px; margin:40px auto 0; padding:20px 24px; color:var(--ink-
       <div class="icon">🎓</div>
       <h3>L'officiel du Voltaire</h3>
       <p>140 règles tirées de la playlist YouTube officielle du Projet Voltaire, avec liens vers les vidéos originales.</p>
+      <div class="progress-bar-mini"><div id="homeOfficielBar" style="width:0%"></div></div>
       <div class="cta">Découvrir →</div>
     </div>
   </div>
@@ -387,22 +416,30 @@ footer{max-width:1180px; margin:40px auto 0; padding:20px 24px; color:var(--ink-
   <div id="ortho-qcm" class="hidden">
     <div class="trainer-box">
       <div class="trainer-topline">
-        <div class="qcount" id="ortho-qcount">Phrase 1</div>
-        <div class="score-live" id="ortho-scorelive">0 / 0 correctes</div>
+        <div class="qcount" id="ortho-qcount">Phrase 1 / 20</div>
+        <div class="topline-right">
+          <div class="score-live" id="ortho-scorelive">Série : 0 ✓ · 0 ✗</div>
+          <button class="btn-dice" id="ortho-newseries" title="Nouvelle série de 20 phrases au hasard" aria-label="Nouvelle série de 20 phrases au hasard">🎲</button>
+        </div>
       </div>
-      <div class="phrase-box" id="ortho-phrase"></div>
-      <div style="font-size:13px;color:var(--ink-soft);margin-bottom:12px;">Cliquez sur les segments fautifs (a, b, c), ou indiquez qu'il n'y a aucune faute.</div>
-      <div class="answer-row" id="ortho-none-row">
-        <button class="opt-btn none-btn" id="ortho-none-btn">Aucune faute (D)</button>
+      <div class="series-bar"><div id="ortho-seriesbar"></div></div>
+      <div id="ortho-play">
+        <div class="phrase-box" id="ortho-phrase"></div>
+        <div style="font-size:13px;color:var(--ink-soft);margin-bottom:12px;">Cliquez sur les segments fautifs (a, b, c), ou indiquez qu'il n'y a aucune faute.</div>
+        <div class="answer-row" id="ortho-none-row">
+          <button class="opt-btn none-btn" id="ortho-none-btn">Aucune faute (D)</button>
+        </div>
+        <div class="action-row">
+          <button class="btn-primary" id="ortho-validate">Valider</button>
+          <button class="btn-secondary hidden" id="ortho-next">Phrase suivante →</button>
+          <button class="btn-ghost" id="ortho-skip">Je ne sais pas / passer</button>
+          <button class="btn-hint" id="ortho-hint">💡 Indice</button>
+        </div>
+        <div class="hint-box" id="ortho-hint-box"></div>
+        <div class="feedback-box" id="ortho-feedback"></div>
+        <div class="kbd-hint">Raccourcis clavier : A, B, C pour cocher un segment · D pour « aucune faute » · Entrée pour valider / continuer</div>
       </div>
-      <div class="action-row">
-        <button class="btn-primary" id="ortho-validate">Valider</button>
-        <button class="btn-secondary hidden" id="ortho-next">Phrase suivante →</button>
-        <button class="btn-ghost" id="ortho-skip">Passer</button>
-        <button class="btn-hint" id="ortho-hint">💡 Indice</button>
-      </div>
-      <div class="hint-box" id="ortho-hint-box"></div>
-      <div class="feedback-box" id="ortho-feedback"></div>
+      <div id="ortho-end" class="hidden"></div>
     </div>
   </div>
 </section>
@@ -421,7 +458,6 @@ footer{max-width:1180px; margin:40px auto 0; padding:20px 24px; color:var(--ink-
     <p class="section-sub">Les 131 mots du test de vocabulaire, au format réel de l'examen. Cliquez sur un mot pour révéler sa définition.</p>
     <div class="vocab-toolbar">
       <input class="search-input" id="vocabSearch" placeholder="Rechercher un mot…">
-      <button class="btn-secondary" id="vocabShuffle" title="Afficher 20 autres mots au hasard">🎲 20 au hasard</button>
       <button class="btn-secondary" id="vocabToggleAll">👁 Tout afficher</button>
     </div>
     <div class="vocab-grid" id="vocabGrid"></div>
@@ -430,20 +466,27 @@ footer{max-width:1180px; margin:40px auto 0; padding:20px 24px; color:var(--ink-
   <div id="vocab-qcu" class="hidden">
     <div class="trainer-box">
       <div class="trainer-topline">
-        <div class="qcount" id="vocab-qcount">Mot 1</div>
-        <div class="score-live" id="vocab-scorelive">0 / 0 correctes</div>
+        <div class="qcount" id="vocab-qcount">Mot 1 / 20</div>
+        <div class="topline-right">
+          <div class="score-live" id="vocab-scorelive">Série : 0 ✓ · 0 ✗</div>
+          <button class="btn-dice" id="vocab-newseries" title="Nouvelle série de 20 mots au hasard" aria-label="Nouvelle série de 20 mots au hasard">🎲</button>
+        </div>
       </div>
-      <div class="neg-note">⚠️ Comme au véritable examen : une réponse fausse coûte plus de points qu'une absence de réponse. En cas de doute, mieux vaut passer.</div>
-      <div class="phrase-box" id="vocab-word" style="text-align:center; font-weight:800; font-size:24px;"></div>
-      <div class="qcu-choices" id="vocab-choices"></div>
-      <div class="action-row">
-        <button class="btn-primary" id="vocab-validate" disabled>Valider</button>
-        <button class="btn-secondary hidden" id="vocab-next">Mot suivant →</button>
-        <button class="btn-ghost" id="vocab-pass">Je ne sais pas / passer</button>
-        <button class="btn-hint" id="vocab-hint">💡 Indice</button>
+      <div class="series-bar"><div id="vocab-seriesbar"></div></div>
+      <div id="vocab-play">
+        <div class="neg-note">⚠️ Comme au véritable examen : une réponse fausse coûte plus de points qu'une absence de réponse. En cas de doute, mieux vaut passer.</div>
+        <div class="phrase-box" id="vocab-question" style="text-align:center; font-weight:800; font-size:24px;"></div>
+        <div class="qcu-choices" id="vocab-choices"></div>
+        <div class="action-row">
+          <button class="btn-primary hidden" id="vocab-next">Mot suivant →</button>
+          <button class="btn-ghost" id="vocab-pass">Je ne sais pas / passer</button>
+          <button class="btn-hint" id="vocab-hint">💡 Indice</button>
+        </div>
+        <div class="hint-box" id="vocab-hint-box"></div>
+        <div class="feedback-box" id="vocab-feedback"></div>
+        <div class="kbd-hint">Raccourcis clavier : A à D (ou 1 à 4) pour répondre · Entrée pour continuer</div>
       </div>
-      <div class="hint-box" id="vocab-hint-box"></div>
-      <div class="feedback-box" id="vocab-feedback"></div>
+      <div id="vocab-end" class="hidden"></div>
     </div>
   </div>
 </section>
@@ -521,28 +564,33 @@ footer{max-width:1180px; margin:40px auto 0; padding:20px 24px; color:var(--ink-
     <button data-sub="qcu">Entraînement</button>
   </div>
   <div id="officiel-fiches">
-    <div class="vocab-toolbar">
-      <input type="text" id="officielSearch" class="search-input" placeholder="Rechercher une règle officielle (ex : accent, participe, pluriel...)" />
-      <button class="btn-secondary" id="officielShuffle" title="Afficher 20 autres règles au hasard">🎲 20 au hasard</button>
-    </div>
+    <input type="text" id="officielSearch" class="rule-search" placeholder="Rechercher une règle officielle (ex : accent, participe, pluriel...)" />
     <div id="officielList"></div>
   </div>
   <div id="officiel-qcu" class="hidden">
     <div class="trainer-box">
       <div class="trainer-topline">
-        <div class="qcount" id="officiel-qcount">Question 1</div>
-        <div class="score-live" id="officiel-scorelive">0 / 0 correctes</div>
+        <div class="qcount" id="officiel-qcount">Question 1 / 20</div>
+        <div class="topline-right">
+          <div class="score-live" id="officiel-scorelive">Série : 0 ✓ · 0 ✗</div>
+          <button class="btn-dice" id="officiel-newseries" title="Nouvelle série de 20 questions au hasard" aria-label="Nouvelle série de 20 questions au hasard">🎲</button>
+        </div>
       </div>
-      <div class="phrase-box" id="officiel-question" style="font-weight:700;"></div>
-      <div class="qcu-choices" id="officiel-choices"></div>
-      <div class="action-row">
-        <button class="btn-primary" id="officiel-validate" disabled>Valider</button>
-        <button class="btn-secondary hidden" id="officiel-next">Question suivante →</button>
-        <button class="btn-ghost" id="officiel-pass">Je ne sais pas / passer</button>
-        <button class="btn-hint" id="officiel-hint">💡 Indice</button>
+      <div class="series-bar"><div id="officiel-seriesbar"></div></div>
+      <div id="officiel-play">
+        <div class="officiel-rule-tag" id="officiel-ruletag"></div>
+        <div class="phrase-box" id="officiel-question" style="font-weight:700;"></div>
+        <div class="qcu-choices" id="officiel-choices"></div>
+        <div class="action-row">
+          <button class="btn-primary hidden" id="officiel-next">Question suivante →</button>
+          <button class="btn-ghost" id="officiel-pass">Je ne sais pas / passer</button>
+          <button class="btn-hint" id="officiel-hint">💡 Indice</button>
+        </div>
+        <div class="hint-box" id="officiel-hint-box"></div>
+        <div class="feedback-box" id="officiel-feedback"></div>
+        <div class="kbd-hint">Raccourcis clavier : A à D (ou 1 à 4) pour répondre · Entrée pour continuer</div>
       </div>
-      <div class="hint-box" id="officiel-hint-box"></div>
-      <div class="feedback-box" id="officiel-feedback"></div>
+      <div id="officiel-end" class="hidden"></div>
     </div>
   </div>
   <div class="vprogress" id="officielVProgress" title="Progression sur L'officiel du Voltaire">
@@ -569,13 +617,13 @@ footer{max-width:1180px; margin:40px auto 0; padding:20px 24px; color:var(--ink-
       <div class="phrase-box" id="module-question" style="font-weight:700;"></div>
       <div class="qcu-choices" id="module-choices"></div>
       <div class="action-row">
-        <button class="btn-primary" id="module-validate" disabled>Valider</button>
-        <button class="btn-secondary hidden" id="module-next">Bulle suivante →</button>
+        <button class="btn-primary hidden" id="module-next">Bulle suivante →</button>
         <button class="btn-hint" id="module-hint">💡 Indice</button>
         <button class="btn-ghost" id="module-finish">Voir mon résultat</button>
       </div>
       <div class="hint-box" id="module-hint-box"></div>
       <div class="feedback-box" id="module-feedback"></div>
+      <div class="kbd-hint">Raccourcis clavier : A à D (ou 1 à 4) pour répondre · Entrée pour continuer</div>
     </div>
     <div id="module-done" class="hidden" style="text-align:center;">
       <h3 style="font-family:var(--font-head); font-size:24px; margin-bottom:10px;">Module terminé !</h3>
@@ -589,6 +637,8 @@ footer{max-width:1180px; margin:40px auto 0; padding:20px 24px; color:var(--ink-
 </section>
 
 </main>
+
+<button class="to-top" id="toTop" title="Revenir en haut" aria-label="Revenir en haut de la page">↑</button>
 
 <footer>
   Site d'entraînement personnel conçu à partir du référentiel officiel du Certificat Voltaire (certificat-voltaire.fr), de supports pédagogiques de préparation à l'examen et de ressources publiques du Projet Voltaire (règles de français, quiz et listes de vocabulaire professionnel). Projet non affilié à Projet Voltaire / Certificat Voltaire. Votre progression est enregistrée uniquement dans ce navigateur.
@@ -1295,6 +1345,7 @@ initTheme();
    NAVIGATION
    ============================================================ */
 function showScreen(name){
+  if(name==="home") renderHome();
   document.querySelectorAll(".screen").forEach(s=>s.classList.remove("active"));
   document.getElementById("screen-"+name).classList.add("active");
   document.querySelectorAll("#mainNav button").forEach(b=>b.classList.toggle("active", b.dataset.screen===name));
@@ -1331,6 +1382,8 @@ function renderHome(){
   document.getElementById("homeOrthoBar").style.width = orthoPct+"%";
   document.getElementById("homeVocabBar").style.width = vocabPct+"%";
   document.getElementById("homeExamBar").style.width = (STATE.examHistory.length? "100%":"0%");
+  const offBar = document.getElementById("homeOfficielBar");
+  if(offBar) offBar.style.width = moduleProgressStats("o", OFFICIEL.length).pct+"%";
   const bestExam = STATE.examHistory.length ? Math.max(...STATE.examHistory.map(h=>h.pctTotal)) : null;
   document.getElementById("heroStats").innerHTML = `
     <div class="hero-stat"><div class="n">${orthoPct}%</div><div class="l">Phrases d'orthographe vues</div></div>
@@ -1349,11 +1402,12 @@ function renderRuleFilter(){
   const cats = ["Toutes", ...RULE_CATS];
   document.getElementById("ruleFilter").innerHTML = cats.map(c=>
     `<button class="chip ${c===activeRuleCat?'active':''}" data-cat="${c}">${c}</button>`).join("");
-  document.getElementById("ruleFilter").addEventListener("click",e=>{
-    const b=e.target.closest(".chip"); if(!b) return;
-    activeRuleCat = b.dataset.cat; renderRuleFilter(); renderRules();
-  });
 }
+// écouteur posé une seule fois (auparavant ré-ajouté à chaque rendu → clics démultipliés)
+document.getElementById("ruleFilter").addEventListener("click",e=>{
+  const b=e.target.closest(".chip"); if(!b) return;
+  activeRuleCat = b.dataset.cat; renderRuleFilter(); renderRules();
+});
 function ruleMatchesSearch(r, term){
   if(!term) return true;
   const hay = (r.titre+" "+r.resume+" "+r.details+" "+r.cat+" "+r.exemples.map(ex=>(ex.ko||"")+" "+(ex.ok||"")+" "+(ex.note||"")).join(" ")).toLowerCase();
@@ -1395,13 +1449,62 @@ document.getElementById("ruleList").addEventListener("click",e=>{
 /* ============================================================
    TRAINER ORTHOGRAPHE
    ============================================================ */
-let orthoQueue = [], orthoIdx = 0, orthoSelected = new Set(), orthoAnswered=false;
-function buildOrthoQueue(){
-  let pool = QCM.map((q,i)=>({...q, idx:i}));
-  orthoQueue = shuffle(pool);
-  orthoIdx = 0;
-}
 function shuffle(arr){ const a=[...arr]; for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]];} return a; }
+
+/* ---- Séries de 20 questions (outils communs) ---- */
+const SERIES_N = 20;
+function newSeriesStats(){ return { correct:0, wrong:0, passed:0, mistakes:[] }; }
+function seriesScoreText(st){ return `Série : ${st.correct} ✓ · ${st.wrong} ✗` + (st.passed?` · ${st.passed} passée(s)`:""); }
+function setSeriesBar(prefix, done, total){
+  const el = document.getElementById(prefix+"-seriesbar");
+  if(el) el.style.width = (total? Math.round(100*done/total) : 0)+"%";
+}
+function seriesMessage(pct){
+  if(pct>=90) return "Excellent — niveau très solide sur cette série.";
+  if(pct>=70) return "Très bien — encore quelques points à consolider.";
+  if(pct>=50) return "Correct — l'objectif 500 est à portée, relis les erreurs ci-dessous.";
+  return "À retravailler — relis attentivement les corrections ci-dessous puis relance une série.";
+}
+function showSeriesEnd(prefix, st, total, onNew){
+  document.getElementById(prefix+"-play").classList.add("hidden");
+  const end = document.getElementById(prefix+"-end");
+  const pct = total ? Math.round(100*st.correct/total) : 0;
+  const mistakesHtml = st.mistakes.length ? `
+    <div class="mistakes">
+      <h4>À revoir (${st.mistakes.length})</h4>
+      ${st.mistakes.map(m=>`<div class="correction-item ${m.passed?'blank':'bad'}">
+        <div class="correction-q">${m.passed?"Passée":"Erreur"}${m.tag?` — ${m.tag}`:""}</div>
+        <div class="phrase-box">${m.prompt}</div>
+        ${m.given?`<div class="correction-line"><strong>Votre réponse :</strong> ${m.given}</div>`:""}
+        <div class="correction-line"><strong>Bonne réponse :</strong> ${m.answer}</div>
+        <div class="correction-exp">${m.exp||""}</div>
+      </div>`).join("")}
+    </div>` : `<p class="series-msg">Aucune erreur, bravo !</p>`;
+  end.innerHTML = `<div class="series-end">
+      <div class="section-sub" style="margin:0;">Série terminée</div>
+      <div class="series-score">${st.correct} / ${total}</div>
+      <div class="series-msg">${pct}% de bonnes réponses · ${st.wrong} erreur(s) · ${st.passed} passée(s)<br>${seriesMessage(pct)}</div>
+      <div class="series-actions"><button class="btn-primary" data-newseries="1">🎲 Nouvelle série de 20</button></div>
+      ${mistakesHtml}
+    </div>`;
+  end.classList.remove("hidden");
+  end.querySelector("[data-newseries]").addEventListener("click", onNew);
+  setSeriesBar(prefix, total, total);
+}
+function hideSeriesEnd(prefix){
+  document.getElementById(prefix+"-end").classList.add("hidden");
+  document.getElementById(prefix+"-end").innerHTML = "";
+  document.getElementById(prefix+"-play").classList.remove("hidden");
+}
+
+let orthoQueue = [], orthoIdx = 0, orthoSelected = new Set(), orthoAnswered=false, orthoSeries = newSeriesStats();
+function buildOrthoQueue(){
+  orthoQueue = shuffle(QCM.map((q,i)=>({...q, idx:i}))).slice(0, SERIES_N);
+  orthoIdx = 0;
+  orthoSeries = newSeriesStats();
+}
+function newOrthoSeries(){ buildOrthoQueue(); hideSeriesEnd("ortho"); showOrthoQuestion(); }
+document.getElementById("ortho-newseries").addEventListener("click", newOrthoSeries);
 
 /* ============================================================
    INDICES PROGRESSIFS (catégorie puis piste) — ne révèlent jamais
@@ -1451,35 +1554,33 @@ function orthoHintStage(q, stage){
   return `<b>Piste :</b> ${maskLastQuote(q.exp)}`;
 }
 let orthoHintStageNum = 0;
-let vocabHintEliminated = [];
 
-function startOrtho(){
-  buildOrthoQueue();
-  showOrthoQuestion();
-}
 function showOrthoQuestion(){
-  if(orthoIdx >= orthoQueue.length){ buildOrthoQueue(); }
+  if(!orthoQueue.length) buildOrthoQueue();
+  if(orthoIdx >= orthoQueue.length){ showSeriesEnd("ortho", orthoSeries, orthoQueue.length, newOrthoSeries); return; }
   const q = orthoQueue[orthoIdx];
   orthoSelected = new Set(); orthoAnswered=false;
   document.getElementById("ortho-qcount").textContent = "Phrase "+(orthoIdx+1)+" / "+orthoQueue.length;
-  document.getElementById("ortho-scorelive").textContent = STATE.orthoAttempts+" tentées · "+STATE.orthoCorrect+" correctes";
-  const html = q.parts.map(p=>{
-    if(p.s){
-      return `<span class="seg" data-seg="${p.s}"><span class="seg-letter">${p.s}</span>${p.t}</span>`;
-    }
-    return p.t;
-  }).join("");
-  document.getElementById("ortho-phrase").innerHTML = html;
+  document.getElementById("ortho-scorelive").textContent = seriesScoreText(orthoSeries);
+  setSeriesBar("ortho", orthoIdx, orthoQueue.length);
+  const html = q.parts.map(p=> p.s ? `<span class="seg" data-seg="${p.s}"><span class="seg-letter">${p.s}</span>${p.t}</span>` : p.t).join("");
+  const phrase = document.getElementById("ortho-phrase");
+  phrase.innerHTML = html;
+  phrase.querySelectorAll(".seg").forEach(s=> s.dataset.checked="0");
   document.getElementById("ortho-none-btn").classList.remove("selected");
   document.getElementById("ortho-feedback").className = "feedback-box";
   document.getElementById("ortho-feedback").innerHTML = "";
   document.getElementById("ortho-next").classList.add("hidden");
+  document.getElementById("ortho-validate").classList.remove("hidden");
   document.getElementById("ortho-validate").disabled = false;
-  document.querySelectorAll(".seg").forEach(s=> s.dataset.checked="0");
+  document.getElementById("ortho-skip").classList.remove("hidden");
   orthoHintStageNum = 0;
   const hb = document.getElementById("ortho-hint-box");
   hb.className = "hint-box"; hb.innerHTML = "";
   document.getElementById("ortho-hint").disabled = false;
+}
+function orthoPhraseHtml(q){
+  return q.parts.map(p=> p.s ? `<span class="seg"><span class="seg-letter">${p.s}</span>${p.t}</span>` : p.t).join("");
 }
 document.getElementById("ortho-phrase").addEventListener("click", e=>{
   if(orthoAnswered) return;
@@ -1492,31 +1593,53 @@ document.getElementById("ortho-phrase").addEventListener("click", e=>{
 document.getElementById("ortho-none-btn").addEventListener("click",()=>{
   if(orthoAnswered) return;
   orthoSelected.clear();
-  document.querySelectorAll(".seg").forEach(s=>s.dataset.checked="0");
+  document.querySelectorAll("#ortho-phrase .seg").forEach(s=>s.dataset.checked="0");
   document.getElementById("ortho-none-btn").classList.toggle("selected");
 });
-document.getElementById("ortho-validate").addEventListener("click",()=>{
+function orthoFinishQuestion(passed){
   if(orthoAnswered) return;
-  orthoAnswered = true;
-  const q = orthoQueue[orthoIdx];
+  const q = orthoQueue[orthoIdx]; if(!q) return;
   const noneSelected = document.getElementById("ortho-none-btn").classList.contains("selected");
+  if(!passed && !noneSelected && orthoSelected.size===0){
+    const fb = document.getElementById("ortho-feedback");
+    fb.className = "feedback-box pass";
+    fb.innerHTML = `Coche au moins un segment fautif (a, b, c) ou choisis « Aucune faute (D) » avant de valider.`;
+    return;
+  }
+  orthoAnswered = true;
   const userAns = noneSelected ? [] : [...orthoSelected].sort();
   const correctAns = [...q.err].sort();
-  const isCorrect = JSON.stringify(userAns)===JSON.stringify(correctAns);
+  const isCorrect = !passed && JSON.stringify(userAns)===JSON.stringify(correctAns);
   STATE.orthoAttempts++; if(isCorrect) STATE.orthoCorrect++;
   STATE.orthoSeen[q.idx]=1;
   saveState();
+  if(isCorrect) orthoSeries.correct++; else if(passed) orthoSeries.passed++; else orthoSeries.wrong++;
+  const correctLabel = correctAns.length? "Faute(s) en "+correctAns.join(", ").toUpperCase() : "Aucune faute (D)";
+  const givenLabel = userAns.length? "Faute(s) en "+userAns.join(", ").toUpperCase() : "Aucune faute (D)";
+  // surligne la correction directement dans la phrase
+  document.querySelectorAll("#ortho-phrase .seg").forEach(s=>{
+    const isErr = correctAns.includes(s.dataset.seg);
+    s.style.borderBottomColor = isErr ? "var(--bad)" : "var(--ok)";
+  });
+  if(!isCorrect) orthoSeries.mistakes.push({ prompt: orthoPhraseHtml(q), given: passed? "" : givenLabel, answer: correctLabel, exp: q.exp, tag: guessCategory(q.exp), passed });
   const fb = document.getElementById("ortho-feedback");
-  fb.className = "feedback-box "+(isCorrect?"ok":"bad");
-  const correctLabel = correctAns.length? "Faute(s) : "+correctAns.join(", ").toUpperCase() : "Aucune faute (D)";
-  fb.innerHTML = `<div class="verdict">${isCorrect? "✓ Correct !":"✗ Incorrect — "+correctLabel}</div>${q.exp}`;
-  document.getElementById("ortho-validate").disabled = true;
-  document.getElementById("ortho-next").classList.remove("hidden");
-  document.getElementById("ortho-scorelive").textContent = STATE.orthoAttempts+" tentées · "+STATE.orthoCorrect+" correctes";
-});
+  fb.className = "feedback-box "+(passed? "pass" : (isCorrect?"ok":"bad"));
+  const verdict = passed ? "Passée" : (isCorrect ? "✓ Correct !" : "✗ Incorrect");
+  fb.innerHTML = `<div class="verdict">${verdict}</div><div class="answer-line">Réponse : ${correctLabel}</div>${q.exp}`;
+  document.getElementById("ortho-validate").classList.add("hidden");
+  document.getElementById("ortho-skip").classList.add("hidden");
+  document.getElementById("ortho-hint").disabled = true;
+  const nextBtn = document.getElementById("ortho-next");
+  nextBtn.textContent = orthoIdx+1>=orthoQueue.length ? "Voir mon résultat →" : "Phrase suivante →";
+  nextBtn.classList.remove("hidden");
+  document.getElementById("ortho-scorelive").textContent = seriesScoreText(orthoSeries);
+  setSeriesBar("ortho", orthoIdx+1, orthoQueue.length);
+}
+document.getElementById("ortho-validate").addEventListener("click",()=>orthoFinishQuestion(false));
+document.getElementById("ortho-skip").addEventListener("click",()=>orthoFinishQuestion(true));
 document.getElementById("ortho-next").addEventListener("click",()=>{ orthoIdx++; showOrthoQuestion(); });
-document.getElementById("ortho-skip").addEventListener("click",()=>{ if(!orthoAnswered){ orthoIdx++; showOrthoQuestion(); } else { orthoIdx++; showOrthoQuestion(); }});
 document.getElementById("ortho-hint").addEventListener("click",()=>{
+  if(orthoAnswered) return;
   const q = orthoQueue[orthoIdx]; if(!q) return;
   orthoHintStageNum = Math.min(2, orthoHintStageNum+1);
   const hb = document.getElementById("ortho-hint-box");
@@ -1529,17 +1652,9 @@ document.getElementById("ortho-hint").addEventListener("click",()=>{
    VOCABULAIRE — FICHES
    ============================================================ */
 let vocabAllOpen = false;
-function pickRandomIndices(total, n){
-  const idx = Array.from({length:total},(_,i)=>i);
-  for(let i=idx.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [idx[i],idx[j]]=[idx[j],idx[i]]; }
-  return idx.slice(0, Math.min(n, total));
-}
-let vocabRandomSet = pickRandomIndices(VOCAB.length, 20);
 function renderVocabGrid(filter){
   const f = (filter||"").toLowerCase();
-  const hasFilter = f.trim().length>0;
-  const base = hasFilter ? VOCAB : vocabRandomSet.map(i=>VOCAB[i]);
-  const items = base.filter(v=> v[0].toLowerCase().includes(f));
+  const items = VOCAB.filter(v=> v[0].toLowerCase().includes(f.trim()));
   document.getElementById("vocabGrid").innerHTML = items.map((v,i)=>`
     <div class="vocab-item${vocabAllOpen?' open':''}" data-i="${VOCAB.indexOf(v)}">
       <div class="word">${v[0]}</div>
@@ -1552,11 +1667,6 @@ document.getElementById("vocabGrid").addEventListener("click",e=>{
   el.classList.toggle("open");
 });
 document.getElementById("vocabSearch").addEventListener("input",e=> renderVocabGrid(e.target.value));
-document.getElementById("vocabShuffle").addEventListener("click",()=>{
-  vocabRandomSet = pickRandomIndices(VOCAB.length, 20);
-  document.getElementById("vocabSearch").value = "";
-  renderVocabGrid("");
-});
 document.getElementById("vocabToggleAll").addEventListener("click",()=>{
   vocabAllOpen = !vocabAllOpen;
   document.querySelectorAll("#vocabGrid .vocab-item").forEach(el=>el.classList.toggle("open", vocabAllOpen));
@@ -1566,86 +1676,108 @@ document.getElementById("vocabToggleAll").addEventListener("click",()=>{
 /* ============================================================
    VOCAB — TRAINER QCU
    ============================================================ */
-let vocabQueue=[], vocabIdx=0, vocabSelected=null, vocabAnswered=false;
-function buildVocabQueue(){ vocabQueue = shuffle(VOCAB.map((v,i)=>({word:v[0],choices:v[1],correct:v[2],idx:i}))); vocabIdx=0; }
-function showVocabQuestion(){
-  if(vocabIdx>=vocabQueue.length) buildVocabQueue();
-  const q = vocabQueue[vocabIdx];
-  vocabSelected=null; vocabAnswered=false;
-  document.getElementById("vocab-qcount").textContent = "Mot "+(vocabIdx+1)+" / "+vocabQueue.length;
-  document.getElementById("vocab-scorelive").textContent = STATE.vocabAttempts+" tentés · "+STATE.vocabCorrect+" corrects";
-  document.getElementById("vocab-word").textContent = q.word;
-  const letters=["A","B","C","D"];
-  document.getElementById("vocab-choices").innerHTML = q.choices.map((c,i)=>`
-    <div class="qcu-opt" data-i="${i}"><div class="letter">${letters[i]}</div><div>${c}</div></div>`).join("");
-  document.getElementById("vocab-feedback").className="feedback-box";
-  document.getElementById("vocab-feedback").innerHTML="";
-  document.getElementById("vocab-next").classList.add("hidden");
-  document.getElementById("vocab-validate").disabled = true;
-  vocabHintEliminated = [];
-  const hb = document.getElementById("vocab-hint-box");
-  hb.className = "hint-box"; hb.innerHTML = "";
-  document.getElementById("vocab-hint").disabled = false;
-}
-document.getElementById("vocab-choices").addEventListener("click",e=>{
-  if(vocabAnswered) return;
-  const opt = e.target.closest(".qcu-opt"); if(!opt) return;
-  document.querySelectorAll(".qcu-opt").forEach(o=>o.classList.remove("selected"));
-  opt.classList.add("selected");
-  vocabSelected = parseInt(opt.dataset.i);
-  document.getElementById("vocab-validate").disabled=false;
-});
-function vocabValidateInternal(passed){
-  if(vocabAnswered) return;
-  vocabAnswered = true;
-  const q = vocabQueue[vocabIdx];
-  const opts = document.querySelectorAll(".qcu-opt");
-  let isCorrect=false;
-  if(!passed){
-    isCorrect = vocabSelected===q.correct;
-    opts.forEach(o=>{
-      const i=parseInt(o.dataset.i);
-      if(i===q.correct) o.classList.add("correct");
-      else if(i===vocabSelected) o.classList.add("wrong");
+/* ============================================================
+   MOTEUR QCU EN SÉRIES DE 20 — correction immédiate au clic
+   (utilisé par l'entraînement Vocabulaire et L'officiel du Voltaire)
+   ============================================================ */
+function createQcuSeries(cfg){
+  const p = cfg.prefix;
+  const S = { queue:[], idx:0, answered:false, elim:[], stats:newSeriesStats() };
+  const el = id => document.getElementById(p+"-"+id);
+  const letters = ["A","B","C","D"];
+  function build(){ S.queue = shuffle(cfg.pool()).slice(0, SERIES_N); S.idx = 0; S.stats = newSeriesStats(); }
+  function newSeries(){ build(); hideSeriesEnd(p); show(); }
+  function show(){
+    if(!S.queue.length) build();
+    if(S.idx >= S.queue.length){ showSeriesEnd(p, S.stats, S.queue.length, newSeries); return; }
+    const it = S.queue[S.idx];
+    S.answered = false; S.elim = [];
+    el("qcount").textContent = cfg.unit+" "+(S.idx+1)+" / "+S.queue.length;
+    el("scorelive").textContent = seriesScoreText(S.stats);
+    setSeriesBar(p, S.idx, S.queue.length);
+    el("question").textContent = it.prompt;
+    if(cfg.onShow) cfg.onShow(it);
+    el("choices").innerHTML = it.choices.map((c,i)=>`
+      <div class="qcu-opt" data-i="${i}" role="button" tabindex="0"><div class="letter">${letters[i]}</div><div>${c}</div></div>`).join("");
+    el("feedback").className = "feedback-box"; el("feedback").innerHTML = "";
+    el("next").classList.add("hidden");
+    el("pass").classList.remove("hidden");
+    el("hint").disabled = false;
+    el("hint-box").className = "hint-box"; el("hint-box").innerHTML = "";
+  }
+  function answer(sel){ // sel = index choisi, ou null si "passer"
+    if(S.answered) return;
+    const it = S.queue[S.idx]; if(!it) return;
+    S.answered = true;
+    const passed = (sel===null);
+    const isCorrect = !passed && sel===it.correct;
+    el("choices").querySelectorAll(".qcu-opt").forEach(o=>{
+      const i = parseInt(o.dataset.i);
+      o.classList.add("locked");
+      if(i===it.correct) o.classList.add("correct");
+      else if(i===sel) o.classList.add("wrong");
     });
-  } else {
-    opts[q.correct].classList.add("correct");
+    if(isCorrect) S.stats.correct++; else if(passed) S.stats.passed++; else S.stats.wrong++;
+    if(!isCorrect) S.stats.mistakes.push({ prompt: it.prompt, given: passed? "" : letters[sel]+" — "+it.choices[sel], answer: letters[it.correct]+" — "+it.choices[it.correct], exp: it.exp, tag: it.tag||"", passed });
+    cfg.onAnswer(it, isCorrect, passed);
+    const fb = el("feedback");
+    fb.className = "feedback-box "+(passed ? "pass" : (isCorrect ? "ok" : "bad"));
+    const verdict = passed ? "Passée" : (isCorrect ? "✓ Correct !" : "✗ Incorrect");
+    fb.innerHTML = `<div class="verdict">${verdict}</div>`+
+      `<div class="answer-line">Bonne réponse : ${letters[it.correct]} — ${it.choices[it.correct]}</div>`+
+      `${it.exp||""}`+(it.tag?`<span class="rule-ref">Règle : ${it.tag}</span>`:"");
+    el("pass").classList.add("hidden");
+    el("hint").disabled = true;
+    const nb = el("next");
+    nb.textContent = S.idx+1>=S.queue.length ? "Voir mon résultat →" : cfg.nextLabel;
+    nb.classList.remove("hidden");
+    el("scorelive").textContent = seriesScoreText(S.stats);
+    setSeriesBar(p, S.idx+1, S.queue.length);
   }
-  STATE.vocabAttempts++; if(isCorrect) STATE.vocabCorrect++;
-  STATE.vocabSeen[q.idx]=1;
-  saveState();
-  const fb=document.getElementById("vocab-feedback");
-  fb.className="feedback-box "+(passed? "" : (isCorrect?"ok":"bad"));
-  if(passed){ fb.className="feedback-box ok"; fb.innerHTML=`<div class="verdict">Passé</div>La bonne réponse était : « ${q.choices[q.correct]} ».`; }
-  else fb.innerHTML = `<div class="verdict">${isCorrect?"✓ Correct !":"✗ Incorrect"}</div>« ${q.word} » signifie « ${q.choices[q.correct]} ».`;
-  document.getElementById("vocab-next").classList.remove("hidden");
-  document.getElementById("vocab-validate").disabled=true;
-  document.getElementById("vocab-scorelive").textContent = STATE.vocabAttempts+" tentés · "+STATE.vocabCorrect+" corrects";
+  el("choices").addEventListener("click", e=>{
+    const opt = e.target.closest(".qcu-opt"); if(!opt || S.answered) return;
+    if(opt.classList.contains("disabled-opt")) return;
+    answer(parseInt(opt.dataset.i));
+  });
+  el("choices").addEventListener("keydown", e=>{
+    if(e.key!=="Enter" && e.key!==" ") return;
+    const opt = e.target.closest(".qcu-opt"); if(!opt || S.answered) return;
+    e.preventDefault(); e.stopPropagation();
+    if(!opt.classList.contains("disabled-opt")) answer(parseInt(opt.dataset.i));
+  });
+  el("pass").addEventListener("click", ()=>answer(null));
+  el("next").addEventListener("click", ()=>{ S.idx++; show(); });
+  el("newseries").addEventListener("click", newSeries);
+  el("hint").addEventListener("click", ()=>{
+    if(S.answered) return;
+    const it = S.queue[S.idx]; if(!it) return;
+    const hb = el("hint-box");
+    hb.classList.add("shown");
+    const stage = S.elim.length===0 ? 1 : 2;
+    hb.innerHTML = cfg.hintText(it, stage);
+    const candidates = [0,1,2,3].filter(i=>i!==it.correct && i<it.choices.length && !S.elim.includes(i));
+    if(candidates.length){
+      const kill = candidates[Math.floor(Math.random()*candidates.length)];
+      S.elim.push(kill);
+      const o = el("choices").querySelector(`.qcu-opt[data-i="${kill}"]`);
+      if(o) o.classList.add("disabled-opt");
+    }
+    if(stage===2) el("hint").disabled = true;
+  });
+  return { newSeries, show, answer, state:S };
 }
-document.getElementById("vocab-validate").addEventListener("click",()=>vocabValidateInternal(false));
-document.getElementById("vocab-pass").addEventListener("click",()=>{ if(!vocabAnswered) vocabValidateInternal(true); else {vocabIdx++; showVocabQuestion();} });
-document.getElementById("vocab-next").addEventListener("click",()=>{ vocabIdx++; showVocabQuestion(); });
-document.getElementById("vocab-hint").addEventListener("click",()=>{
-  if(vocabAnswered) return;
-  const q = vocabQueue[vocabIdx]; if(!q) return;
-  const hb = document.getElementById("vocab-hint-box");
-  hb.classList.add("shown");
-  if(vocabHintEliminated.length===0){
-    hb.innerHTML = `<b>Catégorie :</b> pense au sens général du mot « ${q.word} » avant de choisir — élimine les réponses qui n'ont clairement aucun rapport de sens.`;
-    const wrongIdx = [0,1,2,3].filter(i=>i!==q.correct);
-    const toKill = wrongIdx[Math.floor(Math.random()*wrongIdx.length)];
-    vocabHintEliminated.push(toKill);
-    const opt = document.querySelector(`.qcu-opt[data-i="${toKill}"]`);
-    if(opt) opt.classList.add("disabled-opt");
-  } else if(vocabHintEliminated.length===1){
-    hb.innerHTML = `<b>Piste :</b> il reste deux réponses plausibles — une seule correspond précisément au sens de « ${q.word} ».`;
-    const wrongIdx = [0,1,2,3].filter(i=>i!==q.correct && !vocabHintEliminated.includes(i));
-    const toKill = wrongIdx[Math.floor(Math.random()*wrongIdx.length)];
-    vocabHintEliminated.push(toKill);
-    const opt = document.querySelector(`.qcu-opt[data-i="${toKill}"]`);
-    if(opt) opt.classList.add("disabled-opt");
-    document.getElementById("vocab-hint").disabled = true;
-  }
+
+const vocabTrainer = createQcuSeries({
+  prefix:"vocab", unit:"Mot", nextLabel:"Mot suivant →",
+  pool: ()=> VOCAB.map((v,i)=>({ prompt:v[0], choices:v[1], correct:v[2], idx:i,
+    exp:`« ${v[0]} » signifie : ${v[1][v[2]]}.` })),
+  onAnswer: (it, isCorrect)=>{
+    STATE.vocabAttempts++; if(isCorrect) STATE.vocabCorrect++;
+    STATE.vocabSeen[it.idx]=1; saveState();
+  },
+  hintText: (it, stage)=> stage===1
+    ? `<b>Catégorie :</b> pense au sens général du mot « ${it.prompt} » — une proposition sans aucun rapport de sens vient d'être éliminée.`
+    : `<b>Piste :</b> il reste deux réponses plausibles — une seule correspond précisément au sens de « ${it.prompt} ».`
 });
 
 /* ============================================================
@@ -1747,7 +1879,6 @@ function renderExamQuestion(){
       <div style="font-size:13px;color:var(--ink-soft);margin-bottom:12px;">Cliquez les segments fautifs, ou « Aucune faute ».</div>
       <div class="answer-row"><button class="opt-btn none-btn" id="examNoneBtn">Aucune faute (D)</button></div>
       <div class="action-row" style="margin-top:16px;">
-        <button class="btn-primary" id="examAnswerSave">Enregistrer la réponse</button>
         <button class="btn-secondary" id="examPrevBtn">← Précédente</button>
         <button class="btn-secondary" id="examNextBtn">Suivante →</button>
         <button class="btn-ghost" id="examDefToggle">📖 Définition de la règle</button>
@@ -1756,21 +1887,24 @@ function renderExamQuestion(){
     let sel = new Set(saved && saved.sel ? saved.sel : []);
     let noneOn = saved && saved.none;
     if(noneOn) document.getElementById("examNoneBtn").classList.add("selected");
-    document.querySelectorAll(".seg").forEach(seg=>{ if(sel.has(seg.dataset.seg)) seg.dataset.checked="1"; });
+    area.querySelectorAll(".seg").forEach(seg=>{ seg.dataset.checked = sel.has(seg.dataset.seg) ? "1" : "0"; });
+    // enregistrement automatique à chaque clic (plus besoin de bouton « Enregistrer »)
+    const autoSave = ()=>{
+      s.answers[s.current] = (sel.size || noneOn) ? {type:"ortho", sel:[...sel], none:noneOn} : null;
+      saveState(); renderExamNavGrid(); updateTimerDisplay();
+    };
     area.querySelector(".phrase-box").addEventListener("click",e=>{
       const seg=e.target.closest(".seg"); if(!seg) return;
       const l=seg.dataset.seg;
       if(sel.has(l)){sel.delete(l); seg.dataset.checked="0";} else {sel.add(l); seg.dataset.checked="1";}
       document.getElementById("examNoneBtn").classList.remove("selected"); noneOn=false;
+      autoSave();
     });
     document.getElementById("examNoneBtn").addEventListener("click",()=>{
-      sel.clear(); document.querySelectorAll(".seg").forEach(sg=>sg.dataset.checked="0");
+      sel.clear(); area.querySelectorAll(".seg").forEach(sg=>sg.dataset.checked="0");
       noneOn = !noneOn;
       document.getElementById("examNoneBtn").classList.toggle("selected", noneOn);
-    });
-    document.getElementById("examAnswerSave").addEventListener("click",()=>{
-      s.answers[s.current] = {type:"ortho", sel:[...sel], none:noneOn};
-      saveState(); renderExamNavGrid(); updateTimerDisplay();
+      autoSave();
     });
     document.getElementById("examDefToggle").addEventListener("click",()=>{
       document.getElementById("examDefBox").classList.toggle("shown");
@@ -1795,10 +1929,10 @@ function renderExamQuestion(){
       document.querySelectorAll("#examVocabChoices .qcu-opt").forEach(o=>o.classList.remove("selected"));
       opt.classList.add("selected");
       s.answers[s.current] = {type:"vocab", choice:parseInt(opt.dataset.i)};
-      saveState(); renderExamNavGrid();
+      saveState(); renderExamNavGrid(); updateTimerDisplay();
     });
     document.getElementById("examPassBtn").addEventListener("click",()=>{
-      s.answers[s.current]=null; saveState(); renderExamNavGrid();
+      s.answers[s.current]=null; saveState(); renderExamNavGrid(); updateTimerDisplay();
       document.querySelectorAll("#examVocabChoices .qcu-opt").forEach(o=>o.classList.remove("selected"));
     });
   } else if(q.type==="officiel") {
@@ -1821,16 +1955,23 @@ function renderExamQuestion(){
       document.querySelectorAll("#examOfficielChoices .qcu-opt").forEach(o=>o.classList.remove("selected"));
       opt.classList.add("selected");
       s.answers[s.current] = {type:"officiel", choice:parseInt(opt.dataset.i)};
-      saveState(); renderExamNavGrid();
+      saveState(); renderExamNavGrid(); updateTimerDisplay();
     });
     document.getElementById("examPassBtn").addEventListener("click",()=>{
-      s.answers[s.current]=null; saveState(); renderExamNavGrid();
+      s.answers[s.current]=null; saveState(); renderExamNavGrid(); updateTimerDisplay();
       document.querySelectorAll("#examOfficielChoices .qcu-opt").forEach(o=>o.classList.remove("selected"));
     });
   }
+  if(s.current===s.questions.length-1) document.getElementById("examNextBtn").textContent = "Terminer l'examen ✓";
+  document.getElementById("examPrevBtn").disabled = s.current===0;
   document.getElementById("examPrevBtn").addEventListener("click",()=>{ if(s.current>0){ s.current--; saveState(); renderExamNavGrid(); renderExamQuestion(); }});
   document.getElementById("examNextBtn").addEventListener("click",()=>{
-    if(s.current < s.questions.length-1){ s.current++; } else { finishExam(); return; }
+    if(s.current < s.questions.length-1){ s.current++; }
+    else {
+      const blanks = s.answers.filter(a=>a===null).length;
+      if(blanks && !confirm(`Il reste ${blanks} question(s) sans réponse. Terminer l'examen maintenant ?`)) return;
+      finishExam(); return;
+    }
     saveState(); renderExamNavGrid(); renderExamQuestion();
   });
 }
@@ -1935,7 +2076,7 @@ function renderExamCorrection(){
         <div class="phrase-box" style="font-weight:700;">${item.titre}</div>
         <div class="correction-line"><strong>Votre réponse :</strong> ${givenLabel}</div>
         <div class="correction-line"><strong>Réponse attendue :</strong> ${correctLabel}</div>
-        <div class="correction-exp">${ex.note}</div>
+        <div class="correction-exp">${ex.note||item.resume||""}</div>
       </div>`;
     }
   }).join("");
@@ -1949,6 +2090,7 @@ function showExamResult(record, tierPts){
   document.getElementById("examTierGrid").innerHTML = tiers.map(t=>
     `<div class="tier-box ${tierPts>=t.n?'reached':''}"><div class="n">${t.n}</div><div class="l">${t.l}</div></div>`).join("");
   renderExamCorrection();
+  document.getElementById("examCorrection").style.display = "";
   document.getElementById("examShowCorrection").textContent = "Masquer la correction détaillée";
   renderHome();
 }
@@ -1973,11 +2115,9 @@ function officielMatchesSearch(o, term){
   const hay = (o.titre+" "+o.resume+" "+(ex.ko||"")+" "+(ex.ok||"")+" "+(ex.note||"")).toLowerCase();
   return term.split(/\s+/).filter(Boolean).every(part=>hay.includes(part));
 }
-let officielRandomSet = pickRandomIndices(OFFICIEL.length, 20);
 function renderOfficiel(){
   const term = officielSearchTerm.trim().toLowerCase();
-  const base = term ? OFFICIEL : officielRandomSet.map(i=>OFFICIEL[i]);
-  const list = base.filter(o=>officielMatchesSearch(o, term));
+  const list = OFFICIEL.filter(o=>officielMatchesSearch(o, term));
   if(!list.length){
     document.getElementById("officielList").innerHTML = `<p class="no-results">Aucune règle ne correspond à « ${officielSearchTerm} ».</p>`;
     return;
@@ -2013,12 +2153,6 @@ function renderOfficielProgress(){
 document.getElementById("officielSearch").addEventListener("input",e=>{
   officielSearchTerm = e.target.value; renderOfficiel();
 });
-document.getElementById("officielShuffle").addEventListener("click",()=>{
-  officielRandomSet = pickRandomIndices(OFFICIEL.length, 20);
-  officielSearchTerm = "";
-  document.getElementById("officielSearch").value = "";
-  renderOfficiel();
-});
 document.getElementById("officielList").addEventListener("click",e=>{
   const b = e.target.closest(".ibubble"); if(!b) return;
   e.preventDefault();
@@ -2028,98 +2162,22 @@ document.getElementById("officielList").addEventListener("click",e=>{
 /* ============================================================
    L'OFFICIEL — ENTRAÎNEMENT GLOBAL (QCU, pioché dans les 700 questions des modules)
    ============================================================ */
-let officielPool=[], officielQueue=[], officielIdx=0, officielSelected=null, officielAnswered=false, officielHintEliminated=[];
-function buildOfficielPool(){
-  officielPool = [];
-  MODULES_OFFICIEL.forEach((mod,ridx)=>{
-    (mod.questions||[]).forEach(q=>{
-      officielPool.push({ q:q.q, choices:q.choices, correct:q.correct, exp:q.exp, titre:mod.titre, ridx });
+const officielTrainer = createQcuSeries({
+  prefix:"officiel", unit:"Question", nextLabel:"Question suivante →",
+  pool: ()=>{
+    const pool = [];
+    MODULES_OFFICIEL.forEach((mod,ridx)=>{
+      (mod.questions||[]).forEach(q=> pool.push({ prompt:q.q, choices:q.choices, correct:q.correct, exp:q.exp, tag:mod.titre, ridx }));
     });
-  });
-}
-function buildOfficielQueue(){
-  if(!officielPool.length) buildOfficielPool();
-  officielQueue = shuffle(officielPool.slice());
-  officielIdx = 0;
-}
-function showOfficielQuestion(){
-  if(!officielQueue.length || officielIdx>=officielQueue.length) buildOfficielQueue();
-  const q = officielQueue[officielIdx];
-  officielSelected=null; officielAnswered=false; officielHintEliminated=[];
-  document.getElementById("officiel-qcount").textContent = "Question "+(officielIdx+1)+" / "+officielQueue.length;
-  document.getElementById("officiel-scorelive").textContent = STATE.officielTrainAttempts+" tentées · "+STATE.officielTrainCorrect+" correctes";
-  document.getElementById("officiel-question").textContent = q.q;
-  const letters=["A","B","C","D"];
-  document.getElementById("officiel-choices").innerHTML = q.choices.map((c,i)=>`
-    <div class="qcu-opt" data-i="${i}"><div class="letter">${letters[i]}</div><div>${c}</div></div>`).join("");
-  document.getElementById("officiel-feedback").className="feedback-box";
-  document.getElementById("officiel-feedback").innerHTML="";
-  document.getElementById("officiel-next").classList.add("hidden");
-  document.getElementById("officiel-validate").disabled = true;
-  const hb = document.getElementById("officiel-hint-box");
-  hb.className = "hint-box"; hb.innerHTML = "";
-  document.getElementById("officiel-hint").disabled = false;
-}
-document.getElementById("officiel-choices").addEventListener("click",e=>{
-  if(officielAnswered) return;
-  const opt = e.target.closest(".qcu-opt"); if(!opt) return;
-  if(opt.classList.contains("disabled-opt")) return;
-  document.querySelectorAll("#officiel-choices .qcu-opt").forEach(o=>o.classList.remove("selected"));
-  opt.classList.add("selected");
-  officielSelected = parseInt(opt.dataset.i);
-  document.getElementById("officiel-validate").disabled=false;
-});
-function officielValidateInternal(passed){
-  if(officielAnswered) return;
-  officielAnswered = true;
-  const q = officielQueue[officielIdx];
-  const opts = document.querySelectorAll("#officiel-choices .qcu-opt");
-  let isCorrect=false;
-  if(!passed){
-    isCorrect = officielSelected===q.correct;
-    opts.forEach(o=>{
-      const i=parseInt(o.dataset.i);
-      if(i===q.correct) o.classList.add("correct");
-      else if(i===officielSelected) o.classList.add("wrong");
-    });
-  } else {
-    opts[q.correct].classList.add("correct");
-  }
-  STATE.officielTrainAttempts++; if(isCorrect) STATE.officielTrainCorrect++;
-  saveState();
-  const fb=document.getElementById("officiel-feedback");
-  fb.className="feedback-box "+(passed? "" : (isCorrect?"ok":"bad"));
-  if(passed){ fb.className="feedback-box ok"; fb.innerHTML=`<div class="verdict">Passé</div>${q.exp} <span style="color:var(--ink-soft)">(règle : « ${q.titre} »)</span>`; }
-  else fb.innerHTML = `<div class="verdict">${isCorrect?"✓ Correct !":"✗ Incorrect"}</div>${q.exp} <span style="color:var(--ink-soft)">(règle : « ${q.titre} »)</span>`;
-  document.getElementById("officiel-next").classList.remove("hidden");
-  document.getElementById("officiel-validate").disabled=true;
-  document.getElementById("officiel-hint").disabled=true;
-  document.getElementById("officiel-scorelive").textContent = STATE.officielTrainAttempts+" tentées · "+STATE.officielTrainCorrect+" correctes";
-}
-document.getElementById("officiel-validate").addEventListener("click",()=>officielValidateInternal(false));
-document.getElementById("officiel-pass").addEventListener("click",()=>{ if(!officielAnswered) officielValidateInternal(true); else { officielIdx++; showOfficielQuestion(); } });
-document.getElementById("officiel-next").addEventListener("click",()=>{ officielIdx++; showOfficielQuestion(); });
-document.getElementById("officiel-hint").addEventListener("click",()=>{
-  if(officielAnswered) return;
-  const q = officielQueue[officielIdx]; if(!q) return;
-  const hb = document.getElementById("officiel-hint-box");
-  hb.classList.add("shown");
-  if(officielHintEliminated.length===0){
-    hb.innerHTML = `<b>Catégorie :</b> relis la question et élimine d'abord les propositions qui n'ont manifestement aucun rapport avec l'énoncé.`;
-    const wrongIdx = [0,1,2,3].filter(i=>i!==q.correct);
-    const toKill = wrongIdx[Math.floor(Math.random()*wrongIdx.length)];
-    officielHintEliminated.push(toKill);
-    const opt = document.querySelector(`#officiel-choices .qcu-opt[data-i="${toKill}"]`);
-    if(opt) opt.classList.add("disabled-opt");
-  } else if(officielHintEliminated.length===1){
-    hb.innerHTML = `<b>Piste :</b> il reste deux réponses plausibles — reviens au sens exact de la règle pour trancher.`;
-    const wrongIdx = [0,1,2,3].filter(i=>i!==q.correct && !officielHintEliminated.includes(i));
-    const toKill = wrongIdx[Math.floor(Math.random()*wrongIdx.length)];
-    officielHintEliminated.push(toKill);
-    const opt = document.querySelector(`#officiel-choices .qcu-opt[data-i="${toKill}"]`);
-    if(opt) opt.classList.add("disabled-opt");
-    document.getElementById("officiel-hint").disabled = true;
-  }
+    return pool;
+  },
+  onShow: (it)=>{ document.getElementById("officiel-ruletag").textContent = "📘 "+it.tag; },
+  onAnswer: (it, isCorrect)=>{
+    STATE.officielTrainAttempts++; if(isCorrect) STATE.officielTrainCorrect++; saveState();
+  },
+  hintText: (it, stage)=> stage===1
+    ? `<b>Catégorie :</b> la question porte sur la règle « ${it.tag} ». Une proposition clairement fausse vient d'être éliminée.`
+    : `<b>Piste :</b> il reste deux réponses plausibles — reviens au sens exact de la règle pour trancher.`
 });
 
 /* ============================================================
@@ -2198,48 +2256,44 @@ function showModuleQuestion(i){
     if(opt) opt.classList.add("disabled-opt");
   });
 
+  const letters2=["A","B","C","D"];
   if(prevAnswer){
     document.querySelectorAll("#module-choices .qcu-opt").forEach(o=>{
       const idx = parseInt(o.dataset.i);
+      o.classList.add("locked");
       if(idx===q.correct) o.classList.add("correct");
       else if(idx===prevAnswer.selected) o.classList.add("wrong");
     });
     fb.className = "feedback-box "+(prevAnswer.correct?"ok":"bad");
-    fb.innerHTML = `<div class="verdict">${prevAnswer.correct?"✓ Correct !":"✗ Incorrect"}</div>${q.exp}`;
-    document.getElementById("module-validate").classList.add("hidden");
+    fb.innerHTML = `<div class="verdict">${prevAnswer.correct?"✓ Correct !":"✗ Incorrect"}</div><div class="answer-line">Bonne réponse : ${letters2[q.correct]} — ${q.choices[q.correct]}</div>${q.exp}`;
     document.getElementById("module-hint").disabled = true;
-    document.getElementById("module-next").classList.toggle("hidden", i+1>=s.mod.questions.length);
+    const nb = document.getElementById("module-next");
+    nb.textContent = i+1>=s.mod.questions.length ? "Voir mon résultat →" : "Bulle suivante →";
+    nb.classList.remove("hidden");
   } else {
     fb.className = "feedback-box"; fb.innerHTML = "";
-    document.getElementById("module-validate").classList.remove("hidden");
-    document.getElementById("module-validate").disabled = true;
     document.getElementById("module-hint").disabled = false;
     document.getElementById("module-next").classList.add("hidden");
   }
   renderModuleNav();
 }
+function moduleAnswer(sel){
+  const s = moduleState; if(!s || s.answers[s.current]) return;
+  const q = s.mod.questions[s.current];
+  s.answers[s.current] = { selected: sel, correct: sel===q.correct };
+  markModuleQDone(s.kind, s.idx, s.current);
+  showModuleQuestion(s.current);
+}
 document.getElementById("module-choices").addEventListener("click",e=>{
   const s = moduleState; if(!s || s.answers[s.current]) return;
   const opt = e.target.closest(".qcu-opt"); if(!opt) return;
   if(opt.classList.contains("disabled-opt")) return;
-  document.querySelectorAll("#module-choices .qcu-opt").forEach(o=>o.classList.remove("selected"));
-  opt.classList.add("selected");
-  document.getElementById("module-validate").disabled = false;
-  document.getElementById("module-validate").dataset.sel = opt.dataset.i;
-});
-document.getElementById("module-validate").addEventListener("click",()=>{
-  const s = moduleState; if(!s || s.answers[s.current]) return;
-  const sel = parseInt(document.getElementById("module-validate").dataset.sel);
-  if(isNaN(sel)) return;
-  const q = s.mod.questions[s.current];
-  const isCorrect = sel===q.correct;
-  s.answers[s.current] = { selected: sel, correct: isCorrect };
-  markModuleQDone(s.kind, s.idx, s.current);
-  showModuleQuestion(s.current);
+  moduleAnswer(parseInt(opt.dataset.i));
 });
 document.getElementById("module-next").addEventListener("click",()=>{
   const s = moduleState; if(!s) return;
   if(s.current+1 < s.mod.questions.length) showModuleQuestion(s.current+1);
+  else document.getElementById("module-finish").click();
 });
 document.getElementById("module-finish").addEventListener("click",()=>{
   const s = moduleState; if(!s) return;
@@ -2278,16 +2332,56 @@ document.getElementById("module-hint").addEventListener("click",()=>{
 });
 
 /* ============================================================
+   RACCOURCIS CLAVIER + BOUTON « HAUT DE PAGE »
+   ============================================================ */
+function activeTrainer(){
+  const scr = document.querySelector(".screen.active"); if(!scr) return null;
+  const id = scr.id;
+  const vis = id2 => { const e=document.getElementById(id2); return e && !e.classList.contains("hidden"); };
+  if(id==="screen-ortho" && vis("ortho-qcm") && vis("ortho-play")) return "ortho";
+  if(id==="screen-vocab" && vis("vocab-qcu") && vis("vocab-play")) return "vocab";
+  if(id==="screen-officiel" && vis("officiel-qcu") && vis("officiel-play")) return "officiel";
+  if(id==="screen-module" && vis("module-quiz")) return "module";
+  return null;
+}
+function clickIfShown(id){ const b=document.getElementById(id); if(b && !b.classList.contains("hidden") && !b.disabled){ b.click(); return true; } return false; }
+document.addEventListener("keydown", e=>{
+  if(e.ctrlKey || e.metaKey || e.altKey) return;
+  const tag = (e.target.tagName||"").toLowerCase();
+  if(tag==="input" || tag==="textarea" || tag==="select") return;
+  const t = activeTrainer(); if(!t) return;
+  const k = e.key.toLowerCase();
+  if(k==="enter" && (tag==="button" || tag==="a")) return; // laisse le comportement natif du bouton focalisé
+  if(t==="ortho"){
+    if(["a","b","c"].includes(k)){ const seg=document.querySelector(`#ortho-phrase .seg[data-seg="${k}"]`); if(seg){ seg.click(); e.preventDefault(); } return; }
+    if(k==="d"){ clickIfShown("ortho-none-btn"); e.preventDefault(); return; }
+    if(k==="enter"){ if(clickIfShown("ortho-next") || clickIfShown("ortho-validate")) e.preventDefault(); }
+    return;
+  }
+  const map = {a:0,b:1,c:2,d:3,"1":0,"2":1,"3":2,"4":3};
+  const choicesId = t+"-choices";
+  if(k in map){
+    const opt = document.querySelector(`#${choicesId} .qcu-opt[data-i="${map[k]}"]`);
+    if(opt){ opt.click(); e.preventDefault(); }
+    return;
+  }
+  if(k==="enter"){ if(clickIfShown(t+"-next")) e.preventDefault(); }
+});
+const toTopBtn = document.getElementById("toTop");
+window.addEventListener("scroll", ()=>{ toTopBtn.classList.toggle("visible", window.scrollY > 600); }, {passive:true});
+toTopBtn.addEventListener("click", ()=> window.scrollTo({top:0, behavior:"smooth"}));
+
+/* ============================================================
    INIT
    ============================================================ */
 renderHome();
 renderRuleFilter(); renderRules();
-buildOrthoQueue(); showOrthoQuestion();
+newOrthoSeries();
 renderVocabGrid("");
-buildVocabQueue(); showVocabQuestion();
+vocabTrainer.newSeries();
 checkExamResume(); renderExamHistory();
 renderOfficiel();
-buildOfficielQueue(); showOfficielQuestion();
+officielTrainer.newSeries();
 </script>
 </body>
 </html>
